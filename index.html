@@ -117,6 +117,7 @@ canvas{border:1px solid var(--border);border-radius:4px;background:var(--panel);
     <button class="btn" id="btnStop" onclick="stopSolver()">■ STOP</button>
     <button class="btn" onclick="resetParams()">↺ RESET</button>
     <button class="btn" onclick="evaluate()">⟳ EVALUATE</button>
+    <button class="btn" style="background:rgba(123,104,238,.15);border-color:rgba(123,104,238,.3);color:#7b68ee" onclick="runSensitivity()">◈ SENSITIVITY</button>
   </div>
   <div class="progress-bar"><div class="progress-fill" id="progress" style="width:0%"></div></div>
   <div style="font-size:.5rem;color:var(--dim)" id="solverStatus">Ready · Differential Evolution (pop=80, gen=1000)</div>
@@ -127,6 +128,8 @@ canvas{border:1px solid var(--border);border-radius:4px;background:var(--panel);
   <canvas id="diskCanvas" width="680" height="260"></canvas>
   <canvas id="formCanvas" width="680" height="200"></canvas>
   <canvas id="compCanvas" width="680" height="180"></canvas>
+  <canvas id="sensCanvas" width="680" height="320" style="display:none"></canvas>
+  <div id="sensTable" style="display:none;font-size:.5rem;margin:8px 0;max-height:300px;overflow-y:auto"></div>
   <div class="log" id="log"></div>
 </div>
 
@@ -925,6 +928,225 @@ log("Disk model initialized · MMSN baseline · 14 free parameters");
 log("Migration: per-planet research profiles (Johansen 2021 / Grand Tack / Nice model)");
 log("Rocky=inward, Gas=mixed, Ice=OUTWARD · f_mig scales overall efficiency");
 log("Click AUTO-SOLVE to find optimal parameters via differential evolution");
+
+// ══════════════════════════════════════════════════════════════════
+// SENSITIVITY ANALYSIS (Chris Lehto's suggestion)
+// ══════════════════════════════════════════════════════════════════
+function runSensitivity() {
+  const baseParams = getParams();
+  const baseResult = diskModel(baseParams);
+  const chi2ToMatch = (chi2) => {
+    if (!isFinite(chi2) || isNaN(chi2)) return 0;
+    return Math.max(0, 100 * (1 - Math.sqrt(chi2 / 8)));
+  };
+  const baseMatch = chi2ToMatch(baseResult.chi2);
+
+  log(`Sensitivity sweep from baseline: ${baseMatch.toFixed(1)}% match`);
+
+  const perturbations = [-0.20, -0.15, -0.10, -0.05, 0, 0.05, 0.10, 0.15, 0.20];
+  const results = [];
+
+  // For each BOUNDS parameter, sweep it
+  BOUNDS.forEach(([name, lo, hi]) => {
+    const center = baseParams[name];
+    if (center === undefined || center === null) return;
+    const sweepResults = [];
+
+    perturbations.forEach(pct => {
+      const testParams = {...baseParams};
+      const delta = (hi - lo) * pct;
+      let newVal = center + delta;
+      newVal = Math.max(lo, Math.min(hi, newVal));
+      testParams[name] = newVal;
+
+      const r = diskModel(testParams);
+      const match = chi2ToMatch(r.chi2);
+      sweepResults.push({
+        pct: pct * 100,
+        value: newVal,
+        match: match,
+        chi2: r.chi2,
+        drop: baseMatch - match
+      });
+    });
+
+    // Sensitivity = how much does the match drop at ±10%?
+    const at10 = sweepResults.filter(s => Math.abs(Math.abs(s.pct) - 10) < 1);
+    const maxDrop10 = at10.length > 0 ? Math.max(...at10.map(s => s.drop)) : 0;
+    const at20 = sweepResults.filter(s => Math.abs(Math.abs(s.pct) - 20) < 1);
+    const maxDrop20 = at20.length > 0 ? Math.max(...at20.map(s => s.drop)) : 0;
+
+    // Boundary distance
+    const range = hi - lo;
+    const distLo = ((center - lo) / range * 100).toFixed(1);
+    const distHi = ((hi - center) / range * 100).toFixed(1);
+    const position = ((center - lo) / range * 100).toFixed(1);
+    const atBound = center <= lo + range * 0.02 || center >= hi - range * 0.02;
+
+    results.push({
+      name, lo, hi, center,
+      sweepResults,
+      maxDrop10, maxDrop20,
+      position, distLo, distHi, atBound
+    });
+  });
+
+  // Sort by sensitivity (most sensitive first)
+  results.sort((a, b) => b.maxDrop10 - a.maxDrop10);
+
+  // Log summary
+  log(`Sweep complete: ${results.length} parameters × ${perturbations.length} perturbations`);
+  const robust = results.filter(r => r.maxDrop10 < 1.0);
+  const sensitive = results.filter(r => r.maxDrop10 >= 1.0);
+  const atBounds = results.filter(r => r.atBound);
+  log(`Robust (±10% < 1% drop): ${robust.length}/${results.length} parameters`);
+  log(`Sensitive (±10% ≥ 1% drop): ${sensitive.length}/${results.length} parameters`);
+  log(`At bounds: ${atBounds.length} (${atBounds.map(r=>r.name).join(', ')||'none'})`);
+
+  // Find minimum match across all ±10% perturbations
+  const all10 = results.flatMap(r => r.sweepResults.filter(s => Math.abs(s.pct) <= 10));
+  const minMatch10 = Math.min(...all10.map(s => s.match));
+  log(`Minimum match within ±10%: ${minMatch10.toFixed(1)}%`);
+
+  // Render sensitivity chart
+  drawSensitivity(results, baseMatch);
+
+  // Render boundary table
+  drawBoundaryTable(results, baseMatch);
+}
+
+function drawSensitivity(results, baseMatch) {
+  const cv = document.getElementById('sensCanvas');
+  cv.style.display = 'block';
+  const cx = cv.getContext('2d');
+  const W = cv.width, H = cv.height;
+  cx.fillStyle = '#0a0a1a'; cx.fillRect(0, 0, W, H);
+
+  const m = {l: 85, r: 20, t: 35, b: 65};
+  const pw = W - m.l - m.r;
+  const ph = H - m.t - m.b;
+
+  // Title
+  cx.fillStyle = '#d4a54a'; cx.font = '11px Cormorant Garamond';
+  cx.fillText('SENSITIVITY ANALYSIS — Match % Drop at ±10% and ±20% Perturbation', m.l, 18);
+  cx.fillStyle = '#555'; cx.font = '8px JetBrains Mono';
+  cx.fillText('Parameters sorted by sensitivity (most sensitive first)', m.l, 30);
+
+  const N = results.length;
+  const barH = Math.min(12, (ph - N * 2) / N);
+  const maxDrop = Math.max(5, Math.max(...results.map(r => r.maxDrop20)));
+
+  results.forEach((r, i) => {
+    const y = m.t + i * (barH + 2);
+
+    // Parameter name
+    cx.fillStyle = r.atBound ? '#ff6b6b' : '#888';
+    cx.font = '8px JetBrains Mono';
+    cx.textAlign = 'right';
+    cx.fillText(r.name + (r.atBound ? ' ⚠' : ''), m.l - 6, y + barH - 2);
+    cx.textAlign = 'left';
+
+    // Background
+    cx.fillStyle = '#111';
+    cx.fillRect(m.l, y, pw, barH);
+
+    // ±10% bar
+    const w10 = Math.max(1, (r.maxDrop10 / maxDrop) * pw);
+    cx.fillStyle = r.maxDrop10 < 0.5 ? '#64ffc8' : r.maxDrop10 < 2 ? '#d4a54a' : '#ff6b6b';
+    cx.fillRect(m.l, y, w10, barH * 0.45);
+
+    // ±20% bar
+    const w20 = Math.max(1, (r.maxDrop20 / maxDrop) * pw);
+    cx.fillStyle = r.maxDrop20 < 1 ? '#64ffc866' : r.maxDrop20 < 4 ? '#d4a54a66' : '#ff6b6b66';
+    cx.fillRect(m.l, y + barH * 0.55, w20, barH * 0.45);
+
+    // Value labels
+    if (r.maxDrop10 > 0.1) {
+      cx.fillStyle = '#aaa'; cx.font = '7px JetBrains Mono';
+      cx.fillText(`${r.maxDrop10.toFixed(1)}%`, m.l + w10 + 3, y + barH * 0.4);
+    }
+  });
+
+  // Scale axis
+  cx.strokeStyle = '#333'; cx.lineWidth = 0.5;
+  for (let d = 0; d <= maxDrop; d += 1) {
+    const x = m.l + (d / maxDrop) * pw;
+    cx.beginPath(); cx.moveTo(x, m.t); cx.lineTo(x, m.t + N * (barH + 2)); cx.stroke();
+    cx.fillStyle = '#444'; cx.font = '7px JetBrains Mono';
+    cx.fillText(d.toFixed(0) + '%', x - 4, H - m.b + 15);
+  }
+
+  // Legend
+  const ly = H - 20;
+  cx.fillStyle = '#64ffc8'; cx.fillRect(m.l, ly, 20, 6);
+  cx.fillStyle = '#888'; cx.font = '8px JetBrains Mono';
+  cx.fillText('±10% perturbation', m.l + 24, ly + 6);
+  cx.fillStyle = '#64ffc866'; cx.fillRect(m.l + 150, ly, 20, 6);
+  cx.fillStyle = '#888';
+  cx.fillText('±20% perturbation', m.l + 174, ly + 6);
+  cx.fillStyle = '#ff6b6b'; cx.fillRect(m.l + 310, ly, 6, 6);
+  cx.fillStyle = '#888';
+  cx.fillText('= at bound', m.l + 320, ly + 6);
+
+  // Baseline reference
+  cx.fillStyle = '#7b68ee'; cx.font = '9px JetBrains Mono';
+  cx.fillText(`Baseline: ${baseMatch.toFixed(1)}%  ·  0% drop = no sensitivity`, m.l, H - 35);
+}
+
+function drawBoundaryTable(results, baseMatch) {
+  const el = document.getElementById('sensTable');
+  el.style.display = 'block';
+
+  // Sort by position for boundary table (restore alphabetical-ish order by BOUNDS)
+  const sorted = [...results].sort((a, b) => {
+    const bi = BOUNDS.findIndex(b2 => b2[0] === a.name);
+    const bj = BOUNDS.findIndex(b2 => b2[0] === b.name);
+    return bi - bj;
+  });
+
+  let html = `<div style="color:var(--head);margin-bottom:6px;font-size:.6rem">PARAMETER BOUNDARY DISTANCE TABLE</div>`;
+  html += `<table style="width:100%;border-collapse:collapse;font-size:.5rem">`;
+  html += `<tr style="border-bottom:1px solid var(--border)">
+    <th style="text-align:left;padding:3px;color:var(--dim)">Parameter</th>
+    <th style="padding:3px;color:var(--dim)">Optimized</th>
+    <th style="padding:3px;color:var(--dim)">Range</th>
+    <th style="padding:3px;color:var(--dim)">Position</th>
+    <th style="padding:3px;color:var(--dim)">Drop @±10%</th>
+    <th style="padding:3px;color:var(--dim)">Drop @±20%</th>
+    <th style="padding:3px;color:var(--dim)">Status</th>
+  </tr>`;
+
+  sorted.forEach(r => {
+    const posColor = r.atBound ? 'var(--gut)' : parseFloat(r.position) < 15 || parseFloat(r.position) > 85 ? 'var(--gold)' : 'var(--heart)';
+    const dropColor10 = r.maxDrop10 < 0.5 ? 'var(--heart)' : r.maxDrop10 < 2 ? 'var(--gold)' : 'var(--gut)';
+    const dropColor20 = r.maxDrop20 < 1 ? 'var(--heart)' : r.maxDrop20 < 4 ? 'var(--gold)' : 'var(--gut)';
+    const status = r.atBound ? '<span style="color:var(--gut)">⚠ AT BOUND</span>' :
+                   parseFloat(r.position) < 15 || parseFloat(r.position) > 85 ? '<span style="color:var(--gold)">NEAR EDGE</span>' :
+                   '<span style="color:var(--heart)">✓ INTERIOR</span>';
+
+    html += `<tr style="border-bottom:1px solid #111">
+      <td style="text-align:left;padding:3px;color:var(--text)">${r.name}</td>
+      <td style="padding:3px;text-align:center;font-family:var(--mono)">${typeof r.center === 'number' ? (Math.abs(r.center) < 10 ? r.center.toFixed(3) : r.center.toFixed(1)) : r.center}</td>
+      <td style="padding:3px;text-align:center;color:var(--dim)">${r.lo}–${r.hi}</td>
+      <td style="padding:3px;text-align:center;color:${posColor}">${r.position}%</td>
+      <td style="padding:3px;text-align:center;color:${dropColor10}">${r.maxDrop10.toFixed(2)}%</td>
+      <td style="padding:3px;text-align:center;color:${dropColor20}">${r.maxDrop20.toFixed(2)}%</td>
+      <td style="padding:3px;text-align:center">${status}</td>
+    </tr>`;
+  });
+
+  html += `</table>`;
+  html += `<div style="margin-top:8px;color:var(--dim);font-size:.48rem;line-height:1.6">
+    <span style="color:var(--heart)">✓ INTERIOR</span>: Parameter sits >15% from nearest bound (optimizer found true minimum)<br>
+    <span style="color:var(--gold)">NEAR EDGE</span>: Parameter sits <15% from a bound (may benefit from wider range)<br>
+    <span style="color:var(--gut)">⚠ AT BOUND</span>: Parameter hit the edge of allowed range (optimizer wanted to go further)<br>
+    <br>
+    <strong style="color:var(--head)">Baseline match: ${baseMatch.toFixed(1)}%</strong> · 
+    Green drop values (<0.5%) indicate the model is robust to that parameter's uncertainty.
+  </div>`;
+
+  el.innerHTML = html;
+}
 </script>
 </body>
 </html>
