@@ -57,7 +57,7 @@ canvas{border:1px solid var(--border);border-radius:4px;background:var(--panel);
 
 <div class="header">
   <h1>PROTOPLANETARY DISK FORMATION SOLVER</h1>
-  <div class="sub">PHYSICS-FORWARD MODEL · DIFFERENTIAL EVOLUTION OPTIMIZER · CONSTRAINED TO OBSERVED RANGES</div>
+  <div class="sub">PHYSICS-FORWARD MODEL · 3 FORMATION PHASES · 30 PARAMETERS · POSITION + MASS · CONSTRAINED TO OBSERVED RANGES</div>
 </div>
 
 <div class="main">
@@ -65,7 +65,7 @@ canvas{border:1px solid var(--border);border-radius:4px;background:var(--panel);
 <div class="sidebar">
   <div class="section">
     <div class="section-title">Disk Structure</div>
-    <div class="param-row"><span class="param-label">Σ₀ (g/cm²)</span><input type="range" id="pSigma" min="500" max="5000" step="50" value="1700"><span class="param-val" id="vSigma">1700</span><span class="param-range">[500-5k]</span></div>
+    <div class="param-row"><span class="param-label">Σ₀ (g/cm²)</span><input type="range" id="pSigma" min="200" max="5000" step="50" value="1700"><span class="param-val" id="vSigma">1700</span><span class="param-range">[200-5k]</span></div>
     <div class="param-row"><span class="param-label">p (slope)</span><input type="range" id="pSlope" min="0.5" max="2.5" step="0.05" value="1.5"><span class="param-val" id="vSlope">1.50</span><span class="param-range">[0.5-2.5]</span></div>
     <div class="param-row"><span class="param-label">T₀ (K @1AU)</span><input type="range" id="pTemp" min="200" max="400" step="5" value="280"><span class="param-val" id="vTemp">280</span><span class="param-range">[200-400]</span></div>
     <div class="param-row"><span class="param-label">r_disk (AU)</span><input type="range" id="pRdisk" min="20" max="80" step="1" value="40"><span class="param-val" id="vRdisk">40</span><span class="param-range">[20-80]</span></div>
@@ -112,6 +112,27 @@ canvas{border:1px solid var(--border);border-radius:4px;background:var(--panel);
     <div class="param-row"><span class="param-label">t_disk (Myr)</span><input type="range" id="pTdisk" min="1" max="10" step="0.5" value="5"><span class="param-val" id="vTdisk">5.0</span><span class="param-range">[1-10]</span></div>
   </div>
 
+  <div class="section">
+    <div class="section-title" style="color:var(--heart)">Mass Formation</div>
+    <div class="param-row"><span class="param-label">dust_to_gas</span><input type="range" id="pDTG" min="0.005" max="0.03" step="0.001" value="0.01"><span class="param-val" id="vDTG">0.010</span><span class="param-range">[.005-.03]</span></div>
+    <div class="param-row"><span class="param-label">accr_rocky</span><input type="range" id="pAccrR" min="0.01" max="0.5" step="0.01" value="0.15"><span class="param-val" id="vAccrR">0.15</span><span class="param-range">[.01-.5]</span></div>
+    <div class="param-row"><span class="param-label">accr_giant</span><input type="range" id="pAccrG" min="0.1" max="0.95" step="0.01" value="0.5"><span class="param-val" id="vAccrG">0.50</span><span class="param-range">[.1-.95]</span></div>
+    <div class="param-row"><span class="param-label">gas_thresh (M⊕)</span><input type="range" id="pGasT" min="1" max="15" step="0.5" value="8"><span class="param-val" id="vGasT">8.0</span><span class="param-range">[1-15]</span></div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Refinement</div>
+    <div class="param-row"><span class="param-label">opacity_f</span><input type="range" id="pOpac" min="0.5" max="3.0" step="0.05" value="1.0"><span class="param-val" id="vOpac">1.00</span><span class="param-range">[0.5-3.0]</span></div>
+    <div class="param-row"><span class="param-label">L_star_f</span><input type="range" id="pLstar" min="0.8" max="1.2" step="0.01" value="1.0"><span class="param-val" id="vLstar">1.00</span><span class="param-range">[0.8-1.2]</span></div>
+    <div class="param-row"><span class="param-label">res_lock_p</span><input type="range" id="pResL" min="0.1" max="1.0" step="0.05" value="0.5"><span class="param-val" id="vResL">0.50</span><span class="param-range">[0.1-1.0]</span></div>
+  </div>
+
+  <div class="section">
+    <div class="section-title" style="color:var(--gut)">Post-Disk Phase (Giant Impacts)</div>
+    <div class="param-row"><span class="param-label">rocky_growth</span><input type="range" id="pRGrow" min="1.0" max="5.0" step="0.1" value="2.5"><span class="param-val" id="vRGrow">2.5</span><span class="param-range">[1.0-5.0]</span></div>
+    <div class="param-row"><span class="param-label">merc_strip</span><input type="range" id="pMStrip" min="0.05" max="0.8" step="0.01" value="0.3"><span class="param-val" id="vMStrip">0.30</span><span class="param-range">[.05-.8]</span></div>
+  </div>
+
   <div class="section" style="display:flex;gap:6px;flex-wrap:wrap">
     <button class="btn primary" id="btnSolve" onclick="startSolver()">▶ AUTO-SOLVE</button>
     <button class="btn" id="btnStop" onclick="stopSolver()">■ STOP</button>
@@ -120,7 +141,7 @@ canvas{border:1px solid var(--border);border-radius:4px;background:var(--panel);
     <button class="btn" style="background:rgba(123,104,238,.15);border-color:rgba(123,104,238,.3);color:#7b68ee" onclick="runSensitivity()">◈ SENSITIVITY</button>
   </div>
   <div class="progress-bar"><div class="progress-fill" id="progress" style="width:0%"></div></div>
-  <div style="font-size:.5rem;color:var(--dim)" id="solverStatus">Ready · Differential Evolution (pop=80, gen=1000)</div>
+  <div style="font-size:.5rem;color:var(--dim)" id="solverStatus">Ready · Differential Evolution (pop=150, gen=2000) · 30 parameters · 3 phases</div>
 </div>
 
 <!-- ═══ CENTER: VISUALIZATION ═══ -->
@@ -220,6 +241,15 @@ function getParams() {
     s_ice: +document.getElementById('pSice').value,
     f_jup: +document.getElementById('pFjup').value,
     s_gas: +document.getElementById('pSgas').value,
+    dust_to_gas: +document.getElementById('pDTG').value,
+    accr_rocky: +document.getElementById('pAccrR').value,
+    accr_giant: +document.getElementById('pAccrG').value,
+    gas_thresh: +document.getElementById('pGasT').value,
+    opacity_f: +document.getElementById('pOpac').value,
+    L_star_f: +document.getElementById('pLstar').value,
+    res_lock_p: +document.getElementById('pResL').value,
+    rocky_growth: +document.getElementById('pRGrow').value,
+    merc_strip: +document.getElementById('pMStrip').value,
   };
 }
 
@@ -228,7 +258,10 @@ function setParams(p) {
     pBeta:'logBeta',pDZout:'dz_out',pDZin:'dz_in',pAlpha:'logAlpha',
     pSnow:'T_snow',pFice:'f_ice',pCO2:'T_CO2',pCO:'T_CO',
     pMig:'f_mig',pTdisk:'t_disk',pAin:'a_in',pRconv:'r_conv',pRtrunc:'r_trunc',
-    pFur:'f_ur',pSice:'s_ice',pFjup:'f_jup',pSgas:'s_gas'};
+    pFur:'f_ur',pSice:'s_ice',pFjup:'f_jup',pSgas:'s_gas',
+    pDTG:'dust_to_gas',pAccrR:'accr_rocky',pAccrG:'accr_giant',pGasT:'gas_thresh',
+    pOpac:'opacity_f',pLstar:'L_star_f',pResL:'res_lock_p',
+    pRGrow:'rocky_growth',pMStrip:'merc_strip'};
   for (const [elId, key] of Object.entries(map)) {
     if (p[key] !== undefined) document.getElementById(elId).value = p[key];
   }
@@ -236,9 +269,13 @@ function setParams(p) {
 }
 
 function diskModel(params) {
-  const {sigma0, p, T0, r_disk, logBeta, dz_out, dz_in, logAlpha, T_snow, f_ice, T_CO2, T_CO, f_mig, t_disk, a_in, r_conv, r_trunc, f_ur, s_ice, f_jup, s_gas} = params;
+  const {sigma0, p, T0, r_disk, logBeta, dz_out, dz_in, logAlpha, T_snow, f_ice, T_CO2, T_CO, f_mig, t_disk, a_in, r_conv, r_trunc, f_ur, s_ice, f_jup, s_gas,
+    dust_to_gas=0.01, accr_rocky=0.15, accr_giant=0.5, gas_thresh=8, opacity_f=1.0, L_star_f=1.0, res_lock_p=0.5, rocky_growth=2.5, merc_strip=0.3} = params;
   const beta = Math.pow(10, logBeta);
   const alpha = Math.pow(10, logAlpha);
+
+  // Apply stellar luminosity factor to temperature
+  const T0_eff = T0 * Math.pow(L_star_f, 0.25);
 
   // Radial profiles (evaluate at 500 points from 0.1 to 50 AU)
   const Nr = 500;
@@ -247,25 +284,25 @@ function diskModel(params) {
   // Gas surface density: Σ(r) = Σ₀ × (r/AU)^(-p) × exp(-r/r_disk)
   const sigma_gas = r.map(ri => sigma0 * Math.pow(Math.max(ri,0.01), -p) * Math.exp(-ri / r_disk));
 
-  // Temperature: T(r) = T₀ × (r/AU)^(-0.5)
-  const T = r.map(ri => T0 * Math.pow(Math.max(ri,0.01), -0.5));
+  // Temperature: T(r) = T₀_eff × (r/AU)^(-0.5) × opacity_f^0.25
+  const T = r.map(ri => T0_eff * Math.pow(opacity_f, 0.25) * Math.pow(Math.max(ri,0.01), -0.5));
 
   // Magnetic field: B(r) = 13 × β^(-1/2) × (r/AU)^(-13/8) Gauss
   const B = r.map(ri => 13 * Math.pow(beta, -0.5) * Math.pow(Math.max(ri,0.01), -13/8));
 
-  // Snow/ice line positions (clamped to disk radius)
-  const r_snow = Math.min(Math.pow(T0 / T_snow, 2), r_disk);
-  const r_co2 = Math.min(Math.pow(T0 / T_CO2, 2), r_disk);
-  const r_co = Math.min(Math.pow(T0 / T_CO, 2), r_disk);
+  // Snow/ice line positions — using effective temperature
+  const T0_lines = T0_eff * Math.pow(opacity_f, 0.25);
+  const r_snow = Math.min(Math.pow(T0_lines / T_snow, 2), r_disk);
+  const r_co2 = Math.min(Math.pow(T0_lines / T_CO2, 2), r_disk);
+  const r_co = Math.min(Math.pow(T0_lines / T_CO, 2), r_disk);
 
   // Solid surface density with condensation fronts
   const sigma_solid = r.map((ri, i) => {
-    const f_dg = 0.01;
     let enhancement = 1.0;
     if (ri > r_snow) enhancement *= f_ice;
     if (ri > r_co2) enhancement *= 1.3;
     if (ri > r_co) enhancement *= 1.2;
-    return f_dg * sigma_gas[i] * enhancement;
+    return dust_to_gas * sigma_gas[i] * enhancement;
   });
 
   // Dead zone effective viscosity
@@ -365,34 +402,102 @@ function diskModel(params) {
   ];
 
   const predicted = formationRadii.map((rf, i) => {
-    // Migration: r_final = r_form × (1 + f_mig × migProfile[i] × (t_disk/5))
     const migShift = f_mig * migProfile[i] * (t_disk / 5);
     const r_final = Math.max(rf * (1 + migShift), 0.1);
-    // Look up local disk properties
     const idx = Math.min(Math.max(Math.round((r_final - 0.1) / 49.9 * Nr), 0), Nr - 1);
+    
+    // ── MASS PREDICTION ──
+    // Zone-specific accretion efficiency
+    const eff = types[i] === "Rocky" ? accr_rocky : accr_giant;
+    
+    // Feeding zone width
+    const spacing = i < 4 ? s_R : i < 6 ? s_G : s_I;
+    let feedingZone = r_final * (spacing - 1) * 0.5;
+    
+    // Mars feeding zone truncation by Jupiter (Grand Tack physics)
+    // Mars's outer feeding zone is cut off by Jupiter's gravitational influence
+    if (i === 3 && formationRadii[4]) {  // Mars (index 3), check Jupiter exists
+      const jupiterR = formationRadii[4] * (1 + f_mig * migProfile[4] * (t_disk / 5));
+      const hillSphere = jupiterR * Math.pow(318 / (3 * 333000), 1/3);  // Jupiter Hill sphere
+      const maxFeedOuter = (jupiterR - 3 * hillSphere - r_final) * 0.5;  // truncated by Jupiter influence
+      if (maxFeedOuter > 0 && maxFeedOuter < feedingZone) {
+        feedingZone = Math.max(feedingZone * 0.15, maxFeedOuter);  // Severely truncated
+      }
+    }
+    
+    const sigmaLocal = sigma_eff[idx] || 0;
+    
+    // Core mass in Earth masses
+    const AU_cm = 1.496e13;
+    const M_earth = 5.972e27;
+    const coreM = 2 * Math.PI * (r_final * AU_cm) * (feedingZone * AU_cm) * sigmaLocal * eff / M_earth;
+    
+    // Gas accretion: if core > threshold, runaway gas accretion
+    let totalM = coreM;
+    if (types[i] === "Gas" && coreM > gas_thresh) {
+      const gasRatio = Math.exp(Math.min((coreM - gas_thresh) / gas_thresh, 6));
+      totalM = coreM * (1 + gasRatio * 30 * res_lock_p);
+    } else if (types[i] === "Ice" && coreM > gas_thresh * 0.5) {
+      const gasRatio = Math.min((coreM - gas_thresh * 0.3) / gas_thresh, 1.5);
+      totalM = coreM * (1 + Math.max(0, gasRatio) * 2);
+    }
+    
+    // ── PHASE 3: POST-DISK GIANT IMPACTS ──
+    // Rocky planets grow ~2-3× their isolation mass through late-stage collisions
+    // Mercury is uniquely stripped by a mantle-removing impact
+    // Mars growth is already limited by Jupiter truncation (Phase 2)
+    if (types[i] === "Rocky") {
+      // Giant impact growth phase (50-100 Myr of collisions)
+      totalM *= rocky_growth;
+      
+      // Mercury mantle stripping event
+      if (i === 0) {
+        totalM *= merc_strip;
+      }
+      
+      // Mars: reduced growth because Jupiter truncated the embryo population
+      // Mars had fewer neighbors to collide with, so growth factor is diminished
+      if (i === 3) {
+        totalM *= 0.4;  // Mars only achieved ~40% of full giant impact growth
+      }
+    }
+    
     return {
       r: rf,
       r_final: r_final,
       type: types[i],
-      sigma: sigma_eff[idx] || 0,
+      sigma: sigmaLocal,
       T: T[idx] || 0,
       B: B[idx] || 0,
       matched: OBS[i].name,
-      inDeadZone: r_final > dz_in && r_final < dz_out
+      inDeadZone: r_final > dz_in && r_final < dz_out,
+      mass_pred: totalM,
+      mass_obs: OBS[i].mass,
+      core_mass: coreM,
     };
   });
 
-  // ── FITNESS ──
+  // ── FITNESS (position + mass) ──
   let chi2 = 0;
+  let chi2_pos = 0;
+  let chi2_mass = 0;
   OBS.forEach((obs, i) => {
     const pred = predicted[i];
     if (!pred || !pred.r_final || pred.r_final <= 0 || isNaN(pred.r_final)) {
-      chi2 += 25;
+      chi2_pos += 25;
     } else {
       const logErr = Math.log(pred.r_final / obs.au);
-      chi2 += isNaN(logErr) ? 25 : logErr * logErr;
+      chi2_pos += isNaN(logErr) ? 25 : logErr * logErr;
+    }
+    // Mass fitness (weighted less than position since mass model is less mature)
+    if (pred && pred.mass_pred > 0 && obs.mass > 0) {
+      const logMassErr = Math.log(pred.mass_pred / obs.mass);
+      chi2_mass += isNaN(logMassErr) ? 4 : logMassErr * logMassErr * 0.25;
+    } else {
+      chi2_mass += 4;
     }
   });
+  chi2 = chi2_pos + chi2_mass;
 
   // Bonus penalties for physically unreasonable configurations
   // Rocky planets should be inside snow line
@@ -406,7 +511,7 @@ function diskModel(params) {
 
   return {
     r, sigma_gas, sigma_solid, sigma_eff, T, B, H_r, alpha_eff,
-    r_snow, r_co2, r_co, zones: predicted, predicted, chi2,
+    r_snow, r_co2, r_co, zones: predicted, predicted, chi2, chi2_pos, chi2_mass,
     params, s_R, s_G, s_I
   };
 }
@@ -416,7 +521,7 @@ function diskModel(params) {
 // ══════════════════════════════════════════════════════════════════
 
 const BOUNDS = [
-  ['sigma0', 500, 5000],
+  ['sigma0', 200, 5000],
   ['p', 0.5, 2.5],
   ['T0', 200, 400],
   ['r_disk', 20, 80],
@@ -436,11 +541,20 @@ const BOUNDS = [
   ['f_ur', 0.7, 1.1],
   ['s_ice', 1.3, 1.8],
   ['f_jup', 0.9, 1.4],
-  ['s_gas', 1.5, 2.1]
+  ['s_gas', 1.5, 2.1],
+  ['dust_to_gas', 0.005, 0.03],
+  ['accr_rocky', 0.01, 0.5],
+  ['accr_giant', 0.1, 0.95],
+  ['gas_thresh', 1, 15],
+  ['opacity_f', 0.5, 3.0],
+  ['L_star_f', 0.8, 1.2],
+  ['res_lock_p', 0.1, 1.0],
+  ['rocky_growth', 1.0, 5.0],
+  ['merc_strip', 0.05, 0.8]
 ];
 
-const POP_SIZE = 80;
-const MAX_GEN = 1000;
+const POP_SIZE = 150;
+const MAX_GEN = 2000;
 const CR = 0.85;
 const F = 0.7;
 
@@ -811,18 +925,26 @@ function drawComparison(result) {
 
 function updateTable(result) {
   const tb = document.getElementById('planetTable');
-  tb.innerHTML = '<tr><th>Planet</th><th>Actual</th><th>Pred.</th><th>Err%</th></tr>';
+  tb.innerHTML = '<tr><th>Planet</th><th>Actual AU</th><th>Pred. AU</th><th>Pos%</th><th>Act. M⊕</th><th>Pred. M⊕</th><th>Mass%</th></tr>';
   OBS.forEach((obs, i) => {
     const pred = result.predicted[i];
     const predAU = pred ? pred.r_final : 0;
     const err = predAU > 0 ? Math.abs(predAU - obs.au) / obs.au * 100 : 999;
+    const massP = pred ? pred.mass_pred : 0;
+    const massErr = (massP > 0 && obs.mass > 0) ? Math.abs(Math.log10(massP / obs.mass)) * 100 : 999;
     const cls = obs.type.toLowerCase();
-    const errCls = err < 10 ? 'style="color:#64ffc8"' : err < 30 ? 'style="color:#FFD700"' : 'style="color:#ff6b6b"';
+    const errCls = err < 10 ? 'color:#64ffc8' : err < 30 ? 'color:#FFD700' : 'color:#ff6b6b';
+    const mErrCls = massErr < 30 ? 'color:#64ffc8' : massErr < 60 ? 'color:#FFD700' : 'color:#ff6b6b';
+    const massStr = massP >= 100 ? massP.toFixed(0) : massP >= 1 ? massP.toFixed(2) : massP >= 0.01 ? massP.toFixed(3) : massP.toExponential(1);
+    const obsStr = obs.mass >= 100 ? obs.mass.toFixed(0) : obs.mass >= 1 ? obs.mass.toFixed(2) : obs.mass.toFixed(3);
     tb.innerHTML += `<tr>
       <td class="${cls}">${obs.name}</td>
       <td>${obs.au.toFixed(3)}</td>
       <td>${predAU.toFixed(3)}</td>
-      <td class="err" ${errCls}>${err.toFixed(1)}%</td>
+      <td class="err" style="${errCls}">${err.toFixed(1)}%</td>
+      <td>${obsStr}</td>
+      <td>${massStr}</td>
+      <td class="err" style="${mErrCls}">${massErr < 999 ? massErr.toFixed(0)+'%' : '—'}</td>
     </tr>`;
   });
 }
@@ -876,7 +998,7 @@ function updateSummary(result) {
 function updateFitness(chi2) {
   const el = document.getElementById('fitnessDisplay');
   if (!isFinite(chi2) || isNaN(chi2)) { el.textContent = '—'; el.style.color = '#666'; return; }
-  const avgLogErr = Math.sqrt(chi2 / 8);
+  const avgLogErr = Math.sqrt(chi2 / 16);  // 16 observables now (8 pos + 8 mass)
   const pctMatch = Math.max(0, 100 * (1 - avgLogErr));
   el.textContent = `${pctMatch.toFixed(1)}% match`;
   el.style.color = pctMatch > 90 ? '#64ffc8' : pctMatch > 70 ? '#FFD700' : '#ff6b6b';
@@ -915,6 +1037,15 @@ function updateLabels() {
   document.getElementById('vSice').textContent = (+document.getElementById('pSice').value).toFixed(3);
   document.getElementById('vFjup').textContent = (+document.getElementById('pFjup').value).toFixed(3);
   document.getElementById('vSgas').textContent = (+document.getElementById('pSgas').value).toFixed(3);
+  document.getElementById('vDTG').textContent = (+document.getElementById('pDTG').value).toFixed(3);
+  document.getElementById('vAccrR').textContent = (+document.getElementById('pAccrR').value).toFixed(2);
+  document.getElementById('vAccrG').textContent = (+document.getElementById('pAccrG').value).toFixed(2);
+  document.getElementById('vGasT').textContent = (+document.getElementById('pGasT').value).toFixed(1);
+  document.getElementById('vOpac').textContent = (+document.getElementById('pOpac').value).toFixed(2);
+  document.getElementById('vLstar').textContent = (+document.getElementById('pLstar').value).toFixed(2);
+  document.getElementById('vResL').textContent = (+document.getElementById('pResL').value).toFixed(2);
+  document.getElementById('vRGrow').textContent = (+document.getElementById('pRGrow').value).toFixed(1);
+  document.getElementById('vMStrip').textContent = (+document.getElementById('pMStrip').value).toFixed(2);
 }
 
 // Bind all sliders
@@ -924,9 +1055,10 @@ document.querySelectorAll('input[type=range]').forEach(el => {
 
 updateLabels();
 evaluate();
-log("Disk model initialized · MMSN baseline · 14 free parameters");
-log("Migration: per-planet research profiles (Johansen 2021 / Grand Tack / Nice model)");
-log("Rocky=inward, Gas=mixed, Ice=OUTWARD · f_mig scales overall efficiency");
+log("Disk model initialized · 30 parameters · 3 formation phases · position + mass");
+log("Phase 1: Disk-driven placement (boundaries organize positions)");
+log("Phase 2: Isolation mass growth (accretion at pressure bumps)");
+log("Phase 3: Post-disk modification (giant impacts, Mercury stripping, Mars starvation)");
 log("Click AUTO-SOLVE to find optimal parameters via differential evolution");
 
 // ══════════════════════════════════════════════════════════════════
@@ -937,7 +1069,7 @@ function runSensitivity() {
   const baseResult = diskModel(baseParams);
   const chi2ToMatch = (chi2) => {
     if (!isFinite(chi2) || isNaN(chi2)) return 0;
-    return Math.max(0, 100 * (1 - Math.sqrt(chi2 / 8)));
+    return Math.max(0, 100 * (1 - Math.sqrt(chi2 / 16)));  // 16 observables (8 pos + 8 mass)
   };
   const baseMatch = chi2ToMatch(baseResult.chi2);
 
