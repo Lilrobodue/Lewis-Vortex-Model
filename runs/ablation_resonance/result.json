@@ -1,0 +1,11 @@
+{
+  "n": 253,
+  "rate_on": 0.22134387351778656,
+  "rate_off": 0.15019762845849802,
+  "beats_on": 56,
+  "beats_off": 38,
+  "mcnemar_b_onwin_offloss": 24,
+  "mcnemar_c_onloss_offwin": 6,
+  "mcnemar_p": 0.0014309063553810122,
+  "binom_p_off_vs_chance": 1.7662884792965482e-09
+}

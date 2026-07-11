@@ -68,9 +68,16 @@ Selah's hypothesis is not just refuted — it's **inverted**, and the inversion 
   (TOI-178, HD 110067) are sub-AU, tightly packed at *specific* commensurabilities the static-disk
   model does not place correctly.
 
-**Bottom line for the Branch verdict:** the last living piece of Branch A is *active but not
-skill-earning*, and is the model's blind spot precisely on the systems built to showcase it. The
-confirmed spacing skill rests on boundary-anchored, Hill-regular structure — not on resonance.
+**Bottom line for the Branch verdict:** the resonance module is the model's blind spot precisely on
+the systems built to showcase it (the observed chains). But note the scope of that claim carefully.
+
+> **Correction (added after the ablation, `docs/PREREGISTRATION_ablation.md`).** "Active but not
+> skill-earning" was **too strong**. A direct ablation — disable resonance, re-run M7 — drops
+> held-out skill from **22.1% → 15.0%** (McNemar p = 0.001). Resonance **is** load-bearing: it
+> earns ~7 of the 22 points, not by reproducing the observed chains (it still fails those) but by
+> locking convergent pairs at near-geometric ratios that win on **non-chain, regular** systems. The
+> honest decomposition is a ~15% boundary/Hill floor **plus** a ~7-point resonance contribution.
+> The enrichment result (loses on formal chains) stands; the "dead weight" reading does not.
 
 ## Reproduce
 ```python

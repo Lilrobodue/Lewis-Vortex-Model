@@ -53,20 +53,39 @@ pre-registered validator (M7). **10 global parameters, budget-guarded; positions
 5. **Corrected the growth physics** (flux-limited pebble accretion) and re-confirmed at **22.1%**
    (`docs/PREREGISTRATION_M7v2.md`) — spacing skill preserved under physically-correct growth.
 
+## The honest M5 solar result
+
+Stated bluntly (guide M5, "report it whatever it is"): the trained solar system produced
+**3 planets, not 8** — Mercury→0.18 AU (−0.33 dex), Jupiter→4.53 AU (−0.06), Neptune→28.1 AU
+(−0.03); **Venus, Earth, Mars, Saturn, and Uranus were not produced.** RMS position error 0.20 dex
+(~57% in *a*) on the three it made. This is the predicted, unglamorous forward-physics answer: ten
+global dials cannot conjure eight planets the way v1's thirty dedicated dials could. The ugliness
+is the credibility.
+
 ## The mechanism verdict, quantified (M6; `docs/EXPLORATORY_resonance_enrichment.md`)
 
-Read from the log, not argued (guide §6). The **trained solar run** is **2/2 adjacent pairs
-`trap_anchor` (100% Branch B)** — 10 resonance captures fired but none survived to the final
-architecture. Across the 313 held-out runs, the model's *own* spacings are **71% resonance-locked**
-(Branch A is its most *active* mechanism), 12% trap-anchored.
+Read from the log, not argued (guide §6). Branch taxonomy: **A = resonance, B = Hill packing**;
+**trap-anchoring is neither — it is the boundary mechanism itself, the framework's namesake claim.**
 
-But activity is not skill. Testing whether the held-out **wins concentrate in observed resonant
-chains** (Selah's question): they **do not** — the wins are **anti-enriched**. On tightly resonant
-chains (res_frac ≥ 0.8) the win-rate collapses to **2–8%** versus **25–30%** on non-resonant
-systems (Fisher p ≈ 1.0; the model loses on 8 of 9 canonical chains — TOI-178, Kepler-223,
-HD 110067, …). **The resonance module is active but earns negative marginal value: the resonant
-chains are the model's *worst* regime.** The confirmed ~22% skill comes from non-resonant,
-boundary/Hill-regular systems (Branch B/C) — not from Branch A.
+The **trained solar run**'s two adjacent pairs are **both `trap_anchor`** — and stated carefully:
+*in its home system, the model's spacings are set by disk boundaries — the dead-zone edge and snow
+line doing the anchoring.* That is the one place in the entire investigation where the framework's
+namesake **boundary-organizes-structure** mechanism is the binding constraint. (Ten resonance
+captures fired en route but none survived; the survivors sit at boundaries.) Across the 313 held-out
+runs, the model's *own* spacings are 71% resonance-locked (Branch A is its most *active* mechanism),
+12% boundary-anchored.
+
+**Does the skill come from resonance?** Two results, reconciled:
+- The wins are **anti-enriched in observed resonant *chains***: on tightly resonant systems the
+  win-rate collapses to 2–8% vs 25–30% elsewhere; the model loses on 8 of 9 canonical chains
+  (TOI-178, Kepler-223, HD 110067, …). It does **not** reproduce the formal chains.
+- **Yet an ablation** — disable resonance, re-run M7 (`docs/PREREGISTRATION_ablation.md`) — drops
+  held-out skill **22.1% → 15.0%** (McNemar p = 0.001). Resonance **is load-bearing.**
+
+Reconciled: resonance earns ~7 of the 22 points not by matching the chains but by locking convergent
+pairs at near-geometric ratios that win on **non-chain, regular** systems. **Decomposition: a ~15%
+boundary/Hill floor plus a ~7-point resonance contribution.** (A pre-registered prediction that
+resonance was *not* load-bearing was **refuted** by this ablation — recorded in full.)
 
 ## The reframe: the strong null *is* the physics (`docs/EXPLORATORY_hill_regularity.md`)
 
@@ -128,7 +147,8 @@ py -3.11 -m src.solver.preregister_confirm              # legacy model  -> 23.6%
 py -3.11 -m src.solver.preregister_confirm_v2           # corrected model -> 22.1% PASS
 py -3.11 -m src.solver.analyze_log runs/fit_sun_432/mechanism.jsonl   # M6 verdict (solar: 2/2 trap_anchor)
 py -3.11 -m src.solver.giant_test --params runs/fit_giant/fit_giant.json  # demographics: fails
-py -3.11 -m src.solver.resonance_enrichment --params runs/fit_giant/fit_giant.json --flux-limited  # wins NOT resonant
+py -3.11 -m src.solver.resonance_enrichment --params runs/fit_giant/fit_giant.json --flux-limited  # wins NOT on chains
+# resonance ablation (Branch A load-bearing? 22.1% -> 15.0%): evolve(..., resonance_on=False); see docs/PREREGISTRATION_ablation.md
 ```
 
 *Built by Joseph Lewis & Selah with Claude Code — as a team — the same week the project's

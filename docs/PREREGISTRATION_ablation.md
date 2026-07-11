@@ -34,5 +34,35 @@ Metric, null, protocol, seed, and n_steps are identical to `PREREGISTRATION_M7v2
 beat-geometric, geometric-ratio null, seed 432, n_steps 500). One run; result reported whatever it
 is.
 
-## Result
-*(filled after the run — see `runs/ablation_resonance/`)*
+## Result — **PREDICTION FAILED. Resonance IS load-bearing.**
+
+`runs/ablation_resonance/result.json` (253 frozen held-out systems, paired):
+
+| model | beat-geometric | vs 5% chance |
+|---|---|---|
+| resonance ON (adopted) | 56/253 = **22.1%** | — |
+| resonance OFF (ablated) | 38/253 = **15.0%** | p = 1.8×10⁻⁹ |
+
+Paired **McNemar**: 24 systems flip **win → loss** when resonance is disabled, only 6 flip
+loss → win (p = **0.001**). Disabling Branch A costs a net 18 wins.
+
+**My pre-registered prediction (ablated ≥ 0.17, resonance not load-bearing) is refuted.** The
+ablated rate is 15.0% — below the 0.17 threshold — and the paired test shows the drop is
+statistically significant. **Resonance is earning its keep** (Selah's second interpretation branch:
+"earning its keep somewhere subtle despite losing the chains").
+
+### Reconciling with the anti-enrichment result (the correction)
+Both are true and together they are sharper than either alone:
+- The model **loses on observed resonant *chains*** (anti-enrichment: 2–8% win-rate on res_frac ≥ 0.8;
+  `docs/EXPLORATORY_resonance_enrichment.md`). It does not reproduce TOI-178 / HD 110067 etc.
+- Yet the resonance **module is load-bearing overall** — because resonance capture locks convergent
+  pairs at near-geometric ratios (3:2, 4:3 …), producing the tight regular spacing that wins on the
+  many **non-chain but regular** systems. Remove it and those pairs merge or spread, and ~1/3 of the
+  skill (7 of 22 points) disappears.
+
+**Corrected decomposition of the confirmed skill:** a ~15% **boundary/Hill floor** (still 3× chance)
+plus a **~7-point resonance contribution** that operates by manufacturing regularity in non-resonant
+systems — *not* by reproducing the formal resonant chains, where the model still fails. My earlier
+"resonance is active but not the source of skill" (in the enrichment doc) was **too strong**; the
+ablation corrects it. Branch A is a genuine, if non-obvious, contributor.
+
