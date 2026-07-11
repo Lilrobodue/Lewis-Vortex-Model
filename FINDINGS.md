@@ -53,6 +53,21 @@ pre-registered validator (M7). **10 global parameters, budget-guarded; positions
 5. **Corrected the growth physics** (flux-limited pebble accretion) and re-confirmed at **22.1%**
    (`docs/PREREGISTRATION_M7v2.md`) — spacing skill preserved under physically-correct growth.
 
+## The mechanism verdict, quantified (M6; `docs/EXPLORATORY_resonance_enrichment.md`)
+
+Read from the log, not argued (guide §6). The **trained solar run** is **2/2 adjacent pairs
+`trap_anchor` (100% Branch B)** — 10 resonance captures fired but none survived to the final
+architecture. Across the 313 held-out runs, the model's *own* spacings are **71% resonance-locked**
+(Branch A is its most *active* mechanism), 12% trap-anchored.
+
+But activity is not skill. Testing whether the held-out **wins concentrate in observed resonant
+chains** (Selah's question): they **do not** — the wins are **anti-enriched**. On tightly resonant
+chains (res_frac ≥ 0.8) the win-rate collapses to **2–8%** versus **25–30%** on non-resonant
+systems (Fisher p ≈ 1.0; the model loses on 8 of 9 canonical chains — TOI-178, Kepler-223,
+HD 110067, …). **The resonance module is active but earns negative marginal value: the resonant
+chains are the model's *worst* regime.** The confirmed ~22% skill comes from non-resonant,
+boundary/Hill-regular systems (Branch B/C) — not from Branch A.
+
 ## The reframe: the strong null *is* the physics (`docs/EXPLORATORY_hill_regularity.md`)
 
 Why is the geometric null so hard to beat? Because it is not a strawman:
@@ -111,8 +126,9 @@ their own terms.
 py -3.11 -m pytest -q                                   # 51 tests
 py -3.11 -m src.solver.preregister_confirm              # legacy model  -> 23.6% PASS
 py -3.11 -m src.solver.preregister_confirm_v2           # corrected model -> 22.1% PASS
-py -3.11 -m src.solver.analyze_log runs/fit_sun_432/mechanism.jsonl   # M6 verdict
+py -3.11 -m src.solver.analyze_log runs/fit_sun_432/mechanism.jsonl   # M6 verdict (solar: 2/2 trap_anchor)
 py -3.11 -m src.solver.giant_test --params runs/fit_giant/fit_giant.json  # demographics: fails
+py -3.11 -m src.solver.resonance_enrichment --params runs/fit_giant/fit_giant.json --flux-limited  # wins NOT resonant
 ```
 
 *Built by Joseph Lewis & Selah with Claude Code — as a team — the same week the project's
