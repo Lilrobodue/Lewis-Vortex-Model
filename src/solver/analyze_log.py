@@ -4,8 +4,10 @@ Reads a run's mechanism log + final architecture and classifies each final adjac
 spacing by its BINDING CONSTRAINT:
 
   resonance(p:q) — the outer body is locked in a mean-motion resonance with the inner  [Branch A]
-  trap_anchor    — the spacing is set by one/both bodies sitting at a disk boundary trap [Branch B]
-  hill_packing   — the spacing is set by the mutual-Hill stability floor                [Branch C]
+  hill_packing   — the spacing is set by the mutual-Hill stability floor                [Branch B]
+  trap_anchor    — the spacing is set by one/both bodies at a disk BOUNDARY trap
+                   (dead-zone edge / snow line): the framework's namesake mechanism —
+                   NOT Branch A or B, but the boundary-organizes-structure claim itself
   unbound        — none of the above constrains it
 
 The distribution of these constraints across a converged run *is* the Branch A/B/C verdict,
@@ -64,8 +66,9 @@ def classify_pairs(architecture: List[dict], records: List[dict]) -> List[PairVe
 
 def branch_verdict(dist: Counter) -> str:
     mapping = {"resonance": "Branch A (resonance-organized)",
-               "trap_anchor": "Branch B (boundary-anchored)",
-               "hill_packing": "Branch C (Hill-packed)",
+               "hill_packing": "Branch B (Hill-packed)",
+               "trap_anchor": "the boundary mechanism (disk boundaries anchoring spacing — "
+                              "the framework's namesake claim, distinct from Branch A/B)",
                "unbound": "unconstrained"}
     if not dist:
         return "no adjacent pairs to classify (0 or 1 surviving planet)"

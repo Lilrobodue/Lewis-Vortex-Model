@@ -71,11 +71,13 @@ def _snap_to_trap(a_old: float, a_new: float, stable_traps: np.ndarray
 
 def evolve(params: Params, star: StellarInput = SUN, seed: int = 432,
            n_steps: int = 500, n_seeds: int = 24, relax: bool = True,
-           flux_limited: bool = False) -> ForwardResult:
+           flux_limited: bool = False, resonance_on: bool = True) -> ForwardResult:
     """flux_limited=False (default) reproduces the pre-registered confirmed model (legacy
     local-column pebble growth). flux_limited=True uses the physically-correct drifting-flux
     pebble accretion (embryos.pebble_surface_density) — more realistic and giant-selective,
-    but a different regime that requires its own fit (see fit_giant.py / giant_test.py)."""
+    but a different regime that requires its own fit (see fit_giant.py / giant_test.py).
+    resonance_on=False disables mean-motion-resonance capture entirely (Branch A ablation):
+    convergent pairs then merge or Hill-pack instead of locking (see docs ablation)."""
     params = params.clipped()
     rng = np.random.default_rng(seed)
     disk = DiskModel(params, star)
@@ -154,20 +156,21 @@ def evolve(params: Params, star: StellarInput = SUN, seed: int = 432,
                 # a locked pair migrates inward as a unit with its anchor; never outward
                 e.a = min(e.a, target)
 
-        # 4) resonance capture on adjacent convergent pairs
-        alive.sort(key=lambda x: x.a)
-        for i in range(len(alive) - 1):
-            inner, outer = alive[i], alive[i + 1]
-            if outer.partner is not None or inner.partner == outer.id:
-                continue
-            key = (inner.id, outer.id)
-            pr_now = period_ratio(inner, outer)
-            prev = pr_prev.get(key, pr_now)
-            res = attempt_capture(inner, outer, prev, pr_now, dt, params.f_capture, rng)
-            if res is not None:
-                p, q, offset = res
-                log.resonance_capture(t, outer.id, inner.id, f"{p}:{q}", offset)
-            pr_prev[key] = period_ratio(inner, outer)
+        # 4) resonance capture on adjacent convergent pairs (Branch A; skipped if ablated)
+        if resonance_on:
+            alive.sort(key=lambda x: x.a)
+            for i in range(len(alive) - 1):
+                inner, outer = alive[i], alive[i + 1]
+                if outer.partner is not None or inner.partner == outer.id:
+                    continue
+                key = (inner.id, outer.id)
+                pr_now = period_ratio(inner, outer)
+                prev = pr_prev.get(key, pr_now)
+                res = attempt_capture(inner, outer, prev, pr_now, dt, params.f_capture, rng)
+                if res is not None:
+                    p, q, offset = res
+                    log.resonance_capture(t, outer.id, inner.id, f"{p}:{q}", offset)
+                pr_prev[key] = period_ratio(inner, outer)
 
         # 5) in-disk collisions: non-resonant pairs that cross into ~1 mutual-Hill radius
         #    merge (orbit-crossing giant impact). This bounds crowding — instead of pushing
