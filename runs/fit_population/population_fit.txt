@@ -1,0 +1,23 @@
+========================================================================
+POPULATION FIT — solved the 10 globals on TRAIN, scored on held-out TEST
+========================================================================
+The honest bar is 'beat geometric-regularity null'. Random-null is weak.
+
+                          beat random  beat geometric   pass both   med RMS
+  solar-fit params              56.3%            5.7%        4.2%     0.408
+  population-fit params         42.2%           26.6%       17.1%     0.053
+
+  (test set: 263 held-out systems; ~5% beat-geometric is chance)
+
+population-fit parameters:
+  sigma0       = 3500.1295
+  p            = 0.6911
+  T0           = 276.8878
+  r_disk       = 38.5559
+  t_disk       = 9.6804
+  dust_to_gas  = 0.0085
+  f_ice        = 3.4740
+  M_crit       = 5.9509
+  K            = 8.2101
+  f_capture    = 0.9185
+========================================================================

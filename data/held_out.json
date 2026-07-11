@@ -1,0 +1,9448 @@
+{
+  "source": "PSCompPars_2026.07.11_12.02.52.csv",
+  "selection": {
+    "min_planets": 3,
+    "min_logg": 4.0,
+    "M_star_range": [
+      0.1,
+      3.0
+    ]
+  },
+  "systems": [
+    {
+      "name": "KOI-351",
+      "M_star": 1.2,
+      "L_star": 1.77285,
+      "feh": -0.12,
+      "n_planets": 8,
+      "planets": [
+        {
+          "name": "KOI-351 b",
+          "au": 0.074,
+          "mass": 2.27,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-351 c",
+          "au": 0.089,
+          "mass": 1.81,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-90 i",
+          "au": 0.1201380843,
+          "mass": 2.3,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-351 d",
+          "au": 0.32,
+          "mass": 8.6,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-351 e",
+          "au": 0.42,
+          "mass": 7.56,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-351 f",
+          "au": 0.48,
+          "mass": 8.65,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-351 g",
+          "au": 0.71704,
+          "mass": 15.0,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-351 h",
+          "au": 0.97062,
+          "mass": 203.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 10180",
+      "M_star": 1.06,
+      "L_star": 1.3527,
+      "feh": 0.08,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "HD 10180 c",
+          "au": 0.06412,
+          "mass": 2741.58783878,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 10180 d",
+          "au": 0.12859,
+          "mass": 3295.88058059,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 10180 e",
+          "au": 0.2699,
+          "mass": 25.1,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 10180 f",
+          "au": 0.4929,
+          "mass": 23.9,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 10180 g",
+          "au": 1.427,
+          "mass": 3375.33768234,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 10180 h",
+          "au": 3.381,
+          "mass": 64.4,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 110067",
+      "M_star": 0.798,
+      "L_star": 0.4302,
+      "feh": -0.2,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "HD 110067 b",
+          "au": 0.0793,
+          "mass": 5.69,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 110067 c",
+          "au": 0.1039,
+          "mass": 6.3,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 110067 d",
+          "au": 0.1362,
+          "mass": 8.52,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 110067 e",
+          "au": 0.1785,
+          "mass": 3.9,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 110067 f",
+          "au": 0.2163,
+          "mass": 5.04,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 110067 g",
+          "au": 0.2621,
+          "mass": 8.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 191939",
+      "M_star": 0.81,
+      "L_star": 0.6512,
+      "feh": -0.15,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "HD 191939 b",
+          "au": 0.0804,
+          "mass": 10.0,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 191939 c",
+          "au": 0.1752,
+          "mass": 8.0,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 191939 d",
+          "au": 0.2132,
+          "mass": 2.8,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 191939 e",
+          "au": 0.407,
+          "mass": 112.2,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 191939 g",
+          "au": 0.812,
+          "mass": 13.5,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 191939 f",
+          "au": 3.71,
+          "mass": 915.34581216,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 219134",
+      "M_star": 0.81,
+      "L_star": 0.26587,
+      "feh": 0.11,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "HD 219134 b",
+          "au": 0.03876,
+          "mass": 4.74,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 219134 c",
+          "au": 0.0653,
+          "mass": 4.36,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 219134 f",
+          "au": 0.1463,
+          "mass": 7.3,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 219134 d",
+          "au": 0.237,
+          "mass": 16.17,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 219134 g",
+          "au": 0.3753,
+          "mass": 10.80622,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 219134 h",
+          "au": 3.11,
+          "mass": 108.0622,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 34445",
+      "M_star": 1.14,
+      "L_star": 2.04959,
+      "feh": 0.18,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "HD 34445 e",
+          "au": 0.2687,
+          "mass": 16.8,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 34445 d",
+          "au": 0.4817,
+          "mass": 30.7,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 34445 c",
+          "au": 0.7181,
+          "mass": 53.5,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 34445 f",
+          "au": 1.543,
+          "mass": 37.9,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 34445 b",
+          "au": 2.07,
+          "mass": 260.6206,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 34445 g",
+          "au": 6.36,
+          "mass": 120.6,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "K2-138",
+      "M_star": 0.935,
+      "L_star": 0.5523,
+      "feh": 0.14,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "K2-138 b",
+          "au": 0.03385,
+          "mass": 3.1,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-138 c",
+          "au": 0.04461,
+          "mass": 6.31,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-138 d",
+          "au": 0.05893,
+          "mass": 7.92,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-138 e",
+          "au": 0.0782,
+          "mass": 12.97,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-138 f",
+          "au": 0.10447,
+          "mass": 1.63,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-138 g",
+          "au": 0.23109,
+          "mass": 4.32,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-11",
+      "M_star": 0.961,
+      "L_star": 1.05095,
+      "feh": 0.05,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "Kepler-11 b",
+          "au": 0.091,
+          "mass": 1.9,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-11 c",
+          "au": 0.107,
+          "mass": 2.9,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-11 d",
+          "au": 0.155,
+          "mass": 7.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-11 e",
+          "au": 0.195,
+          "mass": 8.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-11 f",
+          "au": 0.25,
+          "mass": 2.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-11 g",
+          "au": 0.466,
+          "mass": 25.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-20",
+      "M_star": 0.929,
+      "L_star": 0.68982,
+      "feh": 0.07,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "Kepler-20 b",
+          "au": 0.04565,
+          "mass": 9.7,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-20 e",
+          "au": 0.0637,
+          "mass": 0.76,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-20 c",
+          "au": 0.0936,
+          "mass": 11.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-20 f",
+          "au": 0.1387,
+          "mass": 1.4,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-20 g",
+          "au": 0.2055,
+          "mass": 19.96,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-20 d",
+          "au": 0.3474,
+          "mass": 13.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-1136",
+      "M_star": 1.022,
+      "L_star": 0.93573,
+      "feh": 0.07,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "TOI-1136 b",
+          "au": 0.05106,
+          "mass": 3.5,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1136 c",
+          "au": 0.0669,
+          "mass": 6.32,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1136 d",
+          "au": 0.1062,
+          "mass": 8.35,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1136 e",
+          "au": 0.14,
+          "mass": 6.07,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1136 f",
+          "au": 0.174,
+          "mass": 9.7,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1136 g",
+          "au": 0.229,
+          "mass": 5.6,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-178",
+      "M_star": 0.647,
+      "L_star": 0.13701,
+      "feh": -0.23,
+      "n_planets": 6,
+      "planets": [
+        {
+          "name": "TOI-178 b",
+          "au": 0.02607,
+          "mass": 0.96,
+          "kind": "rocky"
+        },
+        {
+          "name": "TOI-178 c",
+          "au": 0.037,
+          "mass": 4.64,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-178 d",
+          "au": 0.0592,
+          "mass": 5.2,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-178 e",
+          "au": 0.0783,
+          "mass": 3.48,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-178 f",
+          "au": 0.1039,
+          "mass": 5.63,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-178 g",
+          "au": 0.1275,
+          "mass": 4.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "55 Cnc",
+      "M_star": 1.015,
+      "L_star": 0.63167,
+      "feh": 0.39,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "55 Cnc e",
+          "au": 0.01544,
+          "mass": 7.99,
+          "kind": "ice"
+        },
+        {
+          "name": "55 Cnc b",
+          "au": 0.118,
+          "mass": 263.9785,
+          "kind": "gas"
+        },
+        {
+          "name": "55 Cnc c",
+          "au": 0.247,
+          "mass": 54.4738,
+          "kind": "gas"
+        },
+        {
+          "name": "55 Cnc f",
+          "au": 0.802,
+          "mass": 44.812,
+          "kind": "ice"
+        },
+        {
+          "name": "55 Cnc d",
+          "au": 5.6,
+          "mass": 1232.493,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 108236",
+      "M_star": 0.869,
+      "L_star": 0.71115,
+      "feh": -0.28,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "HD 108236 b",
+          "au": 0.04527,
+          "mass": 3.24,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 108236 c",
+          "au": 0.062,
+          "mass": 4.94,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1233.01",
+          "au": 0.1074,
+          "mass": 6.98,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 108236 e",
+          "au": 0.1367,
+          "mass": 9.71,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 108236 f",
+          "au": 0.1758,
+          "mass": 4.72,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 134606",
+      "M_star": 1.046,
+      "L_star": 1.16789,
+      "feh": 0.343,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "HD 134606 e",
+          "au": 0.0527,
+          "mass": 2.34,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 134606 b",
+          "au": 0.1046,
+          "mass": 9.09,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 134606 f",
+          "au": 0.1784,
+          "mass": 5.63,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 134606 c",
+          "au": 0.3007,
+          "mass": 11.31,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 134606 d",
+          "au": 1.941,
+          "mass": 44.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 23472",
+      "M_star": 0.67,
+      "L_star": 0.21861,
+      "feh": -0.2,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "HD 23472 d",
+          "au": 0.04298,
+          "mass": 0.55,
+          "kind": "rocky"
+        },
+        {
+          "name": "HD 23472 e",
+          "au": 0.068,
+          "mass": 0.72,
+          "kind": "rocky"
+        },
+        {
+          "name": "HD 23472 f",
+          "au": 0.0906,
+          "mass": 0.77,
+          "kind": "rocky"
+        },
+        {
+          "name": "HD 23472 b",
+          "au": 0.1162,
+          "mass": 8.32,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 23472 c",
+          "au": 0.1646,
+          "mass": 3.41,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 40307",
+      "M_star": 0.77,
+      "L_star": 0.27917,
+      "feh": -0.31,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "HD 40307 b",
+          "au": 0.0468,
+          "mass": 1188.99607059,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 40307 c",
+          "au": 0.0799,
+          "mass": 1868.51320475,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 40307 d",
+          "au": 0.1321,
+          "mass": 1775.3894815,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 40307 f",
+          "au": 0.247,
+          "mass": 5.2,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 40307 g",
+          "au": 0.6,
+          "mass": 7.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-102",
+      "M_star": 0.803,
+      "L_star": 0.27425,
+      "feh": 0.11,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-102 b",
+          "au": 0.05521,
+          "mass": 1.1,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-102 c",
+          "au": 0.06702,
+          "mass": 1.7,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-102 d",
+          "au": 0.08618,
+          "mass": 3.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-102 e",
+          "au": 0.1162,
+          "mass": 4.7,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-102 f",
+          "au": 0.1656,
+          "mass": 4.3,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-122",
+      "M_star": 0.982,
+      "L_star": 1.78477,
+      "feh": -0.08,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-122 b",
+          "au": 0.064,
+          "mass": 6.08,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-122 c",
+          "au": 0.108,
+          "mass": 29.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-122 d",
+          "au": 0.155,
+          "mass": 5.48,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-122 e",
+          "au": 0.227,
+          "mass": 27.7,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-122 f",
+          "au": 0.28575,
+          "mass": 36.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-150",
+      "M_star": 0.956,
+      "L_star": 0.75915,
+      "feh": 0.12,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-150 b",
+          "au": 0.044,
+          "mass": 2.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-150 c",
+          "au": 0.073,
+          "mass": 13.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-150 d",
+          "au": 0.104,
+          "mass": 8.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-150 e",
+          "au": 0.189,
+          "mass": 9.91,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-150 f",
+          "au": 1.24,
+          "mass": 12.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-154",
+      "M_star": 0.933,
+      "L_star": 0.94626,
+      "feh": 0.02,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-154 e",
+          "au": 0.04766,
+          "mass": 2.86,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-154 f",
+          "au": 0.08832,
+          "mass": 2.86,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-154 d",
+          "au": 0.14354,
+          "mass": 14.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-154 b",
+          "au": 0.198,
+          "mass": 5.73,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-154 c",
+          "au": 0.303,
+          "mass": 9.01,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-169",
+      "M_star": 0.825,
+      "L_star": 0.32703,
+      "feh": 0.17,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-169 b",
+          "au": 0.04,
+          "mass": 1.51,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-169 c",
+          "au": 0.062,
+          "mass": 1.92,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-169 d",
+          "au": 0.075,
+          "mass": 2.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-169 e",
+          "au": 0.105,
+          "mass": 5.48,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-169 f",
+          "au": 0.359,
+          "mass": 7.18,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-186",
+      "M_star": 0.478,
+      "L_star": 0.04133,
+      "feh": -0.28,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-186 b",
+          "au": 0.0343,
+          "mass": 1.24,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-186 c",
+          "au": 0.0451,
+          "mass": 2.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-186 d",
+          "au": 0.0781,
+          "mass": 2.54,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-186 e",
+          "au": 0.11,
+          "mass": 2.15,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-186 f",
+          "au": 0.432,
+          "mass": 1.71,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-238",
+      "M_star": 1.229,
+      "L_star": 2.0153,
+      "feh": 0.34,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-238 b",
+          "au": 0.034,
+          "mass": 3305.02,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-238 c",
+          "au": 0.069,
+          "mass": 152.522,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-238 d",
+          "au": 0.115,
+          "mass": 23.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-238 e",
+          "au": 0.17286,
+          "mass": 169.7,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-238 f",
+          "au": 0.28635,
+          "mass": 13.5,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-292",
+      "M_star": 0.865,
+      "L_star": 0.48465,
+      "feh": 0.04,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-292 b",
+          "au": 0.035,
+          "mass": 2.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-292 c",
+          "au": 0.045,
+          "mass": 2.76,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-292 d",
+          "au": 0.068,
+          "mass": 5.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-292 e",
+          "au": 0.097,
+          "mass": 7.61,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-292 f",
+          "au": 0.141,
+          "mass": 6.12,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-296",
+      "M_star": 0.498,
+      "L_star": 0.04061,
+      "feh": -0.08,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-296 c",
+          "au": 0.0521,
+          "mass": 4.66,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-296 b",
+          "au": 0.079,
+          "mass": 3.22,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-296 d",
+          "au": 0.118,
+          "mass": 5.02,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-296 e",
+          "au": 0.169,
+          "mass": 2.96,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-296 f",
+          "au": 0.255,
+          "mass": 3.89,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-32",
+      "M_star": 0.58,
+      "L_star": 0.05855,
+      "feh": 0.0,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-32 f",
+          "au": 0.013,
+          "mass": 969.228,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-32 e",
+          "au": 0.033,
+          "mass": 4.08181,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-32 b",
+          "au": 0.05,
+          "mass": 1303.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-32 c",
+          "au": 0.09,
+          "mass": 158.9,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-32 d",
+          "au": 0.13,
+          "mass": 67.4815,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-33",
+      "M_star": 1.291,
+      "L_star": 3.62596,
+      "feh": 0.025,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-33 b",
+          "au": 0.0677,
+          "mass": 3.68,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-33 c",
+          "au": 0.1189,
+          "mass": 0.39,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-33 d",
+          "au": 0.1662,
+          "mass": 3.91,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-33 e",
+          "au": 0.2138,
+          "mass": 5.57,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-33 f",
+          "au": 0.2535,
+          "mass": 9.6,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-444",
+      "M_star": 0.758,
+      "L_star": 0.33031,
+      "feh": -0.55,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-444 b",
+          "au": 0.04178,
+          "mass": 0.0374,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-444 c",
+          "au": 0.04881,
+          "mass": 0.0793,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-444 d",
+          "au": 0.06,
+          "mass": 0.2,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-444 e",
+          "au": 0.0696,
+          "mass": 0.1,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-444 f",
+          "au": 0.0811,
+          "mass": 0.332,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-48",
+      "M_star": 0.88,
+      "L_star": 0.51938,
+      "feh": 0.17,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-48 b",
+          "au": 0.05394,
+          "mass": 3.94,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-48 c",
+          "au": 0.08633,
+          "mass": 14.61,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-48 d",
+          "au": 0.23302,
+          "mass": 7.93,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-48 e",
+          "au": 1.898274748,
+          "mass": 657.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-48 f",
+          "au": 5.719187877,
+          "mass": 298.5809968,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-55",
+      "M_star": 0.62,
+      "L_star": 0.10972,
+      "feh": -0.01,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-55 d",
+          "au": 0.029,
+          "mass": 3.15,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-55 e",
+          "au": 0.048,
+          "mass": 3.02,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-55 f",
+          "au": 0.081,
+          "mass": 3.15,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-55 b",
+          "au": 0.1593,
+          "mass": 43.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-55 c",
+          "au": 0.2095,
+          "mass": 69.8,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-62",
+      "M_star": 0.69,
+      "L_star": 0.21711,
+      "feh": -0.37,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-62 b",
+          "au": 0.0553,
+          "mass": 9.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-62 c",
+          "au": 0.0929,
+          "mass": 4.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-62 d",
+          "au": 0.12,
+          "mass": 14.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-62 e",
+          "au": 0.427,
+          "mass": 36.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-62 f",
+          "au": 0.718,
+          "mass": 35.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-80",
+      "M_star": 0.73,
+      "L_star": 0.17595,
+      "feh": 0.04,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-80 f",
+          "au": 0.0175,
+          "mass": 4459.73,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-80 d",
+          "au": 0.0372,
+          "mass": 6.75,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-80 e",
+          "au": 0.0491,
+          "mass": 4.13,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-80 b",
+          "au": 0.0648,
+          "mass": 6.93,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-80 c",
+          "au": 0.0792,
+          "mass": 6.74,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-82",
+      "M_star": 0.91,
+      "L_star": 0.61822,
+      "feh": 0.2107,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-82 d",
+          "au": 0.034,
+          "mass": 885.098,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-82 e",
+          "au": 0.063,
+          "mass": 254.02,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-82 b",
+          "au": 0.1683,
+          "mass": 12.15,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-82 c",
+          "au": 0.2626,
+          "mass": 13.9,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-82 f",
+          "au": 0.3395,
+          "mass": 20.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-84",
+      "M_star": 1.0,
+      "L_star": 2.45034,
+      "feh": -0.07,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "Kepler-84 d",
+          "au": 0.052,
+          "mass": 2.48,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-84 b",
+          "au": 0.0827,
+          "mass": 40.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-84 c",
+          "au": 0.1072,
+          "mass": 20.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-84 e",
+          "au": 0.181,
+          "mass": 7.27,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-84 f",
+          "au": 0.25,
+          "mass": 5.48,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "L 98-59",
+      "M_star": 0.2923,
+      "L_star": 0.0122,
+      "feh": -0.46,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "L 98-59 b",
+          "au": 0.0223,
+          "mass": 0.46,
+          "kind": "rocky"
+        },
+        {
+          "name": "L 98-59 c",
+          "au": 0.0309,
+          "mass": 2.0,
+          "kind": "ice"
+        },
+        {
+          "name": "L 98-59 d",
+          "au": 0.0494,
+          "mass": 1.64,
+          "kind": "rocky"
+        },
+        {
+          "name": "L 98-59 e",
+          "au": 0.0712,
+          "mass": 2.82,
+          "kind": "ice"
+        },
+        {
+          "name": "L 98-59 f",
+          "au": 0.1052,
+          "mass": 2.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-5624",
+      "M_star": 0.858,
+      "L_star": 0.48781,
+      "feh": -0.023,
+      "n_planets": 5,
+      "planets": [
+        {
+          "name": "TOI-5624 b",
+          "au": 0.04201,
+          "mass": 9.4,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-5624 c",
+          "au": 0.07374,
+          "mass": 4.8,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-5624 d",
+          "au": 0.1067,
+          "mass": 4.9,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-5624 e",
+          "au": 0.1439,
+          "mass": 8.9,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-5624 f",
+          "au": 0.2366,
+          "mass": 13.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Barnard's star",
+      "M_star": 0.162,
+      "L_star": 0.00321,
+      "feh": -0.56,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Barnard d",
+          "au": 0.0188,
+          "mass": 0.263,
+          "kind": "rocky"
+        },
+        {
+          "name": "Barnard b",
+          "au": 0.0229,
+          "mass": 0.299,
+          "kind": "rocky"
+        },
+        {
+          "name": "Barnard c",
+          "au": 0.0274,
+          "mass": 0.335,
+          "kind": "rocky"
+        },
+        {
+          "name": "Barnard e",
+          "au": 0.0381,
+          "mass": 0.193,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "DMPP-1",
+      "M_star": 1.21,
+      "L_star": 2.10805,
+      "feh": 0.0,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "DMPP-1 d",
+          "au": 0.04467,
+          "mass": 4.72,
+          "kind": "ice"
+        },
+        {
+          "name": "DMPP-1 e",
+          "au": 0.0651,
+          "mass": 4.13,
+          "kind": "ice"
+        },
+        {
+          "name": "DMPP-1 c",
+          "au": 0.0973,
+          "mass": 10.94,
+          "kind": "ice"
+        },
+        {
+          "name": "DMPP-1 b",
+          "au": 0.1423,
+          "mass": 16.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 3293",
+      "M_star": 0.42,
+      "L_star": 0.02122,
+      "feh": 0.02,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "GJ 3293 e",
+          "au": 0.08208,
+          "mass": 3.28,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 3293 b",
+          "au": 0.14339,
+          "mass": 23.54,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 3293 d",
+          "au": 0.19394,
+          "mass": 7.6,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 3293 c",
+          "au": 0.36175,
+          "mass": 21.09,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 676 A",
+      "M_star": 0.626,
+      "L_star": 0.08339,
+      "feh": 0.23,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "GJ 676 A d",
+          "au": 0.039,
+          "mass": 3.81394088,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 676 A e",
+          "au": 0.181,
+          "mass": 6.67439655,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 676 A b",
+          "au": 1.735,
+          "mass": 1840.86213334,
+          "kind": "gas"
+        },
+        {
+          "name": "GJ 676 A c",
+          "au": 9.726,
+          "mass": 4288.14086724,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "GJ 876",
+      "M_star": 0.32,
+      "L_star": 0.00954,
+      "feh": 0.2129,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "GJ 876 d",
+          "au": 0.02080665,
+          "mass": 6.83,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 876 c",
+          "au": 0.12959,
+          "mass": 226.9846,
+          "kind": "gas"
+        },
+        {
+          "name": "GJ 876 b",
+          "au": 0.208317,
+          "mass": 723.2235,
+          "kind": "gas"
+        },
+        {
+          "name": "GJ 876 e",
+          "au": 0.3343,
+          "mass": 14.6,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 887",
+      "M_star": 0.495,
+      "L_star": 0.0365,
+      "feh": -0.06,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "GJ 887 e",
+          "au": 0.0417,
+          "mass": 1.46,
+          "kind": "rocky"
+        },
+        {
+          "name": "GJ 887 b",
+          "au": 0.0683,
+          "mass": 3.9,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 887 c",
+          "au": 0.121,
+          "mass": 6.5,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 887 d",
+          "au": 0.212,
+          "mass": 6.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 141399",
+      "M_star": 1.07,
+      "L_star": 1.70509,
+      "feh": 0.35,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "HD 141399 b",
+          "au": 0.415,
+          "mass": 143.34133,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 141399 c",
+          "au": 0.689,
+          "mass": 422.7139,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 141399 d",
+          "au": 2.09,
+          "mass": 375.0394,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 141399 e",
+          "au": 5.0,
+          "mass": 209.7678,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 160691",
+      "M_star": 1.13,
+      "L_star": 1.77013,
+      "feh": 0.28,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "HD 160691 d",
+          "au": 0.0952,
+          "mass": 10.49,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 160691 e",
+          "au": 0.96,
+          "mass": 2224.798849,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 160691 b",
+          "au": 1.5,
+          "mass": 1366.6621501,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 160691 c",
+          "au": 4.17,
+          "mass": 1398.4449908,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 164922",
+      "M_star": 0.926,
+      "L_star": 0.68051,
+      "feh": 0.18,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "HD 164922 d",
+          "au": 0.103,
+          "mass": 4.0,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 164922 e",
+          "au": 0.2292,
+          "mass": 10.52012027,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 164922 c",
+          "au": 0.341,
+          "mass": 13.0,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 164922 b",
+          "au": 2.16,
+          "mass": 116.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 20781",
+      "M_star": 0.7,
+      "L_star": 0.47779,
+      "feh": -0.11,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "HD 20781 b",
+          "au": 0.0529,
+          "mass": 1.93,
+          "kind": "rocky"
+        },
+        {
+          "name": "HD 20781 c",
+          "au": 0.1004,
+          "mass": 5.33,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 20781 d",
+          "au": 0.1647,
+          "mass": 10.61,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 20781 e",
+          "au": 0.3374,
+          "mass": 14.03,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 20794",
+      "M_star": 0.79,
+      "L_star": 0.64701,
+      "feh": -0.42,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "HD 20794 b",
+          "au": 0.1257,
+          "mass": 2.7,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 20794 d",
+          "au": 0.3625,
+          "mass": 4.8,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 20794 e",
+          "au": 0.509,
+          "mass": 4.77,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 20794 f",
+          "au": 1.3541,
+          "mass": 5.82,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 215152",
+      "M_star": 0.77,
+      "L_star": 0.28477,
+      "feh": -0.1,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "HD 215152 b",
+          "au": 0.057638,
+          "mass": 565.41673605,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 215152 c",
+          "au": 0.067393,
+          "mass": 468.79690033,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 215152 d",
+          "au": 0.08799,
+          "mass": 770.41605857,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 215152 e",
+          "au": 0.15417,
+          "mass": 975.41538108,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 3167",
+      "M_star": 0.837,
+      "L_star": 0.53448,
+      "feh": 0.04,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "HD 3167 b",
+          "au": 0.01796,
+          "mass": 4.97,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 3167 d",
+          "au": 0.0763,
+          "mass": 4.33,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 3167 c",
+          "au": 0.1776,
+          "mass": 11.13,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 3167 e",
+          "au": 0.3885,
+          "mass": 8.41,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HR 8799",
+      "M_star": 1.5,
+      "L_star": 5.4134,
+      "feh": -0.47,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "HR 8799 e",
+          "au": 16.4,
+          "mass": 3178.3,
+          "kind": "gas"
+        },
+        {
+          "name": "HR 8799 d",
+          "au": 24.0,
+          "mass": 3000.0,
+          "kind": "gas"
+        },
+        {
+          "name": "HR 8799 c",
+          "au": 38.0,
+          "mass": 3000.0,
+          "kind": "gas"
+        },
+        {
+          "name": "HR 8799 b",
+          "au": 68.0,
+          "mass": 2000.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "K2-133",
+      "M_star": 0.461,
+      "L_star": 0.03329,
+      "feh": 0.0,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "K2-133 b",
+          "au": 0.03194,
+          "mass": 2.36,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-133 c",
+          "au": 0.04341,
+          "mass": 3.2,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-133 d",
+          "au": 0.07487,
+          "mass": 4.67,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-133 e",
+          "au": 0.1346,
+          "mass": 3.64,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-187",
+      "M_star": 0.966999,
+      "L_star": 0.54276,
+      "feh": 0.0,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "K2-187 b",
+          "au": 0.0164,
+          "mass": 1.87,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-187 c",
+          "au": 0.0392,
+          "mass": 2.54,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-187 d",
+          "au": 0.072,
+          "mass": 6.35,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-187 e",
+          "au": 0.1106,
+          "mass": 4.27,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-266",
+      "M_star": 0.686,
+      "L_star": 0.15011,
+      "feh": -0.12,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "K2-266 b",
+          "au": 0.01306,
+          "mass": 11.26782377,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-266 c",
+          "au": 0.0679,
+          "mass": 0.29013072,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-266 d",
+          "au": 0.1035,
+          "mass": 8.9,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-266 e",
+          "au": 0.1249,
+          "mass": 14.3,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-285",
+      "M_star": 0.83,
+      "L_star": 0.34183,
+      "feh": 0.0,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "K2-285 b",
+          "au": 0.03817,
+          "mass": 9.68,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-285 c",
+          "au": 0.0824,
+          "mass": 15.68,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-285 d",
+          "au": 0.1178,
+          "mass": 6.5,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-285 e",
+          "au": 0.18041,
+          "mass": 10.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-32",
+      "M_star": 0.83,
+      "L_star": 0.51436,
+      "feh": -0.06,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "K2-32 e",
+          "au": 0.04899,
+          "mass": 2.1,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-32 b",
+          "au": 0.0795,
+          "mass": 15.0,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-32 c",
+          "au": 0.13843,
+          "mass": 8.1,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-32 d",
+          "au": 0.18422,
+          "mass": 6.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-72",
+      "M_star": 0.271365,
+      "L_star": 0.01259,
+      "feh": 0.0,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "K2-72 b",
+          "au": 0.04,
+          "mass": 1.28,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-72 d",
+          "au": 0.05,
+          "mass": 1.01,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-72 c",
+          "au": 0.078,
+          "mass": 1.65,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-72 e",
+          "au": 0.106,
+          "mass": 2.21,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "KOI-94",
+      "M_star": 1.277,
+      "L_star": 3.04017,
+      "feh": 0.0228,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "KOI-94 b",
+          "au": 0.05119,
+          "mass": 10.5,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-94 c",
+          "au": 0.1013,
+          "mass": 15.6,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-94 d",
+          "au": 0.1684,
+          "mass": 106.0,
+          "kind": "gas"
+        },
+        {
+          "name": "KOI-94 e",
+          "au": 0.3046,
+          "mass": 35.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-100",
+      "M_star": 1.13,
+      "L_star": 2.38456,
+      "feh": 0.1,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-100 b",
+          "au": 0.07309,
+          "mass": 4.01,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-100 c",
+          "au": 0.11061,
+          "mass": 7.05,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-100 d",
+          "au": 0.21747,
+          "mass": 3.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-100 e",
+          "au": 0.312391586,
+          "mass": 24.14271827,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-106",
+      "M_star": 1.0,
+      "L_star": 1.14752,
+      "feh": -0.12,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-106 b",
+          "au": 0.06491,
+          "mass": 5.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-106 c",
+          "au": 0.10987,
+          "mass": 10.44,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-106 d",
+          "au": 0.16063,
+          "mass": 8.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-106 e",
+          "au": 0.24006,
+          "mass": 11.17,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-107",
+      "M_star": 1.238,
+      "L_star": 2.21535,
+      "feh": 0.321,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-107 b",
+          "au": 0.04544,
+          "mass": 3.8,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-107 c",
+          "au": 0.06064,
+          "mass": 10.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-107 d",
+          "au": 0.08377,
+          "mass": 7.7,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-107 e",
+          "au": 0.12638,
+          "mass": 14.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-132",
+      "M_star": 0.929,
+      "L_star": 1.62352,
+      "feh": -0.2159,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-132 b",
+          "au": 0.067,
+          "mass": 1.92,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-132 c",
+          "au": 0.068,
+          "mass": 2.18,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-132 d",
+          "au": 0.136,
+          "mass": 3.02,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-132 e",
+          "au": 0.43927,
+          "mass": 1.76,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-138",
+      "M_star": 0.535,
+      "L_star": 0.05613,
+      "feh": -0.18,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-138 b",
+          "au": 0.0753,
+          "mass": 0.07,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-138 c",
+          "au": 0.0913,
+          "mass": 2.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-138 d",
+          "au": 0.1288,
+          "mass": 2.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-138 e",
+          "au": 0.1803,
+          "mass": 0.43,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1388",
+      "M_star": 0.63,
+      "L_star": 0.09455,
+      "feh": 0.02,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-1388 c",
+          "au": 0.0519,
+          "mass": 5.73,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1388 b",
+          "au": 0.0882,
+          "mass": 7.22,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1388 d",
+          "au": 0.126,
+          "mass": 8.55,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1388 e",
+          "au": 0.1861,
+          "mass": 6.62,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-139",
+      "M_star": 1.078,
+      "L_star": 1.49098,
+      "feh": 0.35,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-139 d",
+          "au": 0.0755533961,
+          "mass": 2.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-139 b",
+          "au": 0.127,
+          "mass": 7.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-139 c",
+          "au": 0.586,
+          "mass": 13.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-139 e",
+          "au": 3.23579639,
+          "mass": 378.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1542",
+      "M_star": 0.94,
+      "L_star": 0.84628,
+      "feh": 0.06,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-1542 c",
+          "au": 0.0387,
+          "mass": 0.208,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-1542 b",
+          "au": 0.04765,
+          "mass": 0.363,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-1542 e",
+          "au": 0.05649,
+          "mass": 0.363,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-1542 d",
+          "au": 0.0629,
+          "mass": 0.59,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-164",
+      "M_star": 1.036,
+      "L_star": 1.42708,
+      "feh": 0.0,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-164 b",
+          "au": 0.058,
+          "mass": 2.57,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-164 c",
+          "au": 0.097,
+          "mass": 7.9,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-164 d",
+          "au": 0.187,
+          "mass": 6.57,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-164 e",
+          "au": 0.4025,
+          "mass": 16.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-167",
+      "M_star": 0.777,
+      "L_star": 0.28758,
+      "feh": 0.02,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-167 b",
+          "au": 0.04825,
+          "mass": 3.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-167 c",
+          "au": 0.0684,
+          "mass": 3.44,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-167 d",
+          "au": 0.1404,
+          "mass": 2.06,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-167 e",
+          "au": 1.883,
+          "mass": 321.00669107,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-172",
+      "M_star": 1.081,
+      "L_star": 0.989,
+      "feh": 0.39,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-172 b",
+          "au": 0.04,
+          "mass": 6.12,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-172 c",
+          "au": 0.068,
+          "mass": 8.55,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-172 d",
+          "au": 0.118,
+          "mass": 5.69,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-172 e",
+          "au": 0.211,
+          "mass": 8.05,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-176",
+      "M_star": 0.86,
+      "L_star": 0.53595,
+      "feh": 0.13,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-176 b",
+          "au": 0.058,
+          "mass": 290.537,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-176 c",
+          "au": 0.102,
+          "mass": 1.33,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-176 d",
+          "au": 0.163,
+          "mass": 1.72,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-176 e",
+          "au": 0.25654,
+          "mass": 0.52075,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-197",
+      "M_star": 0.857,
+      "L_star": 1.46857,
+      "feh": -0.441,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-197 b",
+          "au": 0.06,
+          "mass": 1.04,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-197 c",
+          "au": 0.09,
+          "mass": 5.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-197 d",
+          "au": 0.119,
+          "mass": 1.98,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-197 e",
+          "au": 0.164,
+          "mass": 0.693,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1987",
+      "M_star": 0.799,
+      "L_star": 0.23757,
+      "feh": 0.12,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-1987 b",
+          "au": 0.0318,
+          "mass": 2.04,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1987 c",
+          "au": 0.0427,
+          "mass": 2.33,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1987 d",
+          "au": 0.0571,
+          "mass": 7.56,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1987 e",
+          "au": 0.0765,
+          "mass": 4.35,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-208",
+      "M_star": 1.082,
+      "L_star": 2.14252,
+      "feh": -0.0423,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-208 b",
+          "au": 0.054,
+          "mass": 3.29,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-208 c",
+          "au": 0.079,
+          "mass": 2.51,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-208 d",
+          "au": 0.103,
+          "mass": 1.87,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-208 e",
+          "au": 0.132,
+          "mass": 2.79,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-215",
+      "M_star": 0.788,
+      "L_star": 1.03081,
+      "feh": -0.4425,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-215 b",
+          "au": 0.084,
+          "mass": 3.26,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-215 c",
+          "au": 0.113,
+          "mass": 3.78,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-215 d",
+          "au": 0.185,
+          "mass": 23.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-215 e",
+          "au": 0.314,
+          "mass": 3.71,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-220",
+      "M_star": 0.729,
+      "L_star": 0.18396,
+      "feh": -0.1738,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-220 b",
+          "au": 0.046,
+          "mass": 0.457,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-220 c",
+          "au": 0.076,
+          "mass": 3.09,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-220 d",
+          "au": 0.163,
+          "mass": 0.904,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-220 e",
+          "au": 0.226,
+          "mass": 2.33,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-221",
+      "M_star": 0.854,
+      "L_star": 0.45888,
+      "feh": 0.0616,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-221 b",
+          "au": 0.037,
+          "mass": 5.95575,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-221 c",
+          "au": 0.059,
+          "mass": 9.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-221 d",
+          "au": 0.087,
+          "mass": 3.61,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-221 e",
+          "au": 0.13,
+          "mass": 7.86706,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-223",
+      "M_star": 1.125,
+      "L_star": 3.02247,
+      "feh": 0.1,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-223 b",
+          "au": 0.07525,
+          "mass": 7.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-223 c",
+          "au": 0.09117,
+          "mass": 5.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-223 d",
+          "au": 0.11956,
+          "mass": 8.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-223 e",
+          "au": 0.14481,
+          "mass": 4.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-224",
+      "M_star": 0.777,
+      "L_star": 0.26104,
+      "feh": -0.06,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-224 b",
+          "au": 0.038,
+          "mass": 2.51,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-224 c",
+          "au": 0.058,
+          "mass": 9.91,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-224 d",
+          "au": 0.089,
+          "mass": 5.9,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-224 e",
+          "au": 0.124,
+          "mass": 4.54,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-235",
+      "M_star": 0.581,
+      "L_star": 0.09064,
+      "feh": -0.51,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-235 b",
+          "au": 0.037,
+          "mass": 5.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-235 c",
+          "au": 0.065,
+          "mass": 2.18,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-235 d",
+          "au": 0.122,
+          "mass": 4.86,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-235 e",
+          "au": 0.213,
+          "mass": 5.56,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-24",
+      "M_star": 1.06,
+      "L_star": 1.43676,
+      "feh": -0.0708,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-24 d",
+          "au": 0.051,
+          "mass": 293.959,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-24 b",
+          "au": 0.08045,
+          "mass": 11.14,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-24 c",
+          "au": 0.10612,
+          "mass": 9.99,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-24 e",
+          "au": 0.138,
+          "mass": 26.2118,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-245",
+      "M_star": 0.856,
+      "L_star": 0.38522,
+      "feh": 0.12,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-245 e",
+          "au": 0.04053,
+          "mass": 1806.36,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-245 b",
+          "au": 0.071,
+          "mass": 146.78,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-245 c",
+          "au": 0.124,
+          "mass": 26.7,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-245 d",
+          "au": 0.202,
+          "mass": 21.6,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-251",
+      "M_star": 0.891,
+      "L_star": 0.66545,
+      "feh": -0.06,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-251 b",
+          "au": 0.053,
+          "mass": 2.33,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-251 c",
+          "au": 0.122,
+          "mass": 8.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-251 d",
+          "au": 0.182,
+          "mass": 8.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-251 e",
+          "au": 0.404,
+          "mass": 8.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-256",
+      "M_star": 1.037,
+      "L_star": 1.44789,
+      "feh": 0.26,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-256 b",
+          "au": 0.027,
+          "mass": 3.15,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-256 c",
+          "au": 0.045,
+          "mass": 5.27,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-256 d",
+          "au": 0.064,
+          "mass": 6.71,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-256 e",
+          "au": 0.096,
+          "mass": 6.12,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-26",
+      "M_star": 0.544,
+      "L_star": 0.05543,
+      "feh": -0.13,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-26 d",
+          "au": 0.039,
+          "mass": 1.24,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-26 b",
+          "au": 0.08551,
+          "mass": 5.12,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-26 c",
+          "au": 0.10725,
+          "mass": 6.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-26 e",
+          "au": 0.22,
+          "mass": 6.39,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-265",
+      "M_star": 0.97,
+      "L_star": 1.2706,
+      "feh": -0.11,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-265 b",
+          "au": 0.069,
+          "mass": 4.12,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-265 c",
+          "au": 0.127,
+          "mass": 7.41,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-265 d",
+          "au": 0.236,
+          "mass": 6.76,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-265 e",
+          "au": 0.319,
+          "mass": 7.22,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-279",
+      "M_star": 1.2,
+      "L_star": 4.50226,
+      "feh": -0.1141,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-279 b",
+          "au": 0.112,
+          "mass": 4180.93,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-279 c",
+          "au": 0.2236,
+          "mass": 49.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-279 d",
+          "au": 0.2901,
+          "mass": 37.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-279 e",
+          "au": 0.439,
+          "mass": 56.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-282",
+      "M_star": 0.86,
+      "L_star": 0.72511,
+      "feh": -0.2,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-282 b",
+          "au": 0.082,
+          "mass": 1.01,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-282 c",
+          "au": 0.106,
+          "mass": 1.87,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-282 d",
+          "au": 0.15837,
+          "mass": 61.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-282 e",
+          "au": 0.23332,
+          "mass": 56.2,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-286",
+      "M_star": 0.83,
+      "L_star": 0.65051,
+      "feh": -0.25,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-286 b",
+          "au": 0.027,
+          "mass": 2.07,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-286 c",
+          "au": 0.042,
+          "mass": 2.45,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-286 d",
+          "au": 0.061,
+          "mass": 2.33,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-286 e",
+          "au": 0.176,
+          "mass": 3.78,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-289",
+      "M_star": 1.08,
+      "L_star": 1.15985,
+      "feh": 0.05,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-289 b",
+          "au": 0.21183,
+          "mass": 3.7,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-289 d",
+          "au": 0.33,
+          "mass": 5.33,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-289 c",
+          "au": 0.50155,
+          "mass": 157.18,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-289 e",
+          "au": 0.9342,
+          "mass": 17.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-299",
+      "M_star": 1.004,
+      "L_star": 0.95515,
+      "feh": 0.12,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-299 b",
+          "au": 0.04,
+          "mass": 2.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-299 c",
+          "au": 0.07,
+          "mass": 7.51,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-299 d",
+          "au": 0.118,
+          "mass": 4.12,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-299 e",
+          "au": 0.22,
+          "mass": 4.16,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-304",
+      "M_star": 0.737,
+      "L_star": 0.21302,
+      "feh": 0.03,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-304 e",
+          "au": 0.02317,
+          "mass": 1.87,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-304 b",
+          "au": 0.039,
+          "mass": 8.55,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-304 c",
+          "au": 0.054,
+          "mass": 5.35,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-304 d",
+          "au": 0.08,
+          "mass": 8.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-305",
+      "M_star": 0.76,
+      "L_star": 0.384,
+      "feh": 0.09,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-305 e",
+          "au": 0.04017,
+          "mass": 3.87,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-305 b",
+          "au": 0.05746,
+          "mass": 10.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-305 c",
+          "au": 0.07568,
+          "mass": 6.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-305 d",
+          "au": 0.12091,
+          "mass": 6.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-306",
+      "M_star": 0.75,
+      "L_star": 0.28053,
+      "feh": -0.13,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-306 b",
+          "au": 0.05,
+          "mass": 2.92,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-306 c",
+          "au": 0.067,
+          "mass": 6.12,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-306 d",
+          "au": 0.12,
+          "mass": 6.66,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-306 e",
+          "au": 0.227,
+          "mass": 5.77,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-324",
+      "M_star": 0.901,
+      "L_star": 0.47105,
+      "feh": 0.18,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-324 b",
+          "au": 0.05,
+          "mass": 2414.4,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-324 e",
+          "au": 0.10972,
+          "mass": 235.014,
+          "kind": "gas"
+        },
+        {
+          "name": "KOI-1831 d",
+          "au": 0.19924,
+          "mass": 2.23,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-324 c",
+          "au": 0.26,
+          "mass": 6.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-338",
+      "M_star": 1.105,
+      "L_star": 3.3378,
+      "feh": -0.029,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-338 e",
+          "au": 0.08979,
+          "mass": 8.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-338 b",
+          "au": 0.117,
+          "mass": 30.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-338 c",
+          "au": 0.172,
+          "mass": 6.08,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-338 d",
+          "au": 0.257,
+          "mass": 9.27,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-341",
+      "M_star": 0.976,
+      "L_star": 1.23416,
+      "feh": 0.07,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-341 b",
+          "au": 0.06,
+          "mass": 1.76,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-341 c",
+          "au": 0.08,
+          "mass": 3.53,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-341 d",
+          "au": 0.182,
+          "mass": 4.08,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-341 e",
+          "au": 0.242,
+          "mass": 4.62,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-342",
+      "M_star": 1.213,
+      "L_star": 2.8383,
+      "feh": -0.0006,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-342 e",
+          "au": 0.02909,
+          "mass": 0.615,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-342 b",
+          "au": 0.128,
+          "mass": 5.69,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-342 c",
+          "au": 0.185,
+          "mass": 4.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-342 d",
+          "au": 0.242,
+          "mass": 6.76,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-37",
+      "M_star": 0.79,
+      "L_star": 0.46189,
+      "feh": -0.36,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-37 b",
+          "au": 0.1019,
+          "mass": 0.79,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-37 c",
+          "au": 0.139,
+          "mass": 1.3,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-37 d",
+          "au": 0.2109,
+          "mass": 2.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-37 e",
+          "au": 0.25,
+          "mass": 8.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-402",
+      "M_star": 1.072,
+      "L_star": 1.97997,
+      "feh": -0.08,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-402 b",
+          "au": 0.051,
+          "mass": 1.98,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-402 c",
+          "au": 0.068,
+          "mass": 3.05,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-402 d",
+          "au": 0.087,
+          "mass": 2.48,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-402 e",
+          "au": 0.102,
+          "mass": 2.73,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-411",
+      "M_star": 0.87,
+      "L_star": 0.3708,
+      "feh": 0.21,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-411 b",
+          "au": 0.0375,
+          "mass": 25.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-411 c",
+          "au": 0.0739,
+          "mass": 26.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-411 e",
+          "au": 0.186,
+          "mass": 10.8,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-411 d",
+          "au": 0.279,
+          "mass": 15.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-49",
+      "M_star": 0.607,
+      "L_star": 0.09681,
+      "feh": 0.03,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-49 d",
+          "au": 0.031,
+          "mass": 235.982,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-49 b",
+          "au": 0.05929,
+          "mass": 9.77,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-49 c",
+          "au": 0.07821,
+          "mass": 8.38,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-49 e",
+          "au": 0.116,
+          "mass": 1.03815,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-58",
+      "M_star": 0.95,
+      "L_star": 1.11407,
+      "feh": 0.1,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-58 e",
+          "au": 0.0533,
+          "mass": 597.796,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-58 b",
+          "au": 0.09291,
+          "mass": 35.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-58 c",
+          "au": 0.12307,
+          "mass": 53.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-58 d",
+          "au": 0.236,
+          "mass": 245.343,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-65",
+      "M_star": 1.25,
+      "L_star": 2.6655,
+      "feh": 0.17,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-65 b",
+          "au": 0.035,
+          "mass": 2.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-65 c",
+          "au": 0.068,
+          "mass": 5.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-65 d",
+          "au": 0.084,
+          "mass": 4.14,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-65 e",
+          "au": 0.8539307544,
+          "mass": 260.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-68",
+      "M_star": 1.057,
+      "L_star": 1.6622,
+      "feh": 0.11,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-68 b",
+          "au": 0.06135,
+          "mass": 8.03,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-68 c",
+          "au": 0.09008,
+          "mass": 1.3,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-68 d",
+          "au": 1.469,
+          "mass": 267.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-68 e",
+          "au": 4.6,
+          "mass": 86.4493267,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-758",
+      "M_star": 1.16,
+      "L_star": 2.73316,
+      "feh": -0.1,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-758 c",
+          "au": 0.05768,
+          "mass": 3.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-758 e",
+          "au": 0.0829,
+          "mass": 2.96,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-758 b",
+          "au": 0.10754,
+          "mass": 6.71,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-758 d",
+          "au": 0.1527,
+          "mass": 5.14,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-79",
+      "M_star": 1.244,
+      "L_star": 2.59979,
+      "feh": 0.06,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-79 b",
+          "au": 0.11929,
+          "mass": 7.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-79 c",
+          "au": 0.19144,
+          "mass": 4.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-79 d",
+          "au": 0.2937,
+          "mass": 5.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-79 e",
+          "au": 0.39445,
+          "mass": 3.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-85",
+      "M_star": 0.928,
+      "L_star": 0.63358,
+      "feh": 0.12,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "Kepler-85 b",
+          "au": 0.07885,
+          "mass": 1.84,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-85 c",
+          "au": 0.10363,
+          "mass": 2.15,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-85 d",
+          "au": 0.13,
+          "mass": 8.69679,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-85 e",
+          "au": 0.163,
+          "mass": 0.6,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "LHS 1903",
+      "M_star": 0.538,
+      "L_star": 0.04717,
+      "feh": -0.11,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "LHS 1903 b",
+          "au": 0.02656,
+          "mass": 3.28,
+          "kind": "ice"
+        },
+        {
+          "name": "LHS 1903 c",
+          "au": 0.05387,
+          "mass": 4.55,
+          "kind": "ice"
+        },
+        {
+          "name": "LHS 1903 d",
+          "au": 0.08604,
+          "mass": 5.96,
+          "kind": "ice"
+        },
+        {
+          "name": "LHS 1903 e",
+          "au": 0.15135,
+          "mass": 5.79,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-1246",
+      "M_star": 0.87,
+      "L_star": 0.46909,
+      "feh": 0.17,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "TOI-1246 b",
+          "au": 0.049,
+          "mass": 8.1,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1246 c",
+          "au": 0.061,
+          "mass": 9.1,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1246 d",
+          "au": 0.132,
+          "mass": 5.4,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1246 e",
+          "au": 0.212,
+          "mass": 14.5,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-2076",
+      "M_star": 0.849,
+      "L_star": 0.37471,
+      "feh": -0.09,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "TOI-2076 e",
+          "au": 0.03863,
+          "mass": 4.7,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-2076 b",
+          "au": 0.08781,
+          "mass": 6.7,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-2076 c",
+          "au": 0.1407,
+          "mass": 7.2,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-2076 d",
+          "au": 0.1982,
+          "mass": 7.3,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-4010",
+      "M_star": 0.88,
+      "L_star": 0.37564,
+      "feh": 0.37,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "TOI-4010 b",
+          "au": 0.0229,
+          "mass": 11.0,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-4010 c",
+          "au": 0.058,
+          "mass": 20.31,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-4010 d",
+          "au": 0.113,
+          "mass": 38.15,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-4010 e",
+          "au": 1.57,
+          "mass": 692.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "TOI-561",
+      "M_star": 0.806,
+      "L_star": 0.52139,
+      "feh": -0.41,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "TOI-561 b",
+          "au": 0.01064,
+          "mass": 2.02,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-561 c",
+          "au": 0.0889,
+          "mass": 5.93,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-561 d",
+          "au": 0.1587,
+          "mass": 13.33,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-561 e",
+          "au": 0.33,
+          "mass": 12.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-5789",
+      "M_star": 0.821,
+      "L_star": 0.45183,
+      "feh": -0.12,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "TOI-5789 b",
+          "au": 0.03608,
+          "mass": 2.12,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-5789 c",
+          "au": 0.1009,
+          "mass": 5.0,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-5789 d",
+          "au": 0.1756,
+          "mass": 4.29,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-5789 e",
+          "au": 0.2901,
+          "mass": 11.61,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-700",
+      "M_star": 0.415,
+      "L_star": 0.02286,
+      "feh": -0.07,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "TOI-700 b",
+          "au": 0.0677,
+          "mass": 0.704,
+          "kind": "rocky"
+        },
+        {
+          "name": "TOI-700 c",
+          "au": 0.0929,
+          "mass": 7.27,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-700 e",
+          "au": 0.134,
+          "mass": 0.818,
+          "kind": "rocky"
+        },
+        {
+          "name": "TOI-700 d",
+          "au": 0.1633,
+          "mass": 1.25,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "V1298 Tau",
+      "M_star": 1.1,
+      "L_star": 0.95779,
+      "feh": 0.1,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "V1298 Tau c",
+          "au": 0.0824,
+          "mass": 4.7,
+          "kind": "ice"
+        },
+        {
+          "name": "V1298 Tau d",
+          "au": 0.1081,
+          "mass": 6.0,
+          "kind": "ice"
+        },
+        {
+          "name": "V1298 Tau b",
+          "au": 0.1685,
+          "mass": 13.1,
+          "kind": "ice"
+        },
+        {
+          "name": "V1298 Tau e",
+          "au": 0.2689,
+          "mass": 15.3,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "WASP-47",
+      "M_star": 1.058,
+      "L_star": 1.15471,
+      "feh": 0.43,
+      "n_planets": 4,
+      "planets": [
+        {
+          "name": "WASP-47 e",
+          "au": 0.01673,
+          "mass": 9.0,
+          "kind": "ice"
+        },
+        {
+          "name": "WASP-47 b",
+          "au": 0.052,
+          "mass": 374.0,
+          "kind": "gas"
+        },
+        {
+          "name": "WASP-47 d",
+          "au": 0.085,
+          "mass": 15.5,
+          "kind": "ice"
+        },
+        {
+          "name": "WASP-47 c",
+          "au": 1.393,
+          "mass": 447.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "47 UMa",
+      "M_star": 1.06,
+      "L_star": 1.5769,
+      "feh": 0.04,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "47 UMa b",
+          "au": 2.1,
+          "mass": 804.08,
+          "kind": "gas"
+        },
+        {
+          "name": "47 UMa c",
+          "au": 3.6,
+          "mass": 171.621,
+          "kind": "gas"
+        },
+        {
+          "name": "47 UMa d",
+          "au": 11.6,
+          "mass": 521.22,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "61 Vir",
+      "M_star": 0.942,
+      "L_star": 0.80826,
+      "feh": -0.01,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "61 Vir b",
+          "au": 0.050201,
+          "mass": 5.1,
+          "kind": "ice"
+        },
+        {
+          "name": "61 Vir c",
+          "au": 0.2175,
+          "mass": 18.2,
+          "kind": "ice"
+        },
+        {
+          "name": "61 Vir d",
+          "au": 0.476,
+          "mass": 22.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "DMPP-2",
+      "M_star": 1.41,
+      "L_star": 5.09552,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "DMPP-2 c",
+          "au": 0.04789,
+          "mass": 51.79,
+          "kind": "gas"
+        },
+        {
+          "name": "DMPP-2 b",
+          "au": 0.06638,
+          "mass": 171.48,
+          "kind": "gas"
+        },
+        {
+          "name": "DMPP-2 d",
+          "au": 0.1432,
+          "mass": 91.79,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "GJ 1061",
+      "M_star": 0.12,
+      "L_star": 0.00167,
+      "feh": -0.08,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 1061 b",
+          "au": 0.021,
+          "mass": 1.11,
+          "kind": "rocky"
+        },
+        {
+          "name": "GJ 1061 c",
+          "au": 0.0342,
+          "mass": 1.81,
+          "kind": "rocky"
+        },
+        {
+          "name": "GJ 1061 d",
+          "au": 0.054,
+          "mass": 1.67,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "GJ 163",
+      "M_star": 0.4,
+      "L_star": 0.0227,
+      "feh": 0.1,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 163 b",
+          "au": 0.0607,
+          "mass": 10.6,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 163 c",
+          "au": 0.1254,
+          "mass": 6.8,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 163 d",
+          "au": 1.0304,
+          "mass": 29.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 180",
+      "M_star": 0.43,
+      "L_star": 0.01985,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 180 b",
+          "au": 0.092,
+          "mass": 6.49,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 180 c",
+          "au": 0.129,
+          "mass": 6.4,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 180 d",
+          "au": 0.309,
+          "mass": 7.56,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 3138",
+      "M_star": 0.681,
+      "L_star": 0.04299,
+      "feh": -0.3,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 3138 b",
+          "au": 0.0197,
+          "mass": 1.78,
+          "kind": "rocky"
+        },
+        {
+          "name": "GJ 3138 c",
+          "au": 0.057,
+          "mass": 4.18,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 3138 d",
+          "au": 0.698,
+          "mass": 10.5,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 357",
+      "M_star": 0.342,
+      "L_star": 0.01544,
+      "feh": -0.12,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 357 b",
+          "au": 0.036,
+          "mass": 1.83,
+          "kind": "rocky"
+        },
+        {
+          "name": "GJ 357 c",
+          "au": 0.061,
+          "mass": 3.4,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 357 d",
+          "au": 0.204,
+          "mass": 6.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 3998",
+      "M_star": 0.52,
+      "L_star": 0.04341,
+      "feh": -0.13,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 3998 b",
+          "au": 0.03,
+          "mass": 2.5,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 3998 c",
+          "au": 0.09,
+          "mass": 6.82,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 3998 d",
+          "au": 0.189,
+          "mass": 6.07,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 433",
+      "M_star": 0.48,
+      "L_star": 0.03232,
+      "feh": -0.17,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 433 b",
+          "au": 0.062,
+          "mass": 6.043,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 433 d",
+          "au": 0.178,
+          "mass": 5.223,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 433 c",
+          "au": 4.819,
+          "mass": 32.422,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 581",
+      "M_star": 0.295,
+      "L_star": 0.01233,
+      "feh": -0.08,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 581 e",
+          "au": 0.02799,
+          "mass": 2.48,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 581 b",
+          "au": 0.0399,
+          "mass": 20.5,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 581 c",
+          "au": 0.0718,
+          "mass": 6.81,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "GJ 9827",
+      "M_star": 0.62,
+      "L_star": 0.09758,
+      "feh": -0.29,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "GJ 9827 b",
+          "au": 0.0189,
+          "mass": 4.28,
+          "kind": "ice"
+        },
+        {
+          "name": "GJ 9827 c",
+          "au": 0.0395,
+          "mass": 1.86,
+          "kind": "rocky"
+        },
+        {
+          "name": "GJ 9827 d",
+          "au": 0.053,
+          "mass": 3.02,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 11506",
+      "M_star": 1.22,
+      "L_star": 1.94713,
+      "feh": 0.3,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 11506 c",
+          "au": 0.771,
+          "mass": 127.1313628,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 11506 b",
+          "au": 2.885,
+          "mass": 1551.00262616,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 11506 d",
+          "au": 18.2,
+          "mass": 4068.2036096,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 125612",
+      "M_star": 1.05,
+      "L_star": 1.24989,
+      "feh": 0.23,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 125612 c",
+          "au": 0.051,
+          "mass": 15.57359194,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 125612 b",
+          "au": 1.349,
+          "mass": 945.22168242,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 125612 d",
+          "au": 3.982,
+          "mass": 2281.37230545,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 136352",
+      "M_star": 0.87,
+      "L_star": 1.03791,
+      "feh": -0.24,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 136352 b",
+          "au": 0.0964,
+          "mass": 4.72,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 136352 c",
+          "au": 0.1721,
+          "mass": 11.24,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 136352 d",
+          "au": 0.425,
+          "mass": 8.82,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 142",
+      "M_star": 1.21,
+      "L_star": 2.96114,
+      "feh": 0.09,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 142 A d",
+          "au": 0.474,
+          "mass": 82.63538582,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 142 b",
+          "au": 1.039,
+          "mass": 2256.5816897,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 142 c",
+          "au": 9.811,
+          "mass": 3464.64746471,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 153557",
+      "M_star": 0.79,
+      "L_star": 0.27385,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 153557 b",
+          "au": 0.068,
+          "mass": 20.34101805,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 153557 c",
+          "au": 0.111,
+          "mass": 17.48056238,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 153557 d",
+          "au": 21.449,
+          "mass": 8725.66108578,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 176986",
+      "M_star": 0.789,
+      "L_star": 0.32572,
+      "feh": 0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 176986 b",
+          "au": 0.062956,
+          "mass": 1487.75477317,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 176986 c",
+          "au": 0.11873,
+          "mass": 2097.98531461,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 176986 d",
+          "au": 0.28149,
+          "mass": 6.76,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 181433",
+      "M_star": 0.86,
+      "L_star": 0.32893,
+      "feh": 0.4012,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 181433 b",
+          "au": 0.0828,
+          "mass": 1708.64551603,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 181433 c",
+          "au": 1.885,
+          "mass": 2207.00045821,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 181433 d",
+          "au": 6.74,
+          "mass": 858.1366989,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 190360",
+      "M_star": 0.996,
+      "L_star": 1.11893,
+      "feh": 0.26,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 190360 c",
+          "au": 0.1298,
+          "mass": 26.2,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 190360 d",
+          "au": 0.3886,
+          "mass": 11.9,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 190360 b",
+          "au": 3.965,
+          "mass": 537.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 204313",
+      "M_star": 1.03,
+      "L_star": 1.20581,
+      "feh": 0.18,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 204313 c",
+          "au": 0.211,
+          "mass": 17.16273398,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 204313 b",
+          "au": 3.185,
+          "mass": 1466.7780983,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 204313 e",
+          "au": 7.457,
+          "mass": 4868.17771002,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 224018",
+      "M_star": 1.013,
+      "L_star": 1.32658,
+      "feh": 0.05,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 224018 b",
+          "au": 0.0952,
+          "mass": 4.1,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 224018 c",
+          "au": 0.217,
+          "mass": 10.4,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 224018 d",
+          "au": 0.53,
+          "mass": 4.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 22946",
+      "M_star": 1.098,
+      "L_star": 1.62802,
+      "feh": -0.08,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-411 b",
+          "au": 0.05727,
+          "mass": 13.71,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-411 c",
+          "au": 0.1017,
+          "mass": 9.72,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 22946 d",
+          "au": 0.2958,
+          "mass": 26.57,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 27894",
+      "M_star": 0.81,
+      "L_star": 0.40467,
+      "feh": 0.3,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 27894 b",
+          "au": 0.125,
+          "mass": 196.73578393,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 27894 c",
+          "au": 0.198,
+          "mass": 51.48846,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 27894 d",
+          "au": 5.362,
+          "mass": 2063.65984665,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 28109",
+      "M_star": 1.227,
+      "L_star": 2.68415,
+      "feh": 0.1,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 28109 b",
+          "au": 0.1357,
+          "mass": 6.2,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 28109 c",
+          "au": 0.308,
+          "mass": 9.2,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 28109 d",
+          "au": 0.411,
+          "mass": 5.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 28471",
+      "M_star": 0.98,
+      "L_star": 1.16156,
+      "feh": -0.04,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 28471 b",
+          "au": 0.042,
+          "mass": 3.72,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 28471 c",
+          "au": 0.065,
+          "mass": 5.72,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 28471 d",
+          "au": 0.1,
+          "mass": 4.91,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 31527",
+      "M_star": 0.96,
+      "L_star": 1.25683,
+      "feh": -0.17,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 31527 b",
+          "au": 0.1254,
+          "mass": 10.47,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 31527 c",
+          "au": 0.2663,
+          "mass": 14.16,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 31527 d",
+          "au": 0.8098,
+          "mass": 11.82,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 37124",
+      "M_star": 0.85,
+      "L_star": 0.85598,
+      "feh": -0.44,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 37124 b",
+          "au": 0.53364,
+          "mass": 214.53525,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 37124 c",
+          "au": 1.71,
+          "mass": 207.22516,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 37124 d",
+          "au": 2.807,
+          "mass": 221.20968,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 39091",
+      "M_star": 1.07,
+      "L_star": 1.59622,
+      "feh": 0.09,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "pi Men c",
+          "au": 0.06839,
+          "mass": 3.63,
+          "kind": "ice"
+        },
+        {
+          "name": "pi Men d",
+          "au": 0.506,
+          "mass": 13.38,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 39091 b",
+          "au": 3.28,
+          "mass": 4481.3805387,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 39194",
+      "M_star": 0.86,
+      "L_star": 0.40619,
+      "feh": -0.61,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 39194 b",
+          "au": 0.05895,
+          "mass": 4.62,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 39194 c",
+          "au": 0.1083,
+          "mass": 7.49,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 39194 d",
+          "au": 0.1949,
+          "mass": 5.16,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 48948",
+      "M_star": 0.686,
+      "L_star": 0.18485,
+      "feh": -0.21,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 48948 b",
+          "au": 0.0652,
+          "mass": 4.88,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 48948 c",
+          "au": 0.1951,
+          "mass": 7.27,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 48948 d",
+          "au": 0.4894,
+          "mass": 10.59,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 63433",
+      "M_star": 0.956,
+      "L_star": 0.74731,
+      "feh": -0.07,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 63433 d",
+          "au": 0.0503,
+          "mass": 1.25,
+          "kind": "rocky"
+        },
+        {
+          "name": "HD 63433 b",
+          "au": 0.072,
+          "mass": 21.755,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 63433 c",
+          "au": 0.146,
+          "mass": 15.539,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 69830",
+      "M_star": 0.86,
+      "L_star": 0.59598,
+      "feh": -0.05,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 69830 b",
+          "au": 0.0785,
+          "mass": 10.2,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 69830 c",
+          "au": 0.186,
+          "mass": 11.8,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 69830 d",
+          "au": 0.63,
+          "mass": 18.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 73344",
+      "M_star": 1.2,
+      "L_star": 2.04954,
+      "feh": 0.143,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 73344 b",
+          "au": 0.131,
+          "mass": 10.48,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 73344 c",
+          "au": 0.3388,
+          "mass": 118.54999581,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 73344 d",
+          "au": 6.7,
+          "mass": 810.46243785,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 7924",
+      "M_star": 0.65,
+      "L_star": 0.37992,
+      "feh": -0.21,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 7924 b",
+          "au": 0.06,
+          "mass": 2058.25676373,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 7924 c",
+          "au": 0.1134,
+          "mass": 1762.67634522,
+          "kind": "gas"
+        },
+        {
+          "name": "HD 7924 d",
+          "au": 0.1551,
+          "mass": 1568.16536014,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HD 93385",
+      "M_star": 1.04,
+      "L_star": 1.61416,
+      "feh": 0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 93385 b",
+          "au": 0.0756,
+          "mass": 4.2,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 93385 c",
+          "au": 0.112,
+          "mass": 7.1,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 93385 d",
+          "au": 0.2565,
+          "mass": 8.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HD 96700",
+      "M_star": 0.89,
+      "L_star": 1.41497,
+      "feh": -0.18,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HD 96700 b",
+          "au": 0.0777,
+          "mass": 8.9,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 96700 c",
+          "au": 0.141,
+          "mass": 3.5,
+          "kind": "ice"
+        },
+        {
+          "name": "HD 96700 d",
+          "au": 0.424,
+          "mass": 12.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "HIP 14810",
+      "M_star": 1.01,
+      "L_star": 0.97444,
+      "feh": 0.24,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HIP 14810 b",
+          "au": 0.0696,
+          "mass": 1239.537,
+          "kind": "gas"
+        },
+        {
+          "name": "HIP 14810 c",
+          "au": 0.549,
+          "mass": 416.3573,
+          "kind": "gas"
+        },
+        {
+          "name": "HIP 14810 d",
+          "au": 1.94,
+          "mass": 187.5197,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HIP 57274",
+      "M_star": 0.29,
+      "L_star": 0.22677,
+      "feh": 0.01,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HIP 57274 b",
+          "au": 0.07,
+          "mass": 3359.44626199,
+          "kind": "gas"
+        },
+        {
+          "name": "HIP 57274 c",
+          "au": 0.178,
+          "mass": 130.0,
+          "kind": "gas"
+        },
+        {
+          "name": "HIP 57274 d",
+          "au": 1.01,
+          "mass": 167.4,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "HR 858",
+      "M_star": 1.204,
+      "L_star": 2.32405,
+      "feh": 0.025,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HR 858 b",
+          "au": 0.04888,
+          "mass": 3.55,
+          "kind": "ice"
+        },
+        {
+          "name": "HR 858 c",
+          "au": 0.0687,
+          "mass": 3.8,
+          "kind": "ice"
+        },
+        {
+          "name": "HR 858 d",
+          "au": 0.1046,
+          "mass": 7.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-136",
+      "M_star": 0.742,
+      "L_star": 0.16933,
+      "feh": -0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-136 b",
+          "au": 0.0707,
+          "mass": 4.3,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-136 c",
+          "au": 0.1185,
+          "mass": 18.1,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-136 d",
+          "au": 0.1538,
+          "mass": 3.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-148",
+      "M_star": 0.65,
+      "L_star": 0.09962,
+      "feh": -0.11,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-148 b",
+          "au": 0.0454,
+          "mass": 2.33,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-148 c",
+          "au": 0.0616,
+          "mass": 3.64,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-148 d",
+          "au": 0.0774,
+          "mass": 3.33,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-155",
+      "M_star": 0.65,
+      "L_star": 0.09963,
+      "feh": -0.3,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-155 b",
+          "au": 0.0562,
+          "mass": 3.89,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-155 c",
+          "au": 0.0946,
+          "mass": 7.27,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-155 d",
+          "au": 0.1937,
+          "mass": 4.27,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-157",
+      "M_star": 0.89,
+      "L_star": 0.53939,
+      "feh": 0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-157 b",
+          "au": 0.00962,
+          "mass": 1.14,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-157 c",
+          "au": 0.165,
+          "mass": 30.8,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-157 d",
+          "au": 0.309,
+          "mass": 23.3,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-19",
+      "M_star": 0.88,
+      "L_star": 0.48598,
+      "feh": 0.06,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-19 d",
+          "au": 0.03478,
+          "mass": 6.2,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-19 b",
+          "au": 0.07487,
+          "mass": 30.8,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-19 c",
+          "au": 0.0982,
+          "mass": 11.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-233",
+      "M_star": 0.79,
+      "L_star": 0.24029,
+      "feh": -0.082,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-233 b",
+          "au": 0.03293,
+          "mass": 2.4,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-233 c",
+          "au": 0.0664,
+          "mass": 4.6,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-233 d",
+          "au": 0.1516,
+          "mass": 10.3,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-239",
+      "M_star": 0.4,
+      "L_star": 0.01597,
+      "feh": -0.1,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-239 b",
+          "au": 0.0441,
+          "mass": 1.37,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-239 c",
+          "au": 0.0576,
+          "mass": 0.972,
+          "kind": "rocky"
+        },
+        {
+          "name": "K2-239 d",
+          "au": 0.0685,
+          "mass": 1.37,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "K2-3",
+      "M_star": 0.549,
+      "L_star": 0.05864,
+      "feh": -0.157,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-3 b",
+          "au": 0.0747,
+          "mass": 5.11,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-3 c",
+          "au": 0.1357,
+          "mass": 2.68,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-3 d",
+          "au": 0.2014,
+          "mass": 2.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-37",
+      "M_star": 0.84,
+      "L_star": 0.48379,
+      "feh": -0.08,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-37 b",
+          "au": 0.05105,
+          "mass": 2.51,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-37 c",
+          "au": 0.06534,
+          "mass": 6.39,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-37 d",
+          "au": 0.1102,
+          "mass": 12.5,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "K2-58",
+      "M_star": 0.89,
+      "L_star": 0.57206,
+      "feh": 0.11,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "K2-58 c",
+          "au": 0.035,
+          "mass": 3.26,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-58 b",
+          "au": 0.0692,
+          "mass": 7.65,
+          "kind": "ice"
+        },
+        {
+          "name": "K2-58 d",
+          "au": 0.1517,
+          "mass": 3.57,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "KOI-142",
+      "M_star": 0.99,
+      "L_star": 0.64708,
+      "feh": 0.27,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "KOI-142 b",
+          "au": 0.09586,
+          "mass": 9.5,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-142 c",
+          "au": 0.154121003,
+          "mass": 214.1,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-88 d",
+          "au": 2.466329866,
+          "mass": 965.14699656,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-10",
+      "M_star": 0.91,
+      "L_star": 1.08475,
+      "feh": -0.15,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-10 b",
+          "au": 0.01685,
+          "mass": 3.24,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-10 c",
+          "au": 0.241,
+          "mass": 11.29,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-10 d",
+          "au": 0.5379,
+          "mass": 12.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-104",
+      "M_star": 0.818,
+      "L_star": 1.74408,
+      "feh": -0.42,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-104 b",
+          "au": 0.094,
+          "mass": 19.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-104 c",
+          "au": 0.153,
+          "mass": 7.14430805,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-104 d",
+          "au": 0.257,
+          "mass": 5.54022107,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1073",
+      "M_star": 1.0,
+      "L_star": 1.01393,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-1073 d",
+          "au": 0.0352,
+          "mass": 2.82,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1073 c",
+          "au": 0.0483,
+          "mass": 3.33,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1073 b",
+          "au": 0.0805,
+          "mass": 5.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1130",
+      "M_star": 0.9,
+      "L_star": 0.50374,
+      "feh": -0.06,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-1130 c",
+          "au": 0.04238,
+          "mass": 0.422,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-1130 d",
+          "au": 0.05068,
+          "mass": 0.202,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-1130 b",
+          "au": 0.05963,
+          "mass": 0.437,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-114",
+      "M_star": 0.77,
+      "L_star": 0.18025,
+      "feh": 0.2291,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-114 b",
+          "au": 0.053,
+          "mass": 1.09,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-114 c",
+          "au": 0.06482,
+          "mass": 2.8,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-114 d",
+          "au": 0.08358,
+          "mass": 3.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-124",
+      "M_star": 0.706,
+      "L_star": 0.22486,
+      "feh": -0.46,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-124 b",
+          "au": 0.039,
+          "mass": 0.315,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-124 c",
+          "au": 0.1,
+          "mass": 3.71,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-124 d",
+          "au": 0.17,
+          "mass": 1.41,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1254",
+      "M_star": 0.78,
+      "L_star": 0.31295,
+      "feh": -0.1,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-1254 c",
+          "au": 0.0422,
+          "mass": 2.24,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1254 d",
+          "au": 0.0575,
+          "mass": 2.27,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1254 b",
+          "au": 0.0833,
+          "mass": 3.02,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-126",
+      "M_star": 1.108,
+      "L_star": 2.51741,
+      "feh": -0.16,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-126 b",
+          "au": 0.099,
+          "mass": 4.11726105,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-126 c",
+          "au": 0.162,
+          "mass": 1.27942148,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-126 d",
+          "au": 0.448,
+          "mass": 54.59018723,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-127",
+      "M_star": 1.248,
+      "L_star": 2.31292,
+      "feh": 0.2142,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-127 b",
+          "au": 0.125,
+          "mass": 2.54,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-127 c",
+          "au": 0.2,
+          "mass": 7.56,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-127 d",
+          "au": 0.28,
+          "mass": 7.46,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-129",
+      "M_star": 1.178,
+      "L_star": 2.72862,
+      "feh": 0.29,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-129 b",
+          "au": 0.13,
+          "mass": 20.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-129 c",
+          "au": 0.39,
+          "mass": 43.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-129 d",
+          "au": 4.0,
+          "mass": 2637.9757781,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-130",
+      "M_star": 0.927,
+      "L_star": 1.37162,
+      "feh": -0.199,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-130 b",
+          "au": 0.079,
+          "mass": 1.04,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-130 c",
+          "au": 0.178,
+          "mass": 8.75,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-130 d",
+          "au": 0.377,
+          "mass": 3.33,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1311",
+      "M_star": 1.05,
+      "L_star": 1.9276,
+      "feh": 0.09,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-1311 c",
+          "au": 0.03753,
+          "mass": 1.98,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-1311 b",
+          "au": 0.10082,
+          "mass": 2.07,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1311 d",
+          "au": 0.68434,
+          "mass": 67.5,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1321",
+      "M_star": 0.54,
+      "L_star": 0.07109,
+      "feh": -0.45,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-1321 c",
+          "au": 0.0267,
+          "mass": 6.35,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1321 d",
+          "au": 0.0501,
+          "mass": 7.41,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1321 b",
+          "au": 0.0781,
+          "mass": 21.5,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-142",
+      "M_star": 0.978,
+      "L_star": 1.63054,
+      "feh": 0.05,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-142 b",
+          "au": 0.032,
+          "mass": 4.62,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-142 c",
+          "au": 0.057,
+          "mass": 8.55,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-142 d",
+          "au": 0.242,
+          "mass": 5.31,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1468",
+      "M_star": 1.04,
+      "L_star": 1.1979,
+      "feh": 0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-1468 c",
+          "au": 0.0466,
+          "mass": 1.6,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-1468 b",
+          "au": 0.0817,
+          "mass": 3.64,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1468 d",
+          "au": 0.1456,
+          "mass": 11.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-148",
+      "M_star": 0.86,
+      "L_star": 0.50403,
+      "feh": 0.14,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-148 b",
+          "au": 0.028,
+          "mass": 3.89,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-148 c",
+          "au": 0.05,
+          "mass": 12.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-148 d",
+          "au": 0.2607,
+          "mass": 56.3,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-149",
+      "M_star": 1.013,
+      "L_star": 0.68601,
+      "feh": 0.3805,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-149 b",
+          "au": 0.184,
+          "mass": 16.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-149 c",
+          "au": 0.281,
+          "mass": 3.22,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-149 d",
+          "au": 0.571,
+          "mass": 14.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1530",
+      "M_star": 0.92,
+      "L_star": 0.62781,
+      "feh": 0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-1530 b",
+          "au": 0.03553,
+          "mass": 3.33,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1530 c",
+          "au": 0.05744,
+          "mass": 3.36,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1530 d",
+          "au": 0.08276,
+          "mass": 10.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-157",
+      "M_star": 0.95,
+      "L_star": 1.09145,
+      "feh": -0.0593,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-157 b",
+          "au": 0.028,
+          "mass": 2.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-157 d",
+          "au": 0.0706,
+          "mass": 2.73,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-157 c",
+          "au": 0.11,
+          "mass": 5.65,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-160",
+      "M_star": 1.003,
+      "L_star": 1.00889,
+      "feh": 0.2,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-160 b",
+          "au": 0.05511,
+          "mass": 3.59,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-160 c",
+          "au": 0.1192,
+          "mass": 13.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-160 d",
+          "au": 0.17,
+          "mass": 100.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-166",
+      "M_star": 0.811,
+      "L_star": 0.42585,
+      "feh": -0.08,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-166 d",
+          "au": 0.02449,
+          "mass": 3.64,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-166 b",
+          "au": 0.072,
+          "mass": 5.77,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-166 c",
+          "au": 0.195,
+          "mass": 6.26,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-1669",
+      "M_star": 0.67,
+      "L_star": 0.15753,
+      "feh": -0.23,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-1669 c",
+          "au": 0.0228,
+          "mass": 4.27,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-1669 d",
+          "au": 0.0468,
+          "mass": 1.98,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-1669 b",
+          "au": 0.0745,
+          "mass": 8.15,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-171",
+      "M_star": 0.978,
+      "L_star": 0.64262,
+      "feh": 0.17,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-171 b",
+          "au": 0.05,
+          "mass": 6.08,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-171 c",
+          "au": 0.098,
+          "mass": 7.08,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-171 d",
+          "au": 0.223,
+          "mass": 4.23,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-174",
+      "M_star": 0.602,
+      "L_star": 0.19768,
+      "feh": -0.56,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-174 b",
+          "au": 0.1,
+          "mass": 4.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-174 c",
+          "au": 0.214,
+          "mass": 2.83,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-174 d",
+          "au": 0.677,
+          "mass": 5.43,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-178",
+      "M_star": 0.852,
+      "L_star": 1.06262,
+      "feh": -0.04,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-178 b",
+          "au": 0.085,
+          "mass": 8.75,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-178 c",
+          "au": 0.142,
+          "mass": 8.65,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-178 d",
+          "au": 0.397,
+          "mass": 14.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-18",
+      "M_star": 0.972,
+      "L_star": 0.90274,
+      "feh": 0.19,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-18 b",
+          "au": 0.0447,
+          "mass": 6.9,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-18 c",
+          "au": 0.0752,
+          "mass": 17.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-18 d",
+          "au": 0.1172,
+          "mass": 16.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-184",
+      "M_star": 0.872,
+      "L_star": 0.77061,
+      "feh": -0.1958,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-184 b",
+          "au": 0.092,
+          "mass": 6.17,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-184 c",
+          "au": 0.141,
+          "mass": 8.8,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-184 d",
+          "au": 0.179,
+          "mass": 6.76,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-191",
+      "M_star": 0.857,
+      "L_star": 0.43656,
+      "feh": 0.13,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-191 d",
+          "au": 0.06104,
+          "mass": 5.82,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-191 b",
+          "au": 0.087,
+          "mass": 2.36,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-191 c",
+          "au": 0.128,
+          "mass": 4.12,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-192",
+      "M_star": 1.028,
+      "L_star": 0.8233,
+      "feh": 0.357,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-192 d",
+          "au": 0.0686,
+          "mass": 1.04,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-192 b",
+          "au": 0.09,
+          "mass": 7.95,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-192 c",
+          "au": 0.15,
+          "mass": 8.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-194",
+      "M_star": 0.94,
+      "L_star": 1.30115,
+      "feh": -0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-194 b",
+          "au": 0.032,
+          "mass": 2.89,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-194 c",
+          "au": 0.131,
+          "mass": 7.22,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-194 d",
+          "au": 0.275,
+          "mass": 6.35,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-196",
+      "M_star": 0.839,
+      "L_star": 0.38098,
+      "feh": 0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-196 b",
+          "au": 0.138,
+          "mass": 4.27,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-196 c",
+          "au": 0.24,
+          "mass": 5.65,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-196 d",
+          "au": 0.4545,
+          "mass": 7.56,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-198",
+      "M_star": 0.995,
+      "L_star": 0.76845,
+      "feh": 0.1142,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-198 d",
+          "au": 0.02342,
+          "mass": 2.96,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-198 b",
+          "au": 0.131,
+          "mass": 8.35,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-198 c",
+          "au": 0.259,
+          "mass": 6.66,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-203",
+      "M_star": 1.06,
+      "L_star": 1.28368,
+      "feh": 0.08,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-203 b",
+          "au": 0.043,
+          "mass": 7.13,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-203 c",
+          "au": 0.061,
+          "mass": 749.9,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-203 d",
+          "au": 0.1,
+          "mass": 33.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-206",
+      "M_star": 0.957,
+      "L_star": 1.39646,
+      "feh": 0.0213,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-206 b",
+          "au": 0.078,
+          "mass": 1.87,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-206 c",
+          "au": 0.111,
+          "mass": 3.78,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-206 d",
+          "au": 0.163,
+          "mass": 1.81,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-207",
+      "M_star": 1.313,
+      "L_star": 2.7905,
+      "feh": 0.29,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-207 b",
+          "au": 0.029,
+          "mass": 3.09,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-207 c",
+          "au": 0.044,
+          "mass": 2.86,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-207 d",
+          "au": 0.068,
+          "mass": 11.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-217",
+      "M_star": 1.342,
+      "L_star": 4.22843,
+      "feh": -0.07,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-217 d",
+          "au": 0.0534,
+          "mass": 2.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-217 b",
+          "au": 0.065,
+          "mass": 5.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-217 c",
+          "au": 0.089,
+          "mass": 4.08,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-218",
+      "M_star": 1.019,
+      "L_star": 0.93292,
+      "feh": 0.37,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-218 b",
+          "au": 0.046,
+          "mass": 2.79,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-218 c",
+          "au": 0.248,
+          "mass": 10.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-218 d",
+          "au": 0.49884,
+          "mass": 7.56,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-219",
+      "M_star": 1.164,
+      "L_star": 2.24473,
+      "feh": 0.36,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-219 b",
+          "au": 0.057,
+          "mass": 9.01,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-219 c",
+          "au": 0.165,
+          "mass": 12.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-219 d",
+          "au": 0.272,
+          "mass": 19.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-222",
+      "M_star": 0.933,
+      "L_star": 0.59278,
+      "feh": 0.33,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-222 b",
+          "au": 0.048,
+          "mass": 10.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-222 c",
+          "au": 0.091,
+          "mass": 19.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-222 d",
+          "au": 0.18,
+          "mass": 13.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-226",
+      "M_star": 0.904,
+      "L_star": 0.55818,
+      "feh": 0.09,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-226 b",
+          "au": 0.047,
+          "mass": 24.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-226 c",
+          "au": 0.058,
+          "mass": 45.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-226 d",
+          "au": 0.076,
+          "mass": 1.98,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-228",
+      "M_star": 1.006,
+      "L_star": 1.23532,
+      "feh": 0.18,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-228 b",
+          "au": 0.038,
+          "mass": 2.96,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-228 c",
+          "au": 0.052,
+          "mass": 7.75,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-228 d",
+          "au": 0.101,
+          "mass": 15.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-229",
+      "M_star": 0.808,
+      "L_star": 0.32812,
+      "feh": 0.06,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-229 b",
+          "au": 0.062,
+          "mass": 5.48,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-229 c",
+          "au": 0.117,
+          "mass": 21.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-229 d",
+          "au": 0.22,
+          "mass": 14.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-23",
+      "M_star": 1.078,
+      "L_star": 2.49066,
+      "feh": -0.112,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-23 b",
+          "au": 0.07212,
+          "mass": 2.56,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-23 c",
+          "au": 0.09501,
+          "mass": 7.81,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-23 d",
+          "au": 0.12012,
+          "mass": 4.44,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-244",
+      "M_star": 0.933,
+      "L_star": 0.55278,
+      "feh": 0.07,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-244 b",
+          "au": 0.05,
+          "mass": 8.05,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-244 c",
+          "au": 0.087,
+          "mass": 4.86,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-244 d",
+          "au": 0.14,
+          "mass": 15.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-247",
+      "M_star": 0.887,
+      "L_star": 0.3595,
+      "feh": 0.3,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-247 b",
+          "au": 0.042,
+          "mass": 3.33,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-247 c",
+          "au": 0.084,
+          "mass": 15.7,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-247 d",
+          "au": 0.14,
+          "mass": 14.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-249",
+      "M_star": 0.510238,
+      "L_star": 0.03392,
+      "feh": -0.34,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-249 b",
+          "au": 0.035,
+          "mass": 1.32,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-249 c",
+          "au": 0.058,
+          "mass": 2.89,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-249 d",
+          "au": 0.097,
+          "mass": 3.09,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-25",
+      "M_star": 1.165,
+      "L_star": 2.54329,
+      "feh": 0.11,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-25 b",
+          "au": 0.0695,
+          "mass": 8.7,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-25 c",
+          "au": 0.1117,
+          "mass": 15.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-25 d",
+          "au": 0.4164221832,
+          "mass": 71.9,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-250",
+      "M_star": 0.806,
+      "L_star": 0.41389,
+      "feh": 0.01,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-250 b",
+          "au": 0.048,
+          "mass": 1.51,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-250 c",
+          "au": 0.069,
+          "mass": 5.82,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-250 d",
+          "au": 0.127,
+          "mass": 5.39,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-253",
+      "M_star": 0.86,
+      "L_star": 0.40947,
+      "feh": 0.15,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-253 b",
+          "au": 0.046,
+          "mass": 3.29,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-253 c",
+          "au": 0.089,
+          "mass": 7.51,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-253 d",
+          "au": 0.13,
+          "mass": 10.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-254",
+      "M_star": 0.849,
+      "L_star": 0.93948,
+      "feh": -0.13,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-254 b",
+          "au": 0.064,
+          "mass": 14.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-254 c",
+          "au": 0.105,
+          "mass": 3.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-254 d",
+          "au": 0.139,
+          "mass": 6.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-255",
+      "M_star": 0.867,
+      "L_star": 0.75651,
+      "feh": 0.3386,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-255 d",
+          "au": 0.0192,
+          "mass": 2.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-255 b",
+          "au": 0.063,
+          "mass": 3.02,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-255 c",
+          "au": 0.092,
+          "mass": 9.22,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-257",
+      "M_star": 0.916,
+      "L_star": 0.69754,
+      "feh": 0.4,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-257 b",
+          "au": 0.034,
+          "mass": 7.32,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-257 c",
+          "au": 0.066,
+          "mass": 25.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-257 d",
+          "au": 0.16,
+          "mass": 21.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-267",
+      "M_star": 0.541571,
+      "L_star": 0.09122,
+      "feh": -0.18,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-267 b",
+          "au": 0.037,
+          "mass": 37.9,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-267 c",
+          "au": 0.06,
+          "mass": 5.18,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-267 d",
+          "au": 0.154,
+          "mass": 5.77,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-27",
+      "M_star": 0.65,
+      "L_star": 0.26667,
+      "feh": 0.41,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-27 d",
+          "au": 0.06578,
+          "mass": 7.78,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-27 b",
+          "au": 0.118,
+          "mass": 2895.31,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-27 c",
+          "au": 0.191,
+          "mass": 4385.87,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-271",
+      "M_star": 0.9,
+      "L_star": 0.64934,
+      "feh": -0.13,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-271 d",
+          "au": 0.05554,
+          "mass": 0.219,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-271 c",
+          "au": 0.06993,
+          "mass": 0.809,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-271 b",
+          "au": 0.08784,
+          "mass": 2.04,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-272",
+      "M_star": 0.91,
+      "L_star": 0.61213,
+      "feh": 0.04,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-272 b",
+          "au": 0.038,
+          "mass": 78.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-272 c",
+          "au": 0.061,
+          "mass": 97.8,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-272 d",
+          "au": 0.091,
+          "mass": 5.69,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-275",
+      "M_star": 1.189,
+      "L_star": 2.48927,
+      "feh": 0.08,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-275 b",
+          "au": 0.098,
+          "mass": 6.08,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-275 c",
+          "au": 0.132,
+          "mass": 11.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-275 d",
+          "au": 0.224,
+          "mass": 11.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-276",
+      "M_star": 0.845,
+      "L_star": 1.36931,
+      "feh": -0.29,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-276 b",
+          "au": 0.119,
+          "mass": 731.209,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-276 c",
+          "au": 0.18619,
+          "mass": 16.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-276 d",
+          "au": 0.24666,
+          "mass": 16.3,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-281",
+      "M_star": 0.95,
+      "L_star": 0.7811,
+      "feh": 0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-281 b",
+          "au": 0.117,
+          "mass": 324.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-281 c",
+          "au": 0.215,
+          "mass": 161.124,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-281 d",
+          "au": 0.5456,
+          "mass": 654.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-288",
+      "M_star": 0.842,
+      "L_star": 1.31536,
+      "feh": -0.24,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-288 b",
+          "au": 0.065,
+          "mass": 3.43,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-288 c",
+          "au": 0.14,
+          "mass": 8.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-288 d",
+          "au": 0.287,
+          "mass": 7.61,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-290",
+      "M_star": 0.756,
+      "L_star": 0.34905,
+      "feh": -0.1,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-290 d",
+          "au": 0.0154,
+          "mass": 0.566,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-290 b",
+          "au": 0.11,
+          "mass": 5.69,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-290 c",
+          "au": 0.205,
+          "mass": 7.75,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-295",
+      "M_star": 0.89,
+      "L_star": 0.71603,
+      "feh": -0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-295 b",
+          "au": 0.099,
+          "mass": 1.98,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-295 c",
+          "au": 0.142,
+          "mass": 1.71,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-295 d",
+          "au": 0.192,
+          "mass": 2.42,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-297",
+      "M_star": 0.927,
+      "L_star": 0.75192,
+      "feh": -0.11,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-297 b",
+          "au": 0.217,
+          "mass": 48.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-297 c",
+          "au": 0.336,
+          "mass": 42.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-297 d",
+          "au": 0.523,
+          "mass": null,
+          "kind": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-298",
+      "M_star": 0.66,
+      "L_star": 0.12129,
+      "feh": -0.21,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-298 b",
+          "au": 0.08,
+          "mass": 4.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-298 c",
+          "au": 0.136,
+          "mass": 4.38,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-298 d",
+          "au": 0.305,
+          "mass": 6.8,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-30",
+      "M_star": 0.99,
+      "L_star": 0.74295,
+      "feh": 0.18,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-30 b",
+          "au": 0.18,
+          "mass": 11.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-30 c",
+          "au": 0.3,
+          "mass": 640.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-30 d",
+          "au": 0.5,
+          "mass": 23.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-301",
+      "M_star": 1.022,
+      "L_star": 0.83441,
+      "feh": 0.187,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-301 b",
+          "au": 0.036,
+          "mass": 2.39,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-301 c",
+          "au": 0.06,
+          "mass": 2.39,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-301 d",
+          "au": 0.112,
+          "mass": 3.71,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-31",
+      "M_star": 1.21,
+      "L_star": 2.16656,
+      "feh": -0.076,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-31 b",
+          "au": 0.16,
+          "mass": 36.7418,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-31 c",
+          "au": 0.26,
+          "mass": 1493.7,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-31 d",
+          "au": 0.4,
+          "mass": 2161.244,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-310",
+      "M_star": 0.854,
+      "L_star": 0.78076,
+      "feh": -0.12,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-310 b",
+          "au": 0.111,
+          "mass": 1.81,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-310 c",
+          "au": 0.281,
+          "mass": 11.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-310 d",
+          "au": 0.392,
+          "mass": 7.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-311",
+      "M_star": 0.994,
+      "L_star": 1.54599,
+      "feh": -0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-311 b",
+          "au": 0.087,
+          "mass": 3.53,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-311 c",
+          "au": 0.145,
+          "mass": 2.63,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-311 d",
+          "au": 0.7326,
+          "mass": 4.86,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-319",
+      "M_star": 0.933,
+      "L_star": 0.68504,
+      "feh": 0.06,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-319 b",
+          "au": 0.051,
+          "mass": 3.29,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-319 c",
+          "au": 0.069,
+          "mass": 7.41,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-319 d",
+          "au": 0.191,
+          "mass": 5.86,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-325",
+      "M_star": 0.914,
+      "L_star": 0.99214,
+      "feh": 0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-325 b",
+          "au": 0.053,
+          "mass": 8.8,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-325 c",
+          "au": 0.105,
+          "mass": 6.99,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-325 d",
+          "au": 0.22,
+          "mass": 8.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-326",
+      "M_star": 0.91,
+      "L_star": 0.39259,
+      "feh": 0.2385,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-326 b",
+          "au": 0.032,
+          "mass": 44.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-326 c",
+          "au": 0.051,
+          "mass": 17.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-326 d",
+          "au": 0.066,
+          "mass": 6.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-327",
+      "M_star": 0.591913,
+      "L_star": 0.04543,
+      "feh": -0.2,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-327 b",
+          "au": 0.029,
+          "mass": 1.41,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-327 c",
+          "au": 0.047,
+          "mass": 20.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-327 d",
+          "au": 0.09,
+          "mass": 3.64,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-331",
+      "M_star": 0.653,
+      "L_star": 0.07787,
+      "feh": 0.1179,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-331 b",
+          "au": 0.065,
+          "mass": 3.97,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-331 c",
+          "au": 0.105,
+          "mass": 4.04,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-331 d",
+          "au": 0.159,
+          "mass": 3.33,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-332",
+      "M_star": 0.743,
+      "L_star": 0.28154,
+      "feh": -0.13,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-332 b",
+          "au": 0.07,
+          "mass": 1.71,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-332 c",
+          "au": 0.114,
+          "mass": 1.32,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-332 d",
+          "au": 0.189,
+          "mass": 1.76,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-334",
+      "M_star": 1.022,
+      "L_star": 1.18554,
+      "feh": -0.012,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-334 b",
+          "au": 0.061,
+          "mass": 1.46,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-334 c",
+          "au": 0.107,
+          "mass": 2.63,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-334 d",
+          "au": 0.168,
+          "mass": 2.57,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-336",
+      "M_star": 1.09,
+      "L_star": 1.81516,
+      "feh": 0.337,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-336 b",
+          "au": 0.033,
+          "mass": 1.04,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-336 c",
+          "au": 0.092,
+          "mass": 5.06,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-336 d",
+          "au": 0.154,
+          "mass": 6.21,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-339",
+      "M_star": 0.87,
+      "L_star": 0.58262,
+      "feh": 0.033,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-339 b",
+          "au": 0.055,
+          "mass": 2.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-339 c",
+          "au": 0.069,
+          "mass": 7.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-339 d",
+          "au": 0.091,
+          "mass": 14.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-347",
+      "M_star": 0.922,
+      "L_star": 1.25004,
+      "feh": -0.14,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-347 b",
+          "au": 0.11,
+          "mass": 4.54,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-347 c",
+          "au": 0.183,
+          "mass": 3.71,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-347 d",
+          "au": 0.3802,
+          "mass": 9.48,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-350",
+      "M_star": 1.19,
+      "L_star": 3.10445,
+      "feh": 0.041,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-350 b",
+          "au": 0.104,
+          "mass": 16.9,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-350 c",
+          "au": 0.1385,
+          "mass": 6.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-350 d",
+          "au": 0.1786,
+          "mass": 14.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-351",
+      "M_star": 0.81,
+      "L_star": 0.66627,
+      "feh": -0.16,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-351 b",
+          "au": 0.214,
+          "mass": 4.8,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-351 c",
+          "au": 0.287,
+          "mass": 11.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-351 d",
+          "au": 0.5177,
+          "mass": 7.85,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-352",
+      "M_star": 0.798,
+      "L_star": 0.40552,
+      "feh": -0.11,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-352 d",
+          "au": 0.06574,
+          "mass": 0.449,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-352 b",
+          "au": 0.085,
+          "mass": 0.566,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-352 c",
+          "au": 0.118,
+          "mass": 2.07,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-354",
+      "M_star": 0.652,
+      "L_star": 0.19102,
+      "feh": -0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-354 b",
+          "au": 0.054,
+          "mass": 4.04,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-354 c",
+          "au": 0.115,
+          "mass": 2.27,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-354 d",
+          "au": 0.146,
+          "mass": 2.07,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-357",
+      "M_star": 0.794,
+      "L_star": 0.40306,
+      "feh": 0.06,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-357 b",
+          "au": 0.063,
+          "mass": 4.04,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-357 c",
+          "au": 0.12,
+          "mass": 7.61,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-357 d",
+          "au": 0.246,
+          "mass": 11.6,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-359",
+      "M_star": 0.827,
+      "L_star": 1.61927,
+      "feh": -0.29,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-359 b",
+          "au": 0.178,
+          "mass": 12.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-359 c",
+          "au": 0.307,
+          "mass": 2.9,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-359 d",
+          "au": 0.372,
+          "mass": 2.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-363",
+      "M_star": 1.226,
+      "L_star": 1.94414,
+      "feh": 0.3965,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-363 b",
+          "au": 0.048,
+          "mass": 1.65,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-363 c",
+          "au": 0.079,
+          "mass": 66.4,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-363 d",
+          "au": 0.107,
+          "mass": 4.86,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-372",
+      "M_star": 1.202,
+      "L_star": 2.09061,
+      "feh": -0.13,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-372 b",
+          "au": 0.075,
+          "mass": 2.42,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-372 c",
+          "au": 0.154,
+          "mass": 5.02,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-372 d",
+          "au": 0.201,
+          "mass": 3.5,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-374",
+      "M_star": 1.033,
+      "L_star": 0.95426,
+      "feh": 0.1111,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-374 b",
+          "au": 0.029,
+          "mass": 1.08,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-374 c",
+          "au": 0.042,
+          "mass": 1.37,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-374 d",
+          "au": 0.056,
+          "mass": 2.27,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-381",
+      "M_star": 1.144,
+      "L_star": 3.17287,
+      "feh": -0.2016,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-381 b",
+          "au": 0.066,
+          "mass": 0.937,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-381 d",
+          "au": 0.08364,
+          "mass": 1.23,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-381 c",
+          "au": 0.117,
+          "mass": 1.46,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-385",
+      "M_star": 0.992,
+      "L_star": 1.82931,
+      "feh": 0.01,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-385 b",
+          "au": 0.097,
+          "mass": 12.8,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-385 c",
+          "au": 0.127,
+          "mass": 13.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-385 d",
+          "au": 0.2872,
+          "mass": 7.36,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-394",
+      "M_star": 0.87,
+      "L_star": 1.93932,
+      "feh": -0.3,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-394 d",
+          "au": 0.05904,
+          "mass": 2.86,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-394 b",
+          "au": 0.083,
+          "mass": 3.19,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-394 c",
+          "au": 0.11,
+          "mass": 3.39,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-398",
+      "M_star": 0.649,
+      "L_star": 0.13796,
+      "feh": 0.0528,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-398 b",
+          "au": 0.044,
+          "mass": 0.749,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-398 d",
+          "au": 0.0618,
+          "mass": 0.615,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-398 c",
+          "au": 0.087,
+          "mass": 1.01,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-399",
+      "M_star": 0.902,
+      "L_star": 0.38176,
+      "feh": 0.14,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-399 b",
+          "au": 0.103,
+          "mass": 0.84,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-399 c",
+          "au": 0.155,
+          "mass": 2.63,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-399 d",
+          "au": 0.261,
+          "mass": 4.23,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-401",
+      "M_star": 1.173,
+      "L_star": 2.24135,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-401 b",
+          "au": 0.122,
+          "mass": 3.57,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-401 c",
+          "au": 0.269,
+          "mass": 5.27,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-401 d",
+          "au": 0.66886,
+          "mass": 5.77,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-403",
+      "M_star": 1.299,
+      "L_star": 2.18884,
+      "feh": 0.079,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-403 b",
+          "au": 0.076,
+          "mass": 2.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-403 d",
+          "au": 0.12178,
+          "mass": 2.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-403 c",
+          "au": 0.297,
+          "mass": 3.71,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-416",
+      "M_star": 1.0,
+      "L_star": 1.11298,
+      "feh": 0.1259,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-416 d",
+          "au": 0.0407,
+          "mass": 3.22,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-416 b",
+          "au": 0.0674,
+          "mass": 58.2,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-416 c",
+          "au": 0.10454,
+          "mass": 6.13,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-42",
+      "M_star": 0.13,
+      "L_star": 0.00231,
+      "feh": -0.33,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-42 c",
+          "au": 0.006,
+          "mass": 60.337,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-42 b",
+          "au": 0.0116,
+          "mass": 0.705944,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-42 d",
+          "au": 0.0154,
+          "mass": 0.357785,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-431",
+      "M_star": 1.071,
+      "L_star": 1.39606,
+      "feh": 0.07,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-431 b",
+          "au": 0.0719,
+          "mass": 0.37,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-431 c",
+          "au": 0.0847,
+          "mass": 0.229,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-431 d",
+          "au": 0.1045,
+          "mass": 1.41,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-445",
+      "M_star": 0.18,
+      "L_star": 0.00395,
+      "feh": 0.27,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-445 b",
+          "au": 0.0217,
+          "mass": 3.12,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-445 c",
+          "au": 0.0301,
+          "mass": 6.85,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-445 d",
+          "au": 0.0439,
+          "mass": 2.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-446",
+      "M_star": 0.22,
+      "L_star": 0.00661,
+      "feh": -0.3,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-446 b",
+          "au": 0.0182,
+          "mass": 2.86,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-446 c",
+          "au": 0.0283,
+          "mass": 1.41,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-446 d",
+          "au": 0.0403,
+          "mass": 2.39,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-450",
+      "M_star": 1.19,
+      "L_star": 3.58117,
+      "feh": 0.1278,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-450 d",
+          "au": 0.0827,
+          "mass": 17.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-450 c",
+          "au": 0.13351,
+          "mass": 12.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-450 b",
+          "au": 0.20092,
+          "mass": 19.4,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-454",
+      "M_star": 1.03,
+      "L_star": 1.07088,
+      "feh": 0.32,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-454 b",
+          "au": 0.09528,
+          "mass": 5.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-454 c",
+          "au": 1.287,
+          "mass": 1433.40611557,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-454 d",
+          "au": 5.1,
+          "mass": 734.18362017,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-46",
+      "M_star": 0.902,
+      "L_star": 0.55978,
+      "feh": 0.41,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-46 d",
+          "au": 0.067,
+          "mass": 3.33,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-46 b",
+          "au": 0.1968,
+          "mass": 1907.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-46 c",
+          "au": 0.2799,
+          "mass": 119.499,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-47",
+      "M_star": 0.957,
+      "L_star": 0.7964,
+      "feh": -0.25,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-47 b",
+          "au": 0.2877,
+          "mass": 2.07,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-47 d",
+          "au": 0.6992,
+          "mass": 19.02,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-47 c",
+          "au": 0.9638,
+          "mass": 3.17,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-487",
+      "M_star": 0.91,
+      "L_star": 0.61282,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-487 d",
+          "au": 0.03445,
+          "mass": 8.12,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-487 b",
+          "au": 0.11819,
+          "mass": null,
+          "kind": "unknown"
+        },
+        {
+          "name": "Kepler-487 c",
+          "au": 0.21864,
+          "mass": 7.65,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-51",
+      "M_star": 1.04,
+      "L_star": 1.04414,
+      "feh": 0.05,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-51 b",
+          "au": 0.2514,
+          "mass": 2.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-51 c",
+          "au": 0.384,
+          "mass": 4.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-51 d",
+          "au": 0.509,
+          "mass": 7.6,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-52",
+      "M_star": 0.54,
+      "L_star": 0.06718,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-52 b",
+          "au": 0.0637,
+          "mass": 135.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-52 c",
+          "au": 0.10379,
+          "mass": 45.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-52 d",
+          "au": 0.182,
+          "mass": 88.8775,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-529",
+      "M_star": 1.07,
+      "L_star": 1.60738,
+      "feh": -0.1,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-529 b",
+          "au": 0.0309,
+          "mass": 4.12,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-529 c",
+          "au": 0.1075,
+          "mass": 4.66,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-529 d",
+          "au": 0.2134,
+          "mass": 8.22,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-53",
+      "M_star": 0.98,
+      "L_star": 0.84037,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-53 d",
+          "au": 0.091,
+          "mass": 37.1907,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-53 b",
+          "au": 0.1361,
+          "mass": 111.0,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-53 c",
+          "au": 0.22091,
+          "mass": 36.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-54",
+      "M_star": 0.51,
+      "L_star": 0.04244,
+      "feh": -0.27,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-54 b",
+          "au": 0.0619,
+          "mass": 0.98,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-54 c",
+          "au": 0.0809,
+          "mass": 0.7,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-54 d",
+          "au": 0.126,
+          "mass": 12.0946,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-549",
+      "M_star": 0.88,
+      "L_star": 0.5247,
+      "feh": -0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-549 d",
+          "au": 0.1575,
+          "mass": 16.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-549 b",
+          "au": 0.23236,
+          "mass": 11.0,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-549 c",
+          "au": 0.45332,
+          "mass": 8.91,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-60",
+      "M_star": 1.041,
+      "L_star": 1.73079,
+      "feh": -0.09,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-60 b",
+          "au": 0.07255,
+          "mass": 4.19,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-60 c",
+          "au": 0.08422,
+          "mass": 3.85,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-60 d",
+          "au": 0.10203,
+          "mass": 4.16,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-603",
+      "M_star": 1.01,
+      "L_star": 1.04579,
+      "feh": 0.03,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-603 d",
+          "au": 0.07117,
+          "mass": 2.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-603 b",
+          "au": 0.16052,
+          "mass": 7.51,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-603 c",
+          "au": 0.53439,
+          "mass": 34.5,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-616",
+      "M_star": 0.98,
+      "L_star": 0.92857,
+      "feh": -0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-616 b",
+          "au": 0.0927,
+          "mass": 6.48,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-616 d",
+          "au": 0.2749,
+          "mass": 7.52,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-616 c",
+          "au": 0.4024,
+          "mass": 11.5,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-619",
+      "M_star": 1.09,
+      "L_star": 1.41953,
+      "feh": 0.05,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-619 c",
+          "au": 0.02216,
+          "mass": 3.5,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-619 b",
+          "au": 0.06014,
+          "mass": 10.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-619 d",
+          "au": 0.1021,
+          "mass": 16.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-763",
+      "M_star": 0.84,
+      "L_star": 0.41067,
+      "feh": 0.01,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-763 b",
+          "au": 0.0205,
+          "mass": 1.98,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-763 c",
+          "au": 0.0466,
+          "mass": 2.6,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-763 d",
+          "au": 0.0634,
+          "mass": 3.43,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-770",
+      "M_star": 0.94,
+      "L_star": 0.74886,
+      "feh": -0.01,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-770 c",
+          "au": 0.0309,
+          "mass": 1.87,
+          "kind": "rocky"
+        },
+        {
+          "name": "Kepler-770 d",
+          "au": 0.0616,
+          "mass": 2.54,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-770 b",
+          "au": 0.1694,
+          "mass": 5.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-81",
+      "M_star": 0.64,
+      "L_star": 0.11595,
+      "feh": -0.18,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-81 b",
+          "au": 0.0522,
+          "mass": 17.2,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-81 c",
+          "au": 0.08347,
+          "mass": 4.3,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-81 d",
+          "au": 0.128,
+          "mass": 1.92,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-83",
+      "M_star": 0.66,
+      "L_star": 0.09308,
+      "feh": -0.2,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-83 d",
+          "au": 0.051,
+          "mass": 4.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-83 b",
+          "au": 0.07295,
+          "mass": 2.94,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-83 c",
+          "au": 0.11796,
+          "mass": 2.03,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-9",
+      "M_star": 1.022,
+      "L_star": 0.91904,
+      "feh": 0.05,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-9 d",
+          "au": 0.0273,
+          "mass": 8.41466053,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-9 b",
+          "au": 0.143,
+          "mass": 43.4,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-9 c",
+          "au": 0.227,
+          "mass": 29.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-92",
+      "M_star": 1.21,
+      "L_star": 3.1188,
+      "feh": 0.1381,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-92 b",
+          "au": 0.12232,
+          "mass": 64.3,
+          "kind": "gas"
+        },
+        {
+          "name": "Kepler-92 c",
+          "au": 0.19054,
+          "mass": 6.1,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-92 d",
+          "au": 0.28682,
+          "mass": 11.8666806,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "Kepler-968",
+      "M_star": 0.681,
+      "L_star": 0.15201,
+      "feh": 0.13,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Kepler-968 b",
+          "au": 0.0389,
+          "mass": 4.66,
+          "kind": "ice"
+        },
+        {
+          "name": "Kepler-968 c",
+          "au": 0.052,
+          "mass": 3.5,
+          "kind": "ice"
+        },
+        {
+          "name": "KOI-1833 d",
+          "au": 0.0634,
+          "mass": 11.02,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "LHS 1678",
+      "M_star": 0.345,
+      "L_star": 0.01447,
+      "feh": 0.0,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "LHS 1678 b",
+          "au": 0.01239,
+          "mass": 0.35,
+          "kind": "rocky"
+        },
+        {
+          "name": "LHS 1678 c",
+          "au": 0.0327,
+          "mass": 1.4,
+          "kind": "rocky"
+        },
+        {
+          "name": "LHS 1678 d",
+          "au": 0.04,
+          "mass": 0.907,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "LP 791-18",
+      "M_star": 0.139,
+      "L_star": 0.00229,
+      "feh": -0.09,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "LP 791-18 b",
+          "au": 0.00978,
+          "mass": 1.94,
+          "kind": "rocky"
+        },
+        {
+          "name": "LP 791-18 d",
+          "au": 0.01992,
+          "mass": 0.91,
+          "kind": "rocky"
+        },
+        {
+          "name": "LP 791-18 c",
+          "au": 0.02961,
+          "mass": 7.16,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-1117",
+      "M_star": 0.97,
+      "L_star": 1.0015,
+      "feh": 0.136,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-1117 b",
+          "au": 0.033,
+          "mass": 8.9,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1117 c",
+          "au": 0.0534,
+          "mass": 8.78,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1117 d",
+          "au": 0.0817,
+          "mass": 10.71,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-125",
+      "M_star": 0.859,
+      "L_star": 0.51896,
+      "feh": -0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-125 b",
+          "au": 0.05186,
+          "mass": 9.5,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-125 c",
+          "au": 0.0814,
+          "mass": 6.63,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-125 d",
+          "au": 0.137,
+          "mass": 13.6,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-1260",
+      "M_star": 0.679,
+      "L_star": 0.12989,
+      "feh": -0.1,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-1260 b",
+          "au": 0.0367,
+          "mass": 8.56,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1260 c",
+          "au": 0.0657,
+          "mass": 13.2,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1260 d",
+          "au": 0.1116,
+          "mass": 11.84,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-1266",
+      "M_star": 0.437,
+      "L_star": 0.026,
+      "feh": -0.109,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-1266 b",
+          "au": 0.073,
+          "mass": 4.46,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1266 c",
+          "au": 0.105,
+          "mass": 3.17,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1266 d",
+          "au": 0.1513,
+          "mass": 3.68,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-1749",
+      "M_star": 0.58,
+      "L_star": 0.06873,
+      "feh": -0.26,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-1749 b",
+          "au": 0.0291,
+          "mass": 57.0,
+          "kind": "gas"
+        },
+        {
+          "name": "TOI-1749 c",
+          "au": 0.0443,
+          "mass": 14.0,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-1749 d",
+          "au": 0.0707,
+          "mass": 15.0,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-201",
+      "M_star": 1.32,
+      "L_star": 2.63141,
+      "feh": 0.24,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-201 d",
+          "au": 0.0698,
+          "mass": 5.8,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-201 b",
+          "au": 0.303,
+          "mass": 164.0,
+          "kind": "gas"
+        },
+        {
+          "name": "TOI-201 c",
+          "au": 4.37,
+          "mass": 4990.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "TOI-2141",
+      "M_star": 0.896,
+      "L_star": 0.81982,
+      "feh": -0.14,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-2141 c",
+          "au": 0.0585,
+          "mass": 6.14,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-2141 b",
+          "au": 0.1322,
+          "mass": 20.1,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-2141 d",
+          "au": 0.2906,
+          "mass": 14.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-270",
+      "M_star": 0.386,
+      "L_star": 0.01966,
+      "feh": -0.17,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-270 b",
+          "au": 0.03197,
+          "mass": 1.48,
+          "kind": "rocky"
+        },
+        {
+          "name": "TOI-270 c",
+          "au": 0.04526,
+          "mass": 6.2,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-270 d",
+          "au": 0.0721,
+          "mass": 4.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-431",
+      "M_star": 0.78,
+      "L_star": 0.26638,
+      "feh": 0.2,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-431 b",
+          "au": 0.0113,
+          "mass": 3.07,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-431 c",
+          "au": 0.052,
+          "mass": 2.83,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-431 d",
+          "au": 0.098,
+          "mass": 9.9,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-4504",
+      "M_star": 0.89,
+      "L_star": 0.60853,
+      "feh": 0.16,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-4504 b",
+          "au": 0.03392,
+          "mass": 7.71,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-4504 d",
+          "au": 0.2219,
+          "mass": 450.23572136,
+          "kind": "gas"
+        },
+        {
+          "name": "TOI-4504 c",
+          "au": 0.3569,
+          "mass": 1197.32317485,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "TOI-451",
+      "M_star": 0.93,
+      "L_star": 0.59132,
+      "feh": 0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-451 b",
+          "au": 0.0274,
+          "mass": 4.7,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-451 c",
+          "au": 0.0795,
+          "mass": 3.7,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-451 d",
+          "au": 0.1168,
+          "mass": 10.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-469",
+      "M_star": 0.901,
+      "L_star": 0.67708,
+      "feh": 0.24,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "HIP 29442 c",
+          "au": 0.04518,
+          "mass": 4.5,
+          "kind": "ice"
+        },
+        {
+          "name": "HIP 29442 d",
+          "au": 0.0673,
+          "mass": 5.14,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-469.01",
+          "au": 0.111,
+          "mass": 9.1,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-663",
+      "M_star": 0.514,
+      "L_star": 0.04336,
+      "feh": 0.07,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-663 b",
+          "au": 0.0295,
+          "mass": 4.45,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-663 c",
+          "au": 0.0437,
+          "mass": 3.65,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-663 d",
+          "au": 0.0576,
+          "mass": 5.2,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-712",
+      "M_star": 0.732,
+      "L_star": 0.18678,
+      "feh": -0.02,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-712 b",
+          "au": 0.07928,
+          "mass": 4.85,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-712 c",
+          "au": 0.2447,
+          "mass": 7.76,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-712 d",
+          "au": 0.3405,
+          "mass": 6.68,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "TOI-7510",
+      "M_star": 1.063,
+      "L_star": 1.03314,
+      "feh": 0.25,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "TOI-7510 b",
+          "au": 0.1019,
+          "mass": 18.1,
+          "kind": "ice"
+        },
+        {
+          "name": "TOI-7510 c",
+          "au": 0.1595,
+          "mass": 131.0,
+          "kind": "gas"
+        },
+        {
+          "name": "TOI-7510 d",
+          "au": 0.2672,
+          "mass": 190.0,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "WASP-132",
+      "M_star": 0.789,
+      "L_star": 0.2496,
+      "feh": 0.15,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "WASP-132 c",
+          "au": 0.01833,
+          "mass": 6.26,
+          "kind": "ice"
+        },
+        {
+          "name": "WASP-132 b",
+          "au": 0.0674,
+          "mass": 136.0305582,
+          "kind": "gas"
+        },
+        {
+          "name": "WASP-132 d",
+          "au": 2.71,
+          "mass": 1639.99458012,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "Wolf 1061",
+      "M_star": 0.294,
+      "L_star": 0.01059,
+      "feh": -0.09,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "Wolf 1061 b",
+          "au": 0.0375,
+          "mass": 1.91,
+          "kind": "rocky"
+        },
+        {
+          "name": "Wolf 1061 c",
+          "au": 0.089,
+          "mass": 3.41,
+          "kind": "ice"
+        },
+        {
+          "name": "Wolf 1061 d",
+          "au": 0.47,
+          "mass": 7.7,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "XO-2 S",
+      "M_star": 0.98,
+      "L_star": 0.75366,
+      "feh": 0.32,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "XO-2 S b",
+          "au": 0.1347,
+          "mass": 82.63538582,
+          "kind": "gas"
+        },
+        {
+          "name": "XO-2 S c",
+          "au": 0.4737,
+          "mass": 438.60320166,
+          "kind": "gas"
+        },
+        {
+          "name": "XO-2 S d",
+          "au": 5.46,
+          "mass": 1179.14338997,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "YZ Cet",
+      "M_star": 0.142,
+      "L_star": 0.00219,
+      "feh": -0.18,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "YZ Cet b",
+          "au": 0.01634,
+          "mass": 0.7,
+          "kind": "rocky"
+        },
+        {
+          "name": "YZ Cet c",
+          "au": 0.02156,
+          "mass": 1.14,
+          "kind": "rocky"
+        },
+        {
+          "name": "YZ Cet d",
+          "au": 0.02851,
+          "mass": 1.09,
+          "kind": "rocky"
+        }
+      ]
+    },
+    {
+      "name": "bet Pic",
+      "M_star": 1.789,
+      "L_star": 8.97053,
+      "feh": -0.21,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "bet Pic c",
+          "au": 2.7,
+          "mass": 2765.1071409,
+          "kind": "gas"
+        },
+        {
+          "name": "bet Pic b",
+          "au": 10.07,
+          "mass": 2765.1071409,
+          "kind": "gas"
+        },
+        {
+          "name": "bet Pic d",
+          "au": 26.0,
+          "mass": 762.7881768,
+          "kind": "gas"
+        }
+      ]
+    },
+    {
+      "name": "rho CrB",
+      "M_star": 1.0,
+      "L_star": 1.91273,
+      "feh": -0.2,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "rho CrB e",
+          "au": 0.1061,
+          "mass": 3.71,
+          "kind": "ice"
+        },
+        {
+          "name": "rho CrB b",
+          "au": 0.2245,
+          "mass": 347.995,
+          "kind": "gas"
+        },
+        {
+          "name": "rho CrB c",
+          "au": 0.4206,
+          "mass": 27.442,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "tau Cet",
+      "M_star": 0.783,
+      "L_star": 0.49343,
+      "feh": -0.52,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "tau Cet g",
+          "au": 0.133,
+          "mass": 1.75,
+          "kind": "rocky"
+        },
+        {
+          "name": "tau Cet h",
+          "au": 0.243,
+          "mass": 1.83,
+          "kind": "rocky"
+        },
+        {
+          "name": "tau Cet f",
+          "au": 1.334,
+          "mass": 3.93,
+          "kind": "ice"
+        }
+      ]
+    },
+    {
+      "name": "ups And",
+      "M_star": 1.3,
+      "L_star": 3.15033,
+      "feh": 0.1014,
+      "n_planets": 3,
+      "planets": [
+        {
+          "name": "ups And b",
+          "au": 0.05922166,
+          "mass": 218.531,
+          "kind": "gas"
+        },
+        {
+          "name": "ups And c",
+          "au": 0.827774,
+          "mass": 4443.24112986,
+          "kind": "gas"
+        },
+        {
+          "name": "ups And d",
+          "au": 2.51329,
+          "mass": 3257.74117175,
+          "kind": "gas"
+        }
+      ]
+    }
+  ]
+}

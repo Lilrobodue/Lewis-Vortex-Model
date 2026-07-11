@@ -1,0 +1,30 @@
+════════════════════════════════════════════════════════════════
+M5 TRAINING RESULT — solar system (honest report, guide §7)
+════════════════════════════════════════════════════════════════
+planets predicted: 3   observed: 8
+χ² (total): 1.61468   χ² (position only): 0.11468
+RMS position error: 0.1955 dex  (≈ ×1.57, i.e. 57% in a)
+
+per-observed-planet match:
+  planet      a_obs    a_pred     Δdex
+  Mercury     0.387     0.180   -0.332
+  Venus       0.723         —   MISSED
+  Earth       1.000         —   MISSED
+  Mars        1.524         —   MISSED
+  Jupiter     5.203     4.530   -0.060
+  Saturn      9.537         —   MISSED
+  Uranus     19.190         —   MISSED
+  Neptune    30.070    28.085   -0.030
+
+best-fit global parameters:
+  sigma0       = 2329.1803
+  p            = 0.7718
+  T0           = 370.9607
+  r_disk       = 77.5779
+  t_disk       = 5.6803
+  dust_to_gas  = 0.0263
+  f_ice        = 2.6290
+  M_crit       = 13.0626
+  K            = 8.9455
+  f_capture    = 0.7099
+════════════════════════════════════════════════════════════════

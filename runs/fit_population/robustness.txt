@@ -1,0 +1,8 @@
+Population-fit params, beat-geometric-null rate across independent train/test splits
+(50 train / 263 test, disjoint; test systems never seen by the optimizer):
+  split seed  432:  26.6%   pass_both 17.5%   med_rms 0.053
+  split seed    7:  28.9%   pass_both 19.4%   med_rms 0.053
+  split seed   99:  25.9%   pass_both 18.6%   med_rms 0.061
+  split seed 2024:  26.2%   pass_both 17.5%   med_rms 0.053
+Baseline (solar-fit params): beat-geometric 5.7% (chance ~5%).
+Mean ~26.9% = ~5x chance, ~16 sigma over the 5% baseline; stable across splits.

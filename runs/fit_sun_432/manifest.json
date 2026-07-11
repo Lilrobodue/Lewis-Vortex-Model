@@ -1,0 +1,61 @@
+{
+  "system": "sun",
+  "seed": 432,
+  "git": "1f41ef8",
+  "n_steps": 500,
+  "params": {
+    "sigma0": 2329.180330768248,
+    "p": 0.7717647708352073,
+    "T0": 370.96069612383565,
+    "r_disk": 77.57785396006838,
+    "t_disk": 5.680317175830325,
+    "dust_to_gas": 0.026277339605902946,
+    "f_ice": 2.6289943303167806,
+    "M_crit": 13.06260866254107,
+    "K": 8.945515509643721,
+    "f_capture": 0.7098769751391081
+  },
+  "disk": {
+    "star": "sun",
+    "r_snow_AU": 4.7617,
+    "r_co2_AU": 28.084,
+    "r_co_AU": 77.5779,
+    "dz_in_AU": 0.1699,
+    "dz_out_AU": 33.6726
+  },
+  "traps_AU": [
+    0.1684,
+    4.4094,
+    27.3337
+  ],
+  "complete_log": true,
+  "architecture": [
+    {
+      "id": 0,
+      "a_AU": 0.1802,
+      "mass_Me": 273.7484,
+      "kind": "gas",
+      "seed_zone": "inner_disk",
+      "trapped": true,
+      "pq": null
+    },
+    {
+      "id": 21,
+      "a_AU": 4.53,
+      "mass_Me": 734.2643,
+      "kind": "gas",
+      "seed_zone": "beyond_snow",
+      "trapped": true,
+      "pq": null
+    },
+    {
+      "id": 22,
+      "a_AU": 28.0846,
+      "mass_Me": 399.9986,
+      "kind": "gas",
+      "seed_zone": "beyond_snow",
+      "trapped": true,
+      "pq": null
+    }
+  ]
+}

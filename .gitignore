@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Run artifacts — keep the small manifest, ignore heavy logs/plots
+runs/**/*.jsonl
+runs/**/*.png
+runs/**/*.npz
+!runs/**/manifest.json
+
+# Raw NASA archive dump (4 MB; re-downloadable via the documented PSCompPars query).
+# The derived data/held_out.json is small, records its source CSV, and IS committed.
+PSCompPars_*.csv
