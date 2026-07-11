@@ -1,0 +1,16 @@
+{
+  "model": "corrected-physics (flux-limited growth)",
+  "n_systems": 253,
+  "beats_geometric": 56,
+  "rate": 0.22134387351778656,
+  "wilson95": [
+    0.17456830460168588,
+    0.27645520560849807
+  ],
+  "binomial_p_vs_0.05": 5.036968090804751e-21,
+  "rate_threshold": 0.15,
+  "pvalue_threshold": 0.001,
+  "passed": true,
+  "params_sha16": "af23af79e5518638",
+  "heldout_sha16": "d24deda2aba2b5b6"
+}

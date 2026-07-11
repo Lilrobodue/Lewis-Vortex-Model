@@ -43,17 +43,22 @@ Milestones M1–M7 implemented and run; 48 tests pass. Full write-up:
 
 **Held-out result (M7, the falsifiable test).** On **313 real multi-planet systems** from the
 NASA Exoplanet Archive, scored fairly (guide's innermost-planet anchor) with the ten globals
-**solved for** against a train split and validated on a disjoint held-out split
-([`fit_population.py`](src/solver/fit_population.py)):
+**solved for** on a train split and confirmed on a disjoint, hash-frozen held-out split
+(pre-registered, `preregister_confirm_v2.py`):
 
-- solar-locked parameters beat a geometric-regularity null **5.7%** (≈ chance);
-- **population-fit parameters beat it ~27%** (≈5× chance, stable across 4 splits, median
-  position error 0.053 dex).
+- **the model beats a geometric-regularity null 22.1%** of held-out systems (p = 5×10⁻²¹),
+  ≈4–5× the chance baseline — **pre-registered and confirmed** (corrected-physics model;
+  the legacy model confirmed at 23.6%, [PREREGISTRATION_M7.md](docs/PREREGISTRATION_M7.md)).
 
-So with global (never per-planet) parameters solved rather than borrowed from the Sun, disk-
-boundary physics reproduces held-out exoplanet spacing **partially but significantly** better than
-trivial regularity. The full investigation — including the earlier 1/313 that turned out to be a
-scoring + solar-parameter artifact — is in
-[docs/M7_failure_analysis.md](docs/M7_failure_analysis.md). This is a strong *exploratory* result;
-pre-registration is still required before it becomes a claim (guide §6/§8), and no retired v1
-number (99.6%, χ²≈2e-6) is revived.
+Two legs were tested to conclusion:
+- **Spacing — earned (partial).** The skill sits near a *predictability ceiling*: the strong
+  geometric null is itself Hill-regulated "peas-in-a-pod" physics, which the model reproduces
+  ([docs/M7_failure_analysis.md](docs/M7_failure_analysis.md),
+  [docs/EXPLORATORY_hill_regularity.md](docs/EXPLORATORY_hill_regularity.md)).
+- **Giant demographics — failed.** The model does not predict which systems host giants beyond
+  stellar metallicity + mass ([docs/EXPLORATORY_giant_refit.md](docs/EXPLORATORY_giant_refit.md)).
+
+The full synthesis is in [FINDINGS.md](FINDINGS.md). With global (never per-planet) parameters
+solved rather than borrowed, disk-boundary physics reproduces held-out exoplanet *spacing*
+significantly better than trivial regularity, but adds no independent information about planet
+*demographics*. No retired v1 number (99.6%, χ²≈2e-6) is revived.

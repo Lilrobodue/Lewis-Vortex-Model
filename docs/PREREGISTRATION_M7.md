@@ -1,5 +1,10 @@
 # Pre-Registration — M7 confirmation of population-fit skill
 
+> **SUPERSEDED by `PREREGISTRATION_M7v2.md`** (corrected flux-limited-growth model, confirmed
+> at 22.1%). This v1 pre-registration and its PASS remain valid for the legacy local-column
+> growth model and are reproducible via `preregister_confirm.py` (default `flux_limited=False`).
+
+
 **Written before the confirmation run. No input below changes after this file is committed;
 any change voids the pre-registration (guide §6, §8).**
 
