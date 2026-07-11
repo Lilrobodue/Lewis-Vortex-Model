@@ -70,7 +70,12 @@ def _snap_to_trap(a_old: float, a_new: float, stable_traps: np.ndarray
 
 
 def evolve(params: Params, star: StellarInput = SUN, seed: int = 432,
-           n_steps: int = 500, n_seeds: int = 24, relax: bool = True) -> ForwardResult:
+           n_steps: int = 500, n_seeds: int = 24, relax: bool = True,
+           flux_limited: bool = False) -> ForwardResult:
+    """flux_limited=False (default) reproduces the pre-registered confirmed model (legacy
+    local-column pebble growth). flux_limited=True uses the physically-correct drifting-flux
+    pebble accretion (embryos.pebble_surface_density) — more realistic and giant-selective,
+    but a different regime that requires its own fit (see fit_giant.py / giant_test.py)."""
     params = params.clipped()
     rng = np.random.default_rng(seed)
     disk = DiskModel(params, star)
@@ -88,6 +93,14 @@ def evolve(params: Params, star: StellarInput = SUN, seed: int = 432,
     # few winners reach giant mass and the rest stay small — instead of every embryo growing
     # to isolation independently. Parameter-free (derived from the disk).
     peb_budget = disk.total_solid_mass()
+    # Pebble FLUX [g/s]: the budget delivered as an inward drift over the disk lifetime. Makes
+    # core growth flux-limited (time-critical) and metallicity-gated. Derived, not a free param.
+    # None → legacy local-column growth (the confirmed model).
+    if flux_limited:
+        from .params import M_EARTH as _ME, MYR_S as _MYR
+        pebble_flux_gs = peb_budget * _ME / (params.t_disk * _MYR)
+    else:
+        pebble_flux_gs = None
 
     t_disk = params.t_disk
     dt = t_disk / n_steps
@@ -99,9 +112,9 @@ def evolve(params: Params, star: StellarInput = SUN, seed: int = 432,
         t += dt
         alive = [e for e in embryos if e.alive]
 
-        # 1) growth (draws from the shared pebble budget, fastest growers first)
-        for e in sorted(alive, key=lambda x: -pebble_growth_rate(disk, x)):
-            peb_budget -= grow(disk, e, dt, params, peb_budget)
+        # 1) growth (flux-limited pebble accretion; fastest growers draw the budget first)
+        for e in sorted(alive, key=lambda x: -pebble_growth_rate(disk, x, pebble_flux_gs)):
+            peb_budget -= grow(disk, e, dt, params, peb_budget, pebble_flux_gs)
             log.growth(t, e.id, e.a, e.mass)
             if not e.gap and gap_opened(disk, e) and e.id not in gap_logged:
                 e.gap = True

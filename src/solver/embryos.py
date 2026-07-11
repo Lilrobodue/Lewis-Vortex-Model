@@ -98,11 +98,34 @@ def seed_population(disk: DiskModel, params: Params, n_seeds: int = 24,
     return embryos
 
 
-def pebble_growth_rate(disk: DiskModel, emb: Embryo) -> float:
+ST = 0.1                        # pebble Stokes number (drift-dominated size), constant
+
+
+def pebble_surface_density(disk: DiskModel, a: float, pebble_flux_gs: float) -> float:
+    """Σ_peb [g/cm²] of the DRIFTING pebble population, from mass conservation of the inward
+    flux: Σ_peb = Ṁ_F / (2π a v_drift). This is the physically correct reservoir — far
+    smaller than the total solid column — because only pebbles currently drifting past the
+    core can be accreted (Lambrechts & Johansen 2014). v_drift = 2 η v_K St/(1+St²), with
+    η = ½(H/r)²|dln P/dln r| the sub-Keplerian pressure support."""
+    a_cm = a * AU_CM
+    hr = float(disk.H_over_r(a))
+    vk = float(disk.Omega(a)) * a_cm
+    dlnP = disk.p.p + 1.75 + a / disk.p.r_disk        # |dlnP/dlnr| for Σr^-p exp, T r^-1/2
+    eta = 0.5 * hr ** 2 * dlnP
+    v_drift = 2.0 * eta * vk * ST / (1.0 + ST ** 2)
+    if v_drift <= 0:
+        return 0.0
+    return pebble_flux_gs / (2.0 * np.pi * a_cm * v_drift)
+
+
+def pebble_growth_rate(disk: DiskModel, emb: Embryo, pebble_flux_gs: float = None) -> float:
     """Core growth dM/dt [M_earth / Myr] by 2D Hill-regime pebble accretion.
 
-    Lambrechts & Johansen (2012): Ṁ = 2 r_H v_H Σ_peb, r_H = a(M_p/3M*)^{1/3}, v_H = Ω r_H,
-    so Ṁ = 2 Ω a² (M_p/3M*)^{2/3} Σ_peb. Σ_peb taken as the local solid surface density.
+    Lambrechts & Johansen (2012): Ṁ = 2 Ω a² (M_p/3M*)^{2/3} Σ_peb. Σ_peb is the DRIFTING
+    pebble surface density from the inward flux (flux-limited) — not the full solid column,
+    which over-fed every core and made giants form in ~10⁴ yr everywhere. Flux-limited growth
+    is time-critical (competes with the disk lifetime) and metallicity-gated (flux ∝ solids).
+    If pebble_flux_gs is None, falls back to the local solid column (legacy behaviour).
     Growth stops at the pebble-isolation mass.
     """
     if emb.core >= isolation_mass(disk, emb.a):
@@ -111,13 +134,16 @@ def pebble_growth_rate(disk: DiskModel, emb: Embryo) -> float:
     Mp_g = emb.core * M_EARTH
     Mstar_g = disk.star.M_star * M_SUN
     Omega = float(disk.Omega(emb.a))
-    Sig_peb = float(disk.Sigma_solid(emb.a))
+    if pebble_flux_gs is None:
+        Sig_peb = float(disk.Sigma_solid(emb.a))
+    else:
+        Sig_peb = pebble_surface_density(disk, emb.a, pebble_flux_gs)
     mdot_cgs = 2.0 * Omega * a_cm ** 2 * (Mp_g / (3.0 * Mstar_g)) ** (2.0 / 3.0) * Sig_peb
     return mdot_cgs / M_EARTH * MYR_S       # g/s → M_earth/Myr
 
 
 def grow(disk: DiskModel, emb: Embryo, dt_Myr: float, params: Params,
-         peb_budget: float = float("inf")) -> float:
+         peb_budget: float = float("inf"), pebble_flux_gs: float = None) -> float:
     """Advance an embryo's mass by dt and return the pebble mass consumed [M_earth].
 
     Core grows by pebble accretion toward the isolation mass, but only as far as the SHARED,
@@ -131,7 +157,7 @@ def grow(disk: DiskModel, emb: Embryo, dt_Myr: float, params: Params,
 
     # Core / pebble phase — limited by isolation AND the shared budget.
     if emb.core < M_iso and peb_budget > 0:
-        want = min(pebble_growth_rate(disk, emb) * dt_Myr, M_iso - emb.core)
+        want = min(pebble_growth_rate(disk, emb, pebble_flux_gs) * dt_Myr, M_iso - emb.core)
         consumed = max(0.0, min(want, peb_budget))
         emb.core += consumed
 

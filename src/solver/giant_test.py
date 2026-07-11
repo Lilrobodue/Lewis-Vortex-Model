@@ -50,7 +50,7 @@ def auc(score: np.ndarray, label: np.ndarray) -> float:
 
 
 def run(systems: List[dict], params: Params, seed: int = 432, n_steps: int = 400,
-        threshold: float = GIANT_THRESHOLD_ME) -> dict:
+        threshold: float = GIANT_THRESHOLD_ME, flux_limited: bool = False) -> dict:
     label = np.array([1 if any(_has_mass(p) and p["mass"] > threshold for p in s["planets"])
                       else 0 for s in systems])
     feh = np.array([s.get("feh", 0.0) for s in systems])
@@ -60,7 +60,7 @@ def run(systems: List[dict], params: Params, seed: int = 432, n_steps: int = 400
     model_giant = 0
     for s in systems:
         star = StellarInput(s["name"], s["M_star"], s["L_star"], s.get("feh", 0.0))
-        res = evolve(params, star, seed=seed, n_steps=n_steps)
+        res = evolve(params, star, seed=seed, n_steps=n_steps, flux_limited=flux_limited)
         mmax = max([e.mass for e in res.survivors] or [0.0])
         model_max.append(mmax)
         model_giant += int(mmax > threshold)

@@ -1,0 +1,39 @@
+{
+  "seed": 432,
+  "lam": 0.5,
+  "n_train": 60,
+  "n_test": 253,
+  "params": {
+    "sigma0": 958.1281967083407,
+    "p": 1.40983006593562,
+    "T0": 272.86970118256824,
+    "r_disk": 73.93994834498571,
+    "t_disk": 5.827496767994477,
+    "dust_to_gas": 0.006065026368922425,
+    "f_ice": 3.870449387530277,
+    "M_crit": 9.721350377083544,
+    "K": 10.155558091992075,
+    "f_capture": 0.7390145195918462
+  },
+  "positions_eval": {
+    "n_test": 253,
+    "beat_random": 127,
+    "beat_geometric": 55,
+    "pass_both": 31,
+    "beat_random_rate": 0.5019762845849802,
+    "beat_geometric_rate": 0.21739130434782608,
+    "pass_rate": 0.1225296442687747,
+    "median_model_rms": 0.22818449085758946
+  },
+  "giant_eval": {
+    "n_systems": 253,
+    "threshold_Me": 100.0,
+    "observed_giant_rate": 0.21739130434782608,
+    "model_giant_rate": 0.14624505928853754,
+    "auc_metallicity": 0.7022497704315886,
+    "auc_stellar_mass": 0.6599173553719008,
+    "auc_model_maxmass": 0.5819100091827365,
+    "planet_metallicity_corr_r": 0.2819761866612755,
+    "planet_metallicity_corr_p": 5.221713607589006e-06
+  }
+}

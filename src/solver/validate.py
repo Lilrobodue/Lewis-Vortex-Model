@@ -122,14 +122,14 @@ def geometric_ratio_null(obs: List[ObservedPlanet]) -> float:
 
 def validate_system(star: StellarInput, obs: List[ObservedPlanet], params: Params,
                     seed: int = 432, n_mc: int = 20000, n_steps: int = 500,
-                    protocol: str = "anchored") -> SystemScore:
+                    protocol: str = "anchored", flux_limited: bool = False) -> SystemScore:
     """protocol='anchored' (guide §7 default): innermost observed planet is the only positional
     input; predictions are anchored to it and scored within the observed window.
     protocol='predict': stricter — score the raw predicted architecture with no anchor (this
     conflates the failure with transit-truncation and absolute-scale error; kept for contrast).
     """
     rng = np.random.default_rng(seed)
-    result = evolve(params, star, seed=seed, n_steps=n_steps)
+    result = evolve(params, star, seed=seed, n_steps=n_steps, flux_limited=flux_limited)
     pred_a = result.positions()
 
     if protocol == "anchored":

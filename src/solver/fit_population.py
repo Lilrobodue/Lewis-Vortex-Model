@@ -83,14 +83,14 @@ def fit_population(train: List[SysT], seed: int = 432, maxiter: int = 15, popsiz
 
 
 def evaluate(params: Params, test: List[SysT], seed: int = 432, n_mc: int = 3000,
-             n_steps: int = 400) -> dict:
+             n_steps: int = 400, flux_limited: bool = False) -> dict:
     beat_rand = beat_geo = both = 0
     rms_list = []
     for sys in test:
         obs = _obs(sys)
         star = StellarInput(sys[0], sys[1], sys[2], sys[3])
         sc = validate_system(star, obs, params, seed=seed, n_mc=n_mc, n_steps=n_steps,
-                             protocol="anchored")
+                             protocol="anchored", flux_limited=flux_limited)
         rms_list.append(sc.model_rms)
         beat_rand += sc.beats_random
         beat_geo += sc.beats_geometric
