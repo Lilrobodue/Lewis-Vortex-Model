@@ -1,0 +1,1947 @@
+{
+"Kepler-154": {
+"vsin": null,
+"rotp": null,
+"mass": 0.916
+},
+"Kepler-288": {
+"vsin": null,
+"rotp": null,
+"mass": 0.931
+},
+"Kepler-54": {
+"vsin": null,
+"rotp": null,
+"mass": 0.518
+},
+"Kepler-295": {
+"vsin": null,
+"rotp": null,
+"mass": 0.8
+},
+"Kepler-215": {
+"vsin": null,
+"rotp": null,
+"mass": 0.813
+},
+"Kepler-616": {
+"vsin": null,
+"rotp": null,
+"mass": 1.02
+},
+"Kepler-256": {
+"vsin": null,
+"rotp": null,
+"mass": 1.037
+},
+"Kepler-304": {
+"vsin": null,
+"rotp": null,
+"mass": 0.76
+},
+"Kepler-33": {
+"vsin": 3.4,
+"rotp": null,
+"mass": 1.1
+},
+"K2-187": {
+"vsin": null,
+"rotp": null,
+"mass": 0.966999
+},
+"Kepler-203": {
+"vsin": null,
+"rotp": null,
+"mass": 1.01
+},
+"HD 158259": {
+"vsin": 2.9,
+"rotp": 20.0,
+"mass": 1.08
+},
+"Kepler-267": {
+"vsin": null,
+"rotp": null,
+"mass": 0.552
+},
+"Kepler-282": {
+"vsin": null,
+"rotp": null,
+"mass": 0.86
+},
+"Kepler-275": {
+"vsin": null,
+"rotp": null,
+"mass": 1.339
+},
+"HD 63433": {
+"vsin": 7.28,
+"rotp": 6.45,
+"mass": 1.001
+},
+"Kepler-402": {
+"vsin": null,
+"rotp": null,
+"mass": 1.14
+},
+"XO-2 N": {
+"vsin": 1.07,
+"rotp": 28.6,
+"mass": 0.924
+},
+"Kepler-297": {
+"vsin": null,
+"rotp": null,
+"mass": 1.04
+},
+"Kepler-271": {
+"vsin": null,
+"rotp": null,
+"mass": 0.925
+},
+"Kepler-60": {
+"vsin": null,
+"rotp": null,
+"mass": 0.973
+},
+"Kepler-20": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.901
+},
+"Kepler-10": {
+"vsin": 2.04,
+"rotp": null,
+"mass": 0.895
+},
+"HD 181433": {
+"vsin": 1.5,
+"rotp": 54.0,
+"mass": 0.77
+},
+"TOI-5789": {
+"vsin": 1.2,
+"rotp": null,
+"mass": 0.87
+},
+"Kepler-37": {
+"vsin": 1.1,
+"rotp": null,
+"mass": 0.829
+},
+"HD 39194": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.88
+},
+"HD 39091": {
+"vsin": 3.0,
+"rotp": 18.3,
+"mass": 1.15
+},
+"LHS 1903": {
+"vsin": null,
+"rotp": 40.8,
+"mass": 0.529004
+},
+"CoRoT-7": {
+"vsin": 3.5,
+"rotp": null,
+"mass": 0.899
+},
+"EPIC 206024342": {
+"vsin": null,
+"rotp": null,
+"mass": 1.03
+},
+"Kepler-235": {
+"vsin": null,
+"rotp": 39.49,
+"mass": 0.51
+},
+"Kepler-82": {
+"vsin": null,
+"rotp": null,
+"mass": 0.922
+},
+"Kepler-351": {
+"vsin": null,
+"rotp": null,
+"mass": 0.914
+},
+"Kepler-11": {
+"vsin": 0.4,
+"rotp": null,
+"mass": 0.921
+},
+"Kepler-107": {
+"vsin": 3.6,
+"rotp": 20.3,
+"mass": 1.142
+},
+"Kepler-292": {
+"vsin": null,
+"rotp": null,
+"mass": 0.921
+},
+"Kepler-32": {
+"vsin": null,
+"rotp": null,
+"mass": 0.509
+},
+"Kepler-325": {
+"vsin": null,
+"rotp": null,
+"mass": 0.87
+},
+"Kepler-166": {
+"vsin": null,
+"rotp": null,
+"mass": 0.811
+},
+"Kepler-332": {
+"vsin": null,
+"rotp": null,
+"mass": 0.774
+},
+"Kepler-398": {
+"vsin": null,
+"rotp": null,
+"mass": 0.698
+},
+"Kepler-299": {
+"vsin": null,
+"rotp": null,
+"mass": 1.004
+},
+"Kepler-222": {
+"vsin": null,
+"rotp": null,
+"mass": 0.945
+},
+"Kepler-244": {
+"vsin": null,
+"rotp": null,
+"mass": 0.933
+},
+"Kepler-763": {
+"vsin": null,
+"rotp": null,
+"mass": 0.813
+},
+"Kepler-178": {
+"vsin": null,
+"rotp": null,
+"mass": 0.861
+},
+"Kepler-247": {
+"vsin": null,
+"rotp": null,
+"mass": 0.773
+},
+"Kepler-48": {
+"vsin": 0.5,
+"rotp": null,
+"mass": 0.916
+},
+"Kepler-85": {
+"vsin": null,
+"rotp": null,
+"mass": 0.87
+},
+"Kepler-350": {
+"vsin": null,
+"rotp": null,
+"mass": 1.19
+},
+"Kepler-758": {
+"vsin": null,
+"rotp": null,
+"mass": 1.261
+},
+"Kepler-249": {
+"vsin": null,
+"rotp": null,
+"mass": 0.4
+},
+"HD 136352": {
+"vsin": 1.0,
+"rotp": 23.8,
+"mass": 0.876
+},
+"Kepler-224": {
+"vsin": null,
+"rotp": null,
+"mass": 0.768
+},
+"Kepler-372": {
+"vsin": null,
+"rotp": null,
+"mass": 1.181
+},
+"HD 10180": {
+"vsin": 3.0,
+"rotp": null,
+"mass": 1.07
+},
+"Kepler-49": {
+"vsin": null,
+"rotp": null,
+"mass": 0.549
+},
+"Kepler-431": {
+"vsin": null,
+"rotp": null,
+"mass": 1.21
+},
+"DMPP-1": {
+"vsin": 3.41,
+"rotp": null,
+"mass": 1.21
+},
+"Kepler-331": {
+"vsin": null,
+"rotp": null,
+"mass": 0.535
+},
+"Kepler-149": {
+"vsin": null,
+"rotp": null,
+"mass": 0.934
+},
+"DMPP-2": {
+"vsin": 5.1,
+"rotp": null,
+"mass": 1.41
+},
+"Kepler-454": {
+"vsin": 2.4,
+"rotp": null,
+"mass": 1.06
+},
+"K2-3": {
+"vsin": null,
+"rotp": 40.4,
+"mass": 0.601
+},
+"Kepler-68": {
+"vsin": 0.5,
+"rotp": null,
+"mass": 1.079
+},
+"Kepler-191": {
+"vsin": null,
+"rotp": null,
+"mass": 0.81
+},
+"Kepler-1073": {
+"vsin": null,
+"rotp": null,
+"mass": 0.924
+},
+"XO-2 S": {
+"vsin": 1.7,
+"rotp": null,
+"mass": 0.982
+},
+"Kepler-411": {
+"vsin": null,
+"rotp": 10.4,
+"mass": 0.831
+},
+"Kepler-363": {
+"vsin": null,
+"rotp": null,
+"mass": 1.284
+},
+"Kepler-341": {
+"vsin": null,
+"rotp": null,
+"mass": 1.012
+},
+"Kepler-254": {
+"vsin": null,
+"rotp": null,
+"mass": 0.975
+},
+"rho CrB": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 1.0
+},
+"Kepler-286": {
+"vsin": null,
+"rotp": null,
+"mass": 0.8
+},
+"Kepler-176": {
+"vsin": null,
+"rotp": null,
+"mass": 0.826
+},
+"Kepler-172": {
+"vsin": null,
+"rotp": null,
+"mass": 0.85
+},
+"Kepler-226": {
+"vsin": null,
+"rotp": null,
+"mass": 0.883
+},
+"Kepler-245": {
+"vsin": null,
+"rotp": null,
+"mass": 0.804
+},
+"HR 8799": {
+"vsin": 34.79,
+"rotp": null,
+"mass": 1.51
+},
+"Kepler-319": {
+"vsin": null,
+"rotp": null,
+"mass": 1.349
+},
+"K2-148": {
+"vsin": null,
+"rotp": null,
+"mass": 0.639
+},
+"Kepler-359": {
+"vsin": null,
+"rotp": null,
+"mass": 1.107
+},
+"Kepler-1321": {
+"vsin": null,
+"rotp": null,
+"mass": 0.736
+},
+"GJ 3138": {
+"vsin": null,
+"rotp": 42.5,
+"mass": 0.681
+},
+"TOI-5624": {
+"vsin": 2.0,
+"rotp": 20.0,
+"mass": 0.858
+},
+"Kepler-65": {
+"vsin": 10.4,
+"rotp": null,
+"mass": 1.273
+},
+"Kepler-342": {
+"vsin": null,
+"rotp": null,
+"mass": 1.2
+},
+"Kepler-487": {
+"vsin": null,
+"rotp": null,
+"mass": 0.903
+},
+"Kepler-169": {
+"vsin": null,
+"rotp": null,
+"mass": 0.85
+},
+"Kepler-401": {
+"vsin": null,
+"rotp": null,
+"mass": 1.051
+},
+"HD 23472": {
+"vsin": 1.45,
+"rotp": 40.1,
+"mass": 0.67
+},
+"Kepler-549": {
+"vsin": 5.0,
+"rotp": null,
+"mass": 0.9
+},
+"HD 108236": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.97
+},
+"Kepler-444": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.618
+},
+"Kepler-92": {
+"vsin": null,
+"rotp": null,
+"mass": 1.207
+},
+"Kepler-281": {
+"vsin": null,
+"rotp": null,
+"mass": 0.984
+},
+"Kepler-206": {
+"vsin": null,
+"rotp": null,
+"mass": 0.957
+},
+"Kepler-27": {
+"vsin": 0.6,
+"rotp": null,
+"mass": 0.65
+},
+"Kepler-158": {
+"vsin": null,
+"rotp": null,
+"mass": 0.652
+},
+"Kepler-1542": {
+"vsin": null,
+"rotp": null,
+"mass": 0.933
+},
+"Kepler-450": {
+"vsin": null,
+"rotp": null,
+"mass": 1.334
+},
+"Kepler-403": {
+"vsin": null,
+"rotp": null,
+"mass": 1.299
+},
+"Kepler-84": {
+"vsin": null,
+"rotp": null,
+"mass": 1.02
+},
+"Kepler-42": {
+"vsin": 3.3,
+"rotp": null,
+"mass": 0.13
+},
+"Kepler-46": {
+"vsin": null,
+"rotp": null,
+"mass": 0.882
+},
+"K2-183": {
+"vsin": null,
+"rotp": null,
+"mass": 0.95
+},
+"Kepler-18": {
+"vsin": 4.0,
+"rotp": null,
+"mass": 0.927
+},
+"Kepler-529": {
+"vsin": null,
+"rotp": null,
+"mass": 0.977
+},
+"HD 7924": {
+"vsin": 1.35,
+"rotp": null,
+"mass": 0.832
+},
+"Kepler-446": {
+"vsin": null,
+"rotp": null,
+"mass": 0.472
+},
+"Kepler-80": {
+"vsin": null,
+"rotp": null,
+"mass": 0.6
+},
+"Kepler-58": {
+"vsin": null,
+"rotp": null,
+"mass": 1.017
+},
+"K2-368": {
+"vsin": null,
+"rotp": null,
+"mass": 0.746
+},
+"K2-72": {
+"vsin": null,
+"rotp": null,
+"mass": 0.271365
+},
+"Kepler-56": {
+"vsin": null,
+"rotp": null,
+"mass": 1.32
+},
+"Kepler-24": {
+"vsin": null,
+"rotp": null,
+"mass": 0.965
+},
+"HIP 14810": {
+"vsin": 0.54,
+"rotp": null,
+"mass": 0.81
+},
+"HD 191939": {
+"vsin": 1.6,
+"rotp": null,
+"mass": 0.8222
+},
+"Kepler-9": {
+"vsin": 2.74,
+"rotp": 16.49,
+"mass": 1.04
+},
+"Kepler-130": {
+"vsin": null,
+"rotp": null,
+"mass": 0.95
+},
+"Kepler-1130": {
+"vsin": null,
+"rotp": null,
+"mass": 0.823
+},
+"Kepler-148": {
+"vsin": null,
+"rotp": null,
+"mass": 0.893
+},
+"Kepler-385": {
+"vsin": null,
+"rotp": null,
+"mass": 1.09
+},
+"Kepler-122": {
+"vsin": null,
+"rotp": null,
+"mass": 1.028
+},
+"K2-381": {
+"vsin": null,
+"rotp": null,
+"mass": 0.722
+},
+"61 Vir": {
+"vsin": 1.9,
+"rotp": null,
+"mass": 0.942
+},
+"HD 20782": {
+"vsin": 3.0,
+"rotp": null,
+"mass": 0.969
+},
+"Kepler-106": {
+"vsin": 0.3,
+"rotp": null,
+"mass": 0.944
+},
+"Kepler-339": {
+"vsin": null,
+"rotp": null,
+"mass": 0.88
+},
+"Kepler-30": {
+"vsin": 1.94,
+"rotp": null,
+"mass": 0.99
+},
+"Kepler-207": {
+"vsin": null,
+"rotp": null,
+"mass": 1.065
+},
+"Kepler-160": {
+"vsin": null,
+"rotp": null,
+"mass": 0.887
+},
+"Kepler-25": {
+"vsin": 9.5,
+"rotp": null,
+"mass": 1.196
+},
+"Kepler-1669": {
+"vsin": null,
+"rotp": null,
+"mass": 0.585
+},
+"Kepler-184": {
+"vsin": null,
+"rotp": null,
+"mass": 0.97
+},
+"Kepler-1530": {
+"vsin": null,
+"rotp": null,
+"mass": 1.015
+},
+"Kepler-250": {
+"vsin": null,
+"rotp": null,
+"mass": 0.798
+},
+"Kepler-311": {
+"vsin": null,
+"rotp": null,
+"mass": 1.12
+},
+"Kepler-164": {
+"vsin": null,
+"rotp": null,
+"mass": 1.15
+},
+"Kepler-223": {
+"vsin": null,
+"rotp": null,
+"mass": 1.04
+},
+"HD 164922": {
+"vsin": 1.8,
+"rotp": 42.3,
+"mass": 0.95
+},
+"Kepler-265": {
+"vsin": null,
+"rotp": null,
+"mass": 1.09
+},
+"Kepler-1987": {
+"vsin": null,
+"rotp": null,
+"mass": 0.778
+},
+"Kepler-290": {
+"vsin": null,
+"rotp": null,
+"mass": 0.848
+},
+"HR 858": {
+"vsin": 7.5,
+"rotp": 6.7,
+"mass": 1.204
+},
+"Kepler-229": {
+"vsin": null,
+"rotp": null,
+"mass": 0.794
+},
+"HD 40307": {
+"vsin": 1.61,
+"rotp": null,
+"mass": 0.77
+},
+"Kepler-1311": {
+"vsin": null,
+"rotp": null,
+"mass": 1.002
+},
+"Kepler-324": {
+"vsin": null,
+"rotp": null,
+"mass": 0.901
+},
+"Kepler-352": {
+"vsin": null,
+"rotp": null,
+"mass": 0.798
+},
+"Kepler-454 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"Kepler-238": {
+"vsin": null,
+"rotp": null,
+"mass": 1.056
+},
+"Kepler-55": {
+"vsin": null,
+"rotp": null,
+"mass": 0.645
+},
+"HD 27894": {
+"vsin": 0.87,
+"rotp": 44.0,
+"mass": 0.81
+},
+"Kepler-257": {
+"vsin": null,
+"rotp": null,
+"mass": 0.868
+},
+"Kepler-124": {
+"vsin": null,
+"rotp": null,
+"mass": 0.841
+},
+"Kepler-62": {
+"vsin": 0.4,
+"rotp": null,
+"mass": 0.637
+},
+"Kepler-619": {
+"vsin": null,
+"rotp": null,
+"mass": 1.07
+},
+"Kepler-354": {
+"vsin": null,
+"rotp": null,
+"mass": 0.652
+},
+"Kepler-374": {
+"vsin": null,
+"rotp": null,
+"mass": 1.03
+},
+"Kepler-194": {
+"vsin": null,
+"rotp": null,
+"mass": 0.989
+},
+"Kepler-968": {
+"vsin": null,
+"rotp": null,
+"mass": 0.575
+},
+"Kepler-53": {
+"vsin": null,
+"rotp": null,
+"mass": 1.019
+},
+"Kepler-296": {
+"vsin": null,
+"rotp": null,
+"mass": 0.394
+},
+"K2-32": {
+"vsin": 0.7,
+"rotp": null,
+"mass": 0.84
+},
+"K2-138": {
+"vsin": 2.7,
+"rotp": null,
+"mass": 0.891
+},
+"Kepler-326": {
+"vsin": null,
+"rotp": null,
+"mass": 0.914
+},
+"Kepler-1388": {
+"vsin": null,
+"rotp": null,
+"mass": 0.541
+},
+"Kepler-399": {
+"vsin": null,
+"rotp": null,
+"mass": 0.927
+},
+"Kepler-31": {
+"vsin": null,
+"rotp": null,
+"mass": 1.208
+},
+"Kepler-104": {
+"vsin": null,
+"rotp": null,
+"mass": 0.81
+},
+"HD 20794": {
+"vsin": 3.0,
+"rotp": null,
+"mass": 0.701
+},
+"Kepler-100": {
+"vsin": 3.7,
+"rotp": null,
+"mass": 1.109
+},
+"Kepler-196": {
+"vsin": null,
+"rotp": null,
+"mass": 0.926
+},
+"HD 69830": {
+"vsin": 1.1,
+"rotp": null,
+"mass": 0.84
+},
+"Kepler-770": {
+"vsin": null,
+"rotp": null,
+"mass": 0.822
+},
+"KOI-142": {
+"vsin": 1.8,
+"rotp": null,
+"mass": 0.99
+},
+"HD 33142": {
+"vsin": 2.97,
+"rotp": null,
+"mass": 1.48
+},
+"HD 3167": {
+"vsin": 1.7,
+"rotp": 23.52,
+"mass": 0.837
+},
+"GJ 357": {
+"vsin": 2.0,
+"rotp": 77.8,
+"mass": 0.346
+},
+"Kepler-51": {
+"vsin": null,
+"rotp": 8.222,
+"mass": 1.04
+},
+"AU Mic": {
+"vsin": 7.8,
+"rotp": 4.85,
+"mass": 0.662074
+},
+"TOI-700": {
+"vsin": null,
+"rotp": 54.0,
+"mass": 0.415
+},
+"Kepler-167": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.772
+},
+"TRAPPIST-1": {
+"vsin": 2.04,
+"rotp": 3.3,
+"mass": 0.090778
+},
+"TOI-451": {
+"vsin": 8.7,
+"rotp": 5.1,
+"mass": 0.93
+},
+"V1298 Tau": {
+"vsin": 23.0,
+"rotp": 2.87,
+"mass": 1.101
+},
+"GJ 367": {
+"vsin": null,
+"rotp": 51.3,
+"mass": 0.455
+},
+"TOI-2076": {
+"vsin": 5.27,
+"rotp": 7.36,
+"mass": 0.87
+},
+"KOI-94": {
+"vsin": 7.3,
+"rotp": null,
+"mass": 1.278
+},
+"TOI-431": {
+"vsin": 2.5,
+"rotp": 30.5,
+"mass": 0.78
+},
+"TOI-270": {
+"vsin": null,
+"rotp": null,
+"mass": 0.362
+},
+"Kepler-1254": {
+"vsin": null,
+"rotp": null,
+"mass": 0.78
+},
+"55 Cnc B": {
+"vsin": 1.29,
+"rotp": 92.0,
+"mass": 0.26
+},
+"TOI-125": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.91
+},
+"55 Cnc": {
+"vsin": 2.0,
+"rotp": 38.8,
+"mass": 0.88
+},
+"WASP-47": {
+"vsin": 1.8,
+"rotp": 31.2,
+"mass": 1.026
+},
+"TOI-1136": {
+"vsin": 6.7,
+"rotp": null,
+"mass": 1.022
+},
+"LP 791-18": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.139
+},
+"L 98-59": {
+"vsin": 0.0,
+"rotp": 58.0,
+"mass": 0.292836
+},
+"TOI-178": {
+"vsin": 1.5,
+"rotp": null,
+"mass": 0.65
+},
+"HD 110067": {
+"vsin": 2.5,
+"rotp": null,
+"mass": 0.798
+},
+"GJ 9827": {
+"vsin": 2.0,
+"rotp": 28.72,
+"mass": 0.606
+},
+"TOI-561": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.95
+},
+"TOI-4010": {
+"vsin": 1.3,
+"rotp": 37.7,
+"mass": 0.799
+},
+"Kepler-221": {
+"vsin": null,
+"rotp": null,
+"mass": 0.72
+},
+"HIP 41378": {
+"vsin": 5.6,
+"rotp": 7.8,
+"mass": 1.261
+},
+"TOI-500": {
+"vsin": 1.1,
+"rotp": null,
+"mass": 0.7
+},
+"HD 284154": {
+"vsin": 10.0,
+"rotp": null,
+"mass": 1.063
+},
+"Kepler-347": {
+"vsin": null,
+"rotp": null,
+"mass": 1.05
+},
+"Kepler-19": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.903
+},
+"KOI-351": {
+"vsin": 4.6,
+"rotp": null,
+"mass": 1.2
+},
+"Kepler-23": {
+"vsin": null,
+"rotp": null,
+"mass": 1.078
+},
+"HD 134606": {
+"vsin": 1.3,
+"rotp": 42.0,
+"mass": 1.06
+},
+"GJ 3998": {
+"vsin": 0.93,
+"rotp": null,
+"mass": 0.517481
+},
+"ups And B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.191827
+},
+"Kepler-52": {
+"vsin": null,
+"rotp": null,
+"mass": 0.56
+},
+"Kepler-89 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.673
+},
+"TOI-451 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.45
+},
+"HD 110106 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"HD 284154 B": {
+"vsin": 10.0,
+"rotp": null,
+"mass": 1.28
+},
+"Kepler-338": {
+"vsin": null,
+"rotp": null,
+"mass": 1.142
+},
+"Kepler-167 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"HD 110106": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"Kepler-445": {
+"vsin": null,
+"rotp": null,
+"mass": 0.277306
+},
+"Kepler-310": {
+"vsin": null,
+"rotp": null,
+"mass": 0.894
+},
+"Kepler-305": {
+"vsin": null,
+"rotp": null,
+"mass": 0.763
+},
+"Kepler-142": {
+"vsin": null,
+"rotp": null,
+"mass": 0.978
+},
+"tau Cet": {
+"vsin": 1.8,
+"rotp": 34.5,
+"mass": 0.799
+},
+"Kepler-357": {
+"vsin": null,
+"rotp": null,
+"mass": 0.791
+},
+"Kepler-327": {
+"vsin": null,
+"rotp": null,
+"mass": 0.547
+},
+"Kepler-83": {
+"vsin": null,
+"rotp": null,
+"mass": 0.54
+},
+"Kepler-217": {
+"vsin": null,
+"rotp": null,
+"mass": 1.135
+},
+"47 UMa": {
+"vsin": 2.8,
+"rotp": null,
+"mass": 1.063
+},
+"HD 142": {
+"vsin": 11.0,
+"rotp": null,
+"mass": 1.24
+},
+"TOI-1203": {
+"vsin": 1.4,
+"rotp": null,
+"mass": 0.886
+},
+"Kepler-301": {
+"vsin": null,
+"rotp": null,
+"mass": 0.944
+},
+"2MASS J19383260+4603591": {
+"vsin": null,
+"rotp": null,
+"mass": 0.48
+},
+"Kepler-81": {
+"vsin": null,
+"rotp": null,
+"mass": 0.54
+},
+"K2-268": {
+"vsin": null,
+"rotp": 24.87,
+"mass": 0.839
+},
+"GJ 887": {
+"vsin": 1.0,
+"rotp": 38.7,
+"mass": 0.44
+},
+"Kepler-126": {
+"vsin": null,
+"rotp": null,
+"mass": 1.188
+},
+"K2-58": {
+"vsin": null,
+"rotp": null,
+"mass": 0.89
+},
+"Kepler-603": {
+"vsin": null,
+"rotp": null,
+"mass": 1.018
+},
+"ups And": {
+"vsin": 10.0,
+"rotp": 12.0,
+"mass": 1.3
+},
+"Kepler-26": {
+"vsin": 1.9,
+"rotp": null,
+"mass": 0.65
+},
+"HD 48948": {
+"vsin": 4.0,
+"rotp": 43.45,
+"mass": 0.686
+},
+"Kepler-138": {
+"vsin": null,
+"rotp": null,
+"mass": 0.535
+},
+"HD 37124": {
+"vsin": 1.2,
+"rotp": null,
+"mass": 0.812728
+},
+"Kepler-279": {
+"vsin": null,
+"rotp": null,
+"mass": 1.164
+},
+"Kepler-272": {
+"vsin": null,
+"rotp": null,
+"mass": 0.865
+},
+"Kepler-186": {
+"vsin": null,
+"rotp": null,
+"mass": 0.506
+},
+"GJ 1061": {
+"vsin": 2.5,
+"rotp": 125.0,
+"mass": 0.127434
+},
+"K2-19": {
+"vsin": 2.0,
+"rotp": 20.4,
+"mass": 0.84
+},
+"Kepler-1468": {
+"vsin": null,
+"rotp": null,
+"mass": 1.019
+},
+"GJ 676 A": {
+"vsin": 1.6,
+"rotp": null,
+"mass": 0.73
+},
+"HD 125612": {
+"vsin": 5.0,
+"rotp": 10.5,
+"mass": 1.05
+},
+"Kepler-218": {
+"vsin": null,
+"rotp": null,
+"mass": 1.019
+},
+"Kepler-198": {
+"vsin": null,
+"rotp": null,
+"mass": 0.935
+},
+"Kepler-174": {
+"vsin": null,
+"rotp": null,
+"mass": 0.602
+},
+"Kepler-253": {
+"vsin": null,
+"rotp": null,
+"mass": 0.808
+},
+"Kepler-219": {
+"vsin": null,
+"rotp": null,
+"mass": 1.154
+},
+"HD 96700": {
+"vsin": 1.0,
+"rotp": null,
+"mass": 0.985
+},
+"Kepler-336": {
+"vsin": null,
+"rotp": null,
+"mass": 0.938
+},
+"Kepler-192": {
+"vsin": null,
+"rotp": null,
+"mass": 0.891
+},
+"Kepler-157": {
+"vsin": null,
+"rotp": null,
+"mass": 1.02
+},
+"Kepler-127": {
+"vsin": null,
+"rotp": null,
+"mass": 1.24
+},
+"TOI-1117": {
+"vsin": 1.32,
+"rotp": 40.0,
+"mass": 1.02
+},
+"HD 215152": {
+"vsin": 3.35,
+"rotp": 42.0,
+"mass": 0.74
+},
+"HD 73344": {
+"vsin": 5.0,
+"rotp": 9.088,
+"mass": 1.2
+},
+"Kepler-394": {
+"vsin": null,
+"rotp": null,
+"mass": 1.13
+},
+"Kepler-298": {
+"vsin": null,
+"rotp": null,
+"mass": 0.65
+},
+"Kepler-416": {
+"vsin": null,
+"rotp": null,
+"mass": 1.0
+},
+"Kepler-334": {
+"vsin": null,
+"rotp": null,
+"mass": 0.959
+},
+"Kepler-129": {
+"vsin": 2.13,
+"rotp": null,
+"mass": 1.07
+},
+"HD 31527": {
+"vsin": 1.1,
+"rotp": 20.3,
+"mass": 0.962
+},
+"HD 34445": {
+"vsin": 2.7,
+"rotp": 22.0,
+"mass": 1.04
+},
+"Kepler-251": {
+"vsin": null,
+"rotp": null,
+"mass": 0.941
+},
+"Kepler-114": {
+"vsin": null,
+"rotp": null,
+"mass": 0.56
+},
+"TOI-663": {
+"vsin": null,
+"rotp": 30.0,
+"mass": 0.510139
+},
+"Kepler-208": {
+"vsin": null,
+"rotp": null,
+"mass": 0.963
+},
+"TOI-712": {
+"vsin": null,
+"rotp": 12.454,
+"mass": 0.732
+},
+"Kepler-102": {
+"vsin": 0.5,
+"rotp": 27.95,
+"mass": 0.8
+},
+"Kepler-289": {
+"vsin": null,
+"rotp": null,
+"mass": 1.35
+},
+"GJ 581": {
+"vsin": 2.1,
+"rotp": 132.5,
+"mass": 0.31
+},
+"Kepler-139": {
+"vsin": null,
+"rotp": null,
+"mass": 1.044
+},
+"HD 204313": {
+"vsin": 2.4,
+"rotp": null,
+"mass": 1.03
+},
+"TOI-201": {
+"vsin": 9.52,
+"rotp": 53.0,
+"mass": 1.32
+},
+"Kepler-255": {
+"vsin": null,
+"rotp": null,
+"mass": 1.009
+},
+"K2-233": {
+"vsin": 4.5,
+"rotp": 9.754,
+"mass": 0.8
+},
+"Kepler-150": {
+"vsin": null,
+"rotp": null,
+"mass": 0.899
+},
+"K2-165": {
+"vsin": null,
+"rotp": null,
+"mass": 0.868
+},
+"K2-136 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.1
+},
+"Kepler-197": {
+"vsin": null,
+"rotp": null,
+"mass": 0.922
+},
+"HD 11506": {
+"vsin": 5.0,
+"rotp": 12.6,
+"mass": 1.19
+},
+"GJ 876": {
+"vsin": 0.16,
+"rotp": null,
+"mass": 0.32
+},
+"HD 160691": {
+"vsin": 4.07,
+"rotp": null,
+"mass": 1.08
+},
+"LHS 1678": {
+"vsin": 0.53,
+"rotp": 64.0,
+"mass": 0.345
+},
+"HD 219134": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.8
+},
+"TOI-1246": {
+"vsin": 1.0,
+"rotp": 38.0,
+"mass": 0.868
+},
+"K2-16": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.67
+},
+"K2-37": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.809
+},
+"Kepler-228": {
+"vsin": null,
+"rotp": null,
+"mass": 1.053
+},
+"TOI-469": {
+"vsin": 1.94,
+"rotp": 40.0,
+"mass": 0.91
+},
+"HD 133131 B": {
+"vsin": 4.0,
+"rotp": null,
+"mass": 1.06
+},
+"HD 190360": {
+"vsin": 2.2,
+"rotp": null,
+"mass": 0.96
+},
+"K2-136": {
+"vsin": 3.0,
+"rotp": 15.0,
+"mass": 0.74
+},
+"Kepler-171": {
+"vsin": null,
+"rotp": null,
+"mass": 0.908
+},
+"Kepler-220": {
+"vsin": null,
+"rotp": null,
+"mass": 0.643
+},
+"K2-266 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.580882
+},
+"Kepler-83 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.35223
+},
+"K2-266": {
+"vsin": null,
+"rotp": null,
+"mass": 0.686
+},
+"LHS 3509": {
+"vsin": null,
+"rotp": null,
+"mass": 0.2
+},
+"HIP 57274": {
+"vsin": 0.5,
+"rotp": null,
+"mass": 0.71
+},
+"TOI-4504": {
+"vsin": 1.9,
+"rotp": null,
+"mass": 0.89
+},
+"Kepler-276": {
+"vsin": null,
+"rotp": null,
+"mass": 1.1
+},
+"Kepler-306": {
+"vsin": null,
+"rotp": null,
+"mass": 0.871
+},
+"HD 153557": {
+"vsin": 2.0,
+"rotp": null,
+"mass": 0.79
+},
+"K2-80": {
+"vsin": null,
+"rotp": null,
+"mass": 0.913111
+},
+"TOI-7510": {
+"vsin": 3.2,
+"rotp": null,
+"mass": 0.99
+},
+"Kepler-79": {
+"vsin": null,
+"rotp": null,
+"mass": 1.101
+},
+"bet Pic": {
+"vsin": 116.41,
+"rotp": null,
+"mass": 1.795
+},
+"K2-384": {
+"vsin": null,
+"rotp": null,
+"mass": 0.329931
+},
+"K2-352": {
+"vsin": null,
+"rotp": 17.59,
+"mass": 1.03
+},
+"TOI-2267 A": {
+"vsin": 17.6,
+"rotp": 0.6958,
+"mass": 0.21305
+},
+"YZ Cet": {
+"vsin": 2.0,
+"rotp": 68.28,
+"mass": 0.22
+},
+"K2-285": {
+"vsin": 3.9,
+"rotp": null,
+"mass": 0.83
+},
+"Wolf 1061": {
+"vsin": null,
+"rotp": 95.0,
+"mass": 0.301846
+},
+"HD 176986": {
+"vsin": 1.1,
+"rotp": 35.9,
+"mass": 0.82
+},
+"Kepler-25 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.78
+},
+"TOI-375": {
+"vsin": 2.97,
+"rotp": null,
+"mass": 1.441
+},
+"GJ 163": {
+"vsin": null,
+"rotp": null,
+"mass": 0.4
+},
+"HD 28109": {
+"vsin": 7.7,
+"rotp": null,
+"mass": 1.24
+},
+"HD 141399": {
+"vsin": 2.9,
+"rotp": null,
+"mass": 1.14
+},
+"KOI-7892": {
+"vsin": null,
+"rotp": null,
+"mass": 1.15
+},
+"K2-133": {
+"vsin": null,
+"rotp": null,
+"mass": 0.456853
+},
+"TOI-1266": {
+"vsin": 1.3,
+"rotp": 44.6,
+"mass": 0.437
+},
+"Kepler-381": {
+"vsin": null,
+"rotp": null,
+"mass": 1.198
+},
+"HD 28471": {
+"vsin": 2.0,
+"rotp": 26.18,
+"mass": 0.98
+},
+"WDS J17302-5138 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.288636
+},
+"TOI-1260": {
+"vsin": 1.5,
+"rotp": 30.63,
+"mass": 0.66
+},
+"Barnard's star": {
+"vsin": null,
+"rotp": 142.0,
+"mass": 0.162651
+},
+"K2-198": {
+"vsin": null,
+"rotp": null,
+"mass": 0.799
+},
+"GJ 180": {
+"vsin": null,
+"rotp": null,
+"mass": 0.43
+},
+"HD 133131 A": {
+"vsin": 4.0,
+"rotp": null,
+"mass": 0.95
+},
+"GJ 667 C": {
+"vsin": null,
+"rotp": null,
+"mass": 0.33
+},
+"K2-239": {
+"vsin": null,
+"rotp": null,
+"mass": 0.4
+},
+"TOI-1749": {
+"vsin": null,
+"rotp": null,
+"mass": 0.58
+},
+"Teegarden's Star": {
+"vsin": 2.0,
+"rotp": 96.2,
+"mass": 0.089
+},
+"KIC 10001893": {
+"vsin": null,
+"rotp": null,
+"mass": 0.47
+},
+"K2-155": {
+"vsin": null,
+"rotp": 34.8,
+"mass": 0.54
+},
+"Kepler-296 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"Kepler-444 C": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"GJ 433": {
+"vsin": null,
+"rotp": null,
+"mass": 0.48
+},
+"Kepler-444 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"Kepler-132": {
+"vsin": null,
+"rotp": null,
+"mass": 0.982
+},
+"HD 22946": {
+"vsin": null,
+"rotp": null,
+"mass": 1.104
+},
+"HD 93385": {
+"vsin": null,
+"rotp": null,
+"mass": 1.04
+},
+"LHS 1678 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"Kepler-132 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"Kepler-68 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.73
+},
+"Kepler-47": {
+"vsin": 4.1,
+"rotp": null,
+"mass": 0.99
+},
+"Kepler-20 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"EPIC 249893012": {
+"vsin": 2.1,
+"rotp": 41.0,
+"mass": 0.892
+},
+"Kepler-411 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"K2-32 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.203508
+},
+"2MASS J19383260+4603591 Ab": {
+"vsin": null,
+"rotp": null,
+"mass": 0.12
+},
+"Kepler-47 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.846
+},
+"HD 20781": {
+"vsin": 1.1,
+"rotp": 46.8,
+"mass": 0.9
+},
+"WASP-132": {
+"vsin": 3.3,
+"rotp": 33.0,
+"mass": 0.76
+},
+"K2-157": {
+"vsin": 3.0,
+"rotp": null,
+"mass": 0.939509
+},
+"HD 125612 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.203688
+},
+"Kepler-104 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.89
+},
+"Kepler-1130 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.21164
+},
+"HD 142 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"K2-219": {
+"vsin": null,
+"rotp": null,
+"mass": 1.02
+},
+"GJ 3293": {
+"vsin": null,
+"rotp": 41.0,
+"mass": 0.42
+},
+"TOI-2141": {
+"vsin": 2.7,
+"rotp": 21.0,
+"mass": 1.01
+},
+"Kepler-130 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"HR 858 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"HD 184010": {
+"vsin": 1.34,
+"rotp": null,
+"mass": 1.35
+},
+"HD 224018": {
+"vsin": 2.1,
+"rotp": null,
+"mass": 1.04
+},
+"Kepler-197 B": {
+"vsin": null,
+"rotp": null,
+"mass": 0.72
+},
+"EPIC 220194953": {
+"vsin": null,
+"rotp": null,
+"mass": 0.576026
+},
+"HIP 84709": {
+"vsin": null,
+"rotp": null,
+"mass": 0.59
+},
+"WDS J17190-3459 B": {
+"vsin": null,
+"rotp": null,
+"mass": null
+},
+"PSR B1257+12": {
+"vsin": null,
+"rotp": null,
+"mass": 1.4
+},
+"TOI-2267 B": {
+"vsin": 17.6,
+"rotp": 0.4936,
+"mass": 0.0989
+}
+}
