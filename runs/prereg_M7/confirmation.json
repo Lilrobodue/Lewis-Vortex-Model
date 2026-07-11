@@ -1,0 +1,15 @@
+{
+  "n_systems": 263,
+  "beats_geometric": 62,
+  "rate": 0.23574144486692014,
+  "wilson95": [
+    0.18847469357079455,
+    0.290617022263618
+  ],
+  "binomial_p_vs_0.05": 1.197291831436129e-24,
+  "rate_threshold": 0.15,
+  "pvalue_threshold": 0.001,
+  "passed": true,
+  "params_sha16": "66bec6c0802f819b",
+  "heldout_sha16": "032295d0a1f63c16"
+}

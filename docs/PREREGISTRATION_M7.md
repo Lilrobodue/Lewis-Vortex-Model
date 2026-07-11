@@ -54,6 +54,26 @@ beat-geometric rate, its 95% Wilson confidence interval, the one-sided binomial 
 PASS/FAIL decision against the criterion above. No parameter, metric, or threshold changes after
 this file is committed. If the result fails, it is reported as a failure with equal prominence.
 
-## Result
+## Result — **PASS (H1 confirmed)**
 
-*(to be filled by `preregister_confirm.py` after the run — see `runs/prereg_M7/`)*
+Run once with the frozen inputs (sha256 verified) via `preregister_confirm.py`
+(`runs/prereg_M7/confirmation.json`):
+
+| quantity | value |
+|---|---|
+| held-out systems | 263 |
+| beat geometric-regularity null | **62 / 263 = 23.6%** |
+| 95% Wilson CI | [18.8%, 29.1%] |
+| one-sided binomial p vs p₀ = 0.05 | **1.2 × 10⁻²⁴** |
+| pre-registered criterion | rate ≥ 15% **and** p < 1e-3 |
+| **decision** | **PASS — H1 confirmed** |
+
+The confirmed rate (23.6%) falls inside the pre-registered prediction band (0.22–0.32) and far
+above the 0.15 threshold; p is ~24 orders of magnitude below the 1e-3 bar. **The population-fit
+disk-boundary model beats a geometric-regularity null on held-out exoplanet systems far more than
+chance — a pre-registered, confirmed, out-of-sample result.**
+
+Honest scope (unchanged from the exploratory finding): 23.6% confirms *partial* skill — most
+systems (76%) are still described at least as well by a single geometric ratio. This is a real,
+falsifiable planetary leg for the boundary principle, not a claim that boundaries dominate
+exoplanet architecture.
