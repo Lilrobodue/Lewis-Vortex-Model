@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formation Solver v2 · Unified Lewis Framework</title>
+<meta name="description" content="A forward-physics planetary-formation solver: disk boundaries in, architecture out, with a validation protocol that can fail — and did, honestly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#060610;--panel:#0c0c1a;--panel2:#101024;--border:#1a1a2e;
+  --gold:#d4a54a;--goldDim:#8a6c2f;--gut:#ff6b6b;--heart:#64ffc8;--head:#7b68ee;
+  --text:#e0dcd0;--dim:#8a8a9a;--faint:#55556a;
+  --mono:'JetBrains Mono',ui-monospace,monospace;--disp:'Cormorant Garamond',Georgia,serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--mono);font-size:15px;line-height:1.65;
+  background-image:radial-gradient(1200px 600px at 50% -10%,rgba(123,104,238,.10),transparent 60%),
+    radial-gradient(900px 500px at 90% 10%,rgba(212,165,74,.06),transparent 60%);
+  background-attachment:fixed;-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header{text-align:center;padding:72px 0 34px}
+.kicker{font-size:.62rem;letter-spacing:3.5px;text-transform:uppercase;color:var(--goldDim)}
+h1{font-family:var(--disp);font-weight:600;font-size:clamp(2.4rem,7vw,4rem);color:var(--gold);
+  letter-spacing:2px;line-height:1.02;margin:12px 0 6px}
+.sub{color:var(--dim);font-size:.82rem;letter-spacing:.5px;max-width:620px;margin:0 auto}
+.q{font-family:var(--disp);font-style:italic;font-size:clamp(1.15rem,3.4vw,1.6rem);color:var(--text);
+  max-width:680px;margin:30px auto 0;line-height:1.4}
+.q b{color:var(--heart);font-style:normal;font-weight:600}
+
+.legs{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:40px 0 8px}
+@media(max-width:640px){.legs{grid-template-columns:1fr}}
+.leg{border:1px solid var(--border);border-radius:10px;padding:20px 20px 22px;background:linear-gradient(180deg,var(--panel),var(--panel2))}
+.leg h3{font-family:var(--disp);font-size:1.5rem;font-weight:600;letter-spacing:.5px;margin-bottom:4px}
+.leg .tag{display:inline-block;font-size:.58rem;letter-spacing:1.5px;text-transform:uppercase;
+  padding:3px 9px;border-radius:20px;margin-bottom:12px}
+.leg.win h3{color:var(--heart)} .leg.win .tag{background:rgba(100,255,200,.12);color:var(--heart);border:1px solid rgba(100,255,200,.25)}
+.leg.fail h3{color:var(--gut)} .leg.fail .tag{background:rgba(255,107,107,.12);color:var(--gut);border:1px solid rgba(255,107,107,.25)}
+.leg p{font-size:.82rem;color:var(--dim);margin-bottom:10px}
+.leg .stat{font-size:.72rem;color:var(--faint);border-top:1px dashed var(--border);padding-top:10px;margin-top:2px}
+.leg .stat b{color:var(--text);font-weight:600}
+
+section{padding:26px 0;border-top:1px solid var(--border)}
+h2{font-family:var(--disp);font-size:1.7rem;font-weight:600;color:var(--gold);letter-spacing:.5px;margin-bottom:12px}
+p.body{color:var(--text);opacity:.9;font-size:.9rem;margin-bottom:12px}
+.muted{color:var(--dim);font-size:.82rem}
+
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:6px}
+@media(max-width:640px){.cards{grid-template-columns:1fr}}
+.card{display:block;border:1px solid var(--border);border-radius:9px;padding:16px 17px;background:var(--panel);
+  transition:border-color .18s,transform .18s}
+.card:hover{border-color:var(--gold);transform:translateY(-2px);text-decoration:none}
+.card .t{font-family:var(--disp);font-size:1.2rem;color:var(--gold);font-weight:600}
+.card .d{font-size:.74rem;color:var(--dim);margin-top:3px}
+.card .arrow{color:var(--goldDim);font-size:.7rem;margin-top:8px;letter-spacing:1px}
+.pill{font-size:.55rem;letter-spacing:1px;text-transform:uppercase;color:var(--head);
+  border:1px solid rgba(123,104,238,.3);border-radius:20px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+
+ul.plain{list-style:none;margin:6px 0 0}
+ul.plain li{padding:6px 0 6px 20px;position:relative;font-size:.84rem;color:var(--dim)}
+ul.plain li::before{content:"◦";position:absolute;left:2px;color:var(--goldDim)}
+ul.plain li b{color:var(--text);font-weight:600}
+
+.note{border-left:2px solid var(--goldDim);padding:8px 0 8px 16px;margin:16px 0;color:var(--dim);
+  font-family:var(--disp);font-style:italic;font-size:1.02rem;line-height:1.45}
+
+footer{text-align:center;padding:40px 0 60px;border-top:1px solid var(--border);margin-top:14px;
+  color:var(--faint);font-size:.72rem;letter-spacing:.4px}
+footer .disp{font-family:var(--disp);font-style:italic;font-size:.92rem;color:var(--dim);max-width:640px;margin:0 auto 14px}
+code{font-family:var(--mono);font-size:.82em;color:var(--gold);background:rgba(212,165,74,.08);
+  padding:1px 6px;border-radius:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="kicker">Unified Lewis Framework · Formation Theory · Layer 2</div>
+    <h1>Formation Solver v2</h1>
+    <div class="sub">A forward-physics planetary-formation solver — <b>disk boundaries in, architecture out</b> — with every mechanism logged as it acts, an honest ≤10-parameter budget, and a validation protocol built to be able to fail.</div>
+    <div class="q">Do disk boundaries&nbsp;+&nbsp;migration&nbsp;+&nbsp;resonance capture&nbsp;+&nbsp;Hill stability produce the observed spacing of planetary systems, <b>without per-planet tuning?</b></div>
+  </header>
+
+  <div class="legs">
+    <div class="leg win">
+      <div class="tag">Earned · pre-registered</div>
+      <h3>Spacing</h3>
+      <p>With ten <em>global</em> parameters (zero per-planet dials) solved on a training split and confirmed on a hash-frozen held-out split, the model beats a strong geometric-regularity null on real exoplanet systems — and wins precisely where genuine non-geometric structure exists.</p>
+      <div class="stat"><b>22.1%</b> of 253 held-out systems &nbsp;·&nbsp; <b>p = 5×10⁻²¹</b> &nbsp;·&nbsp; ≈80% of the predictability ceiling</div>
+    </div>
+    <div class="leg fail">
+      <div class="tag">Failed · reported anyway</div>
+      <h3>Demographics</h3>
+      <p>The model’s distinctive prediction — <em>which</em> systems host giant planets — carries no independent information beyond stellar metallicity and mass. Its giant signal is a noisier proxy for the star it was built from.</p>
+      <div class="stat">incremental AUC vs [Fe/H]+M<sub>★</sub>: <b>Δ ≈ 0</b> &nbsp;·&nbsp; metallicity remains the better predictor</div>
+    </div>
+  </div>
+
+  <section>
+    <h2>What this is</h2>
+    <p class="body">A CLI-driven forward model that computes planet positions from disk physics, replacing v1’s 30 per-planet dials with ten literature-motivated global parameters. Boundaries (dead-zone edges, snow line) are <em>derived</em>; positions are <em>outputs</em>; every position-determining event emits a structured mechanism-log record. Validation ships null models and Monte-Carlo chance rates computed <em>before</em> scoring, so the instrument can — and does — fail.</p>
+    <p class="muted">The project’s honest verdict, in one line: the physics captures the <b style="color:var(--text)">deterministic geometric organization</b> of planetary systems (Hill-regulated “peas-in-a-pod” spacing) near the achievable limit, but adds <b style="color:var(--text)">no independent information about planet demographics</b>. It earns a real, falsifiable spacing leg — not a demographics one.</p>
+  </section>
+
+  <section>
+    <h2>Interactive tools <span class="pill">v1 · reference</span></h2>
+    <p class="muted" style="margin-bottom:14px">The original v1 browser tools, kept for reference. Their headline claims (99.6% accuracy, “validated on 43 planets”) were <b style="color:var(--gut)">retired</b> after the v2 audit — they came from per-planet tuning and a validation test measured at 100% chance saturation. Explore them as exploratory instruments, not results.</p>
+    <div class="cards">
+      <a class="card" href="reference/formation_solver.html">
+        <div class="t">Formation Solver</div>
+        <div class="d">Interactive disk-physics forward model with a live optimizer over the disk parameters.</div>
+        <div class="arrow">OPEN →</div>
+      </a>
+      <a class="card" href="reference/blind_validation.html">
+        <div class="t">Blind Validation</div>
+        <div class="d">The v1 “blind” exoplanet test — preserved to show exactly how a test that cannot fail looks.</div>
+        <div class="arrow">OPEN →</div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>The result, honestly</h2>
+    <ul class="plain">
+      <li>The first held-out pass looked like a decisive <b>1/313 failure</b> — traced to unfair scoring against transit-truncated data and parameters borrowed from the Sun, not to the physics.</li>
+      <li>Scored fairly and with the ten globals <b>solved</b> (not guessed), the model beats a geometric-regularity null <b>~22%</b> of held-out systems — pre-registered and confirmed.</li>
+      <li>That null is not a strawman: it <b>is</b> mutual-Hill packing (K ≈ 20; mass-uniformity ↔ spacing-uniformity, p = 10⁻¹⁰). The model reproduces it, so ~22% sits near a real <b>predictability ceiling</b>.</li>
+      <li>Its one un-ceilinged prediction — giant occurrence — was tested to conclusion and <b style="color:var(--gut)">fails</b>: no information beyond stellar metallicity + mass.</li>
+    </ul>
+    <div class="cards" style="margin-top:18px">
+      <a class="card" href="https://github.com/Lilrobodue/Lewis-Vortex-Model">
+        <div class="t">Source &amp; full findings</div>
+        <div class="d">The v2 package, tests, pre-registrations, and the complete <code>FINDINGS.md</code> write-up on GitHub.</div>
+        <div class="arrow">REPOSITORY →</div>
+      </a>
+      <a class="card" href="https://github.com/Lilrobodue/Lewis-Vortex-Model/blob/main/FINDINGS.md">
+        <div class="t">FINDINGS.md</div>
+        <div class="d">The one-page synthesis of the whole investigation — successes and failures with equal prominence.</div>
+        <div class="arrow">READ →</div>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="disp">“Point the instrument at data that could embarrass it, and report exactly what it says.”</div>
+    Built by Joseph Lewis &amp; Selah, with Claude Code — as a team.<br>
+    Formation Solver v2 · drafted July 2026 · no retired v1 claim revived.
+  </footer>
+
+</div>
+</body>
+</html>
