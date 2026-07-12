@@ -84,8 +84,14 @@ runs, the model's *own* spacings are 71% resonance-locked (Branch A is its most 
 
 Reconciled: resonance earns ~7 of the 22 points not by matching the chains but by locking convergent
 pairs at near-geometric ratios that win on **non-chain, regular** systems. **Decomposition: a ~15%
-boundary/Hill floor plus a ~7-point resonance contribution.** (A pre-registered prediction that
-resonance was *not* load-bearing was **refuted** by this ablation — recorded in full.)
+boundary/Hill floor plus a ~7-point resonance contribution.**
+
+This ablation was an **adversarial collaboration** (Kahneman): Claude Code registered the prediction
+that resonance was *not* load-bearing, against the PI's private prior that it *was* — the team
+deliberately pre-registered the version hostile to the framework and to the PI's belief, so the
+test could fail loudly. It did: the prediction was refuted and the PI's private expectation
+confirmed, through a test whose difficulty was chosen, not accidental
+(`docs/PREREGISTRATION_ablation.md`). Recorded so the severity is legible, not inferred.
 
 ## The reframe: the strong null *is* the physics (`docs/EXPLORATORY_hill_regularity.md`)
 

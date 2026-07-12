@@ -34,6 +34,19 @@ Metric, null, protocol, seed, and n_steps are identical to `PREREGISTRATION_M7v2
 beat-geometric, geometric-ratio null, seed 432, n_steps 500). One run; result reported whatever it
 is.
 
+### Adversarial collaboration (disclosure — this is what makes the severity legible)
+This test was adversarial *by design*, not by accident. The registered prediction — that resonance
+is **not** load-bearing (Branch A is dead weight) — was Claude Code's, reasoned from the
+anti-enrichment data. The human PI (Joseph & Selah) privately held the **opposite** prior: that
+resonance *was* earning its keep. The team deliberately registered the version **hostile to the
+PI's prior and to the framework's inclusion of Branch A**, rather than the framework-friendly one
+the PI actually believed — so that the test could embarrass the position the PI held. Its
+refutation therefore confirms the PI's private expectation through a test whose difficulty was
+chosen, not stumbled into. This is the two-person structure Kahneman named *adversarial
+collaboration*, run here inside a single human–AI team; the record should say so, because a
+skeptic reading "Claude's prediction refuted" cannot otherwise see that the hostile version was
+registered on purpose.
+
 ## Result — **PREDICTION FAILED. Resonance IS load-bearing.**
 
 `runs/ablation_resonance/result.json` (253 frozen held-out systems, paired):
